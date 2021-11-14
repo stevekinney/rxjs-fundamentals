@@ -2,7 +2,15 @@
   <block name="head"><title>Notification Center</title></block>
   <block name="content">
     <h1>Notification Center</h1>
-    <main class="notification">
+    <section id="deep-thoughts">
+      <div class="controls">
+        <label for="deep-thought">Deep Thought</label>
+        <textarea id="deep-thought"></textarea>
+        <div id="deep-thought-rendered"></div>
+        <div id="deep-thought-status"></div>
+      </div>
+    </section>
+    <main class="notifications">
       <section>
         <div class="controls">
           <button id="create-notification">Create Notification</button>
@@ -10,14 +18,6 @@
         </div>
       </section>
       <section id="notification-messages"></section>
-      <section id="deep-thoughts">
-        <div class="controls">
-          <label for="deep-thought">Deep Thought</label>
-          <textarea id="deep-thought"></textarea>
-        </div>
-        <div id="deep-thought-rendered"></div>
-        <div id="deep-thought-status"></div>
-      </section>
     </main>
   </block>
 </extends>

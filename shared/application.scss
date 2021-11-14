@@ -29,6 +29,21 @@ body {
   text-align: center;
 }
 
+.notifications {
+  display: flex;
+  gap: 12px;
+  section {
+    width: 100%;
+  }
+  article {
+    background-color: lighten($blue, 10%);
+    border: 2px solid $blue;
+    margin-bottom: 1em;
+    padding: 1em 1em;
+    box-shadow: 4px 4px 4px;
+  }
+}
+
 .stream-element {
   border: 1px solid black;
   padding: 12px;
