@@ -35,7 +35,7 @@ const isRunning$ = merge(start$, pause$).pipe(
   startWith(false),
   tap(setStatus),
   switchMap((isRunning) => (isRunning ? characters$ : NEVER)),
-  tap(render)
+  tap(render),
 );
 
 isRunning$.subscribe();

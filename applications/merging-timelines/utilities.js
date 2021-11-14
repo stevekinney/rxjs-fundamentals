@@ -78,9 +78,9 @@ export const bootstrap = ({ first$, second$, combined$ }) => {
     switchMap((isRunning) =>
       isRunning
         ? merge(first, second, combined).pipe(finalize(() => setStatus(false)))
-        : NEVER
+        : NEVER,
     ),
-    tap(addToOutput)
+    tap(addToOutput),
   );
 
   return run$.subscribe();

@@ -35,7 +35,7 @@ const fetchData = () =>
     catchError((error) => {
       console.error(error);
       return of({ error: 'The stream caught an error. Cool, right?' });
-    })
+    }),
   );
 
 const start$ = fromEvent(fetchButton, 'click').pipe(mapTo(true));
@@ -47,10 +47,10 @@ const factStream$ = merge(start$, stop$).pipe(
     return shouldFetch
       ? timer(0, 5000).pipe(
           tap(() => clearError()),
-          exhaustMap(fetchData)
+          exhaustMap(fetchData),
         )
       : NEVER;
-  })
+  }),
 );
 
 factStream$.subscribe(({ facts, error }) => {

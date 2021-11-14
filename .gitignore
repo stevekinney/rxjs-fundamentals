@@ -1,7 +1,10 @@
-node_modules
+.cache
 .DS_Store
+.DS_Store
+.parcel-cache
+*.local
 dist
 dist-ssr
-*.local
-.cache
-.parcel-cache
+node_modules
+public/
+yarn-error.log
