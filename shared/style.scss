@@ -11,7 +11,6 @@ body,
 main {
   font-family: 'Averia', sans-serif;
   font-size: 20px;
-  height: 100vh;
   margin: 0;
   position: relative;
 }
@@ -22,6 +21,7 @@ h1 {
   background-image: linear-gradient(45deg, $blue, $fuschia);
   font-size: 64px;
   background-clip: text;
+  line-height: 1.3em;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   -webkit-background-clip: text;
@@ -30,10 +30,17 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-code,
+pre {
+  overflow-y: scroll;
+}
+
 pre {
   color: white;
   padding: 3px 6px;
+  font-family: 'Courier Prime', monospace;
+}
+
+code {
   font-family: 'Courier Prime', monospace;
 }
 

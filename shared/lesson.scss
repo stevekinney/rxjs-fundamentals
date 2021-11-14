@@ -12,7 +12,13 @@ code {
 .lesson,
 .lesson-header {
   margin: auto;
-  max-width: 1000px;
+  max-width: 600px;
+  h1 {
+    font-size: 40px;
+  }
+  pre {
+    font-size: 14px;
+  }
 }
 
 .lesson-header {
