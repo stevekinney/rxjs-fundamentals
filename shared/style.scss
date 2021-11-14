@@ -73,9 +73,10 @@ li {
 }
 
 p code,
-ul code {
+li code {
   color: black;
   font-size: 0.9em;
+  padding: 2px 4px;
   background-color: lighten($teal, 50%);
 }
 
