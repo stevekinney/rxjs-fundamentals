@@ -1,6 +1,7 @@
 {
   "name": "rxjs-fundamentals",
   "version": "0.0.0",
+  "author": "Steve Kinney <hello+frontendmasters@stevekinney.net>",
   "scripts": {
     "start": "npm run ui",
     "ui": "parcel --no-cache",
