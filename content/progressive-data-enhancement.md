@@ -1,4 +1,7 @@
-# Progressive Data Enhancement
+---
+title: Progressive Data Enhancement
+layout: layouts/lesson.hbs
+---
 
 We've all been there. You get some of the base amount of data from on API but you have to hit _another_ API to get everything you need. This should literally be my job description.
 

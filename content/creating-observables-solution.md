@@ -1,3 +1,8 @@
+---
+title: Creating Observables — Solution
+layout: layouts/lesson.hbs
+---
+
 ```js
 import { from, of } from 'rxjs';
 

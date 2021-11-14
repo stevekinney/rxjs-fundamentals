@@ -1,4 +1,7 @@
-# Exercise: Using fromEvent
+---
+title: fromEvent — Exercise
+layout: layouts/lesson.hbs
+---
 
 ## Your mission
 

@@ -1,3 +1,8 @@
+---
+title: Creating Observables — Exercise
+layout: layouts/lesson.hbs
+---
+
 We have a set of tests in `exercises/creating-observables.test.js`. You can run just these tests using the the following.
 
 `npm test creating` will scope Jest down to _just_ the appropriate tests.

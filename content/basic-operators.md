@@ -1,4 +1,7 @@
-## Basic Operators
+---
+title: Basic Operators — Exercise
+layout: layouts/lesson.hbs
+---
 
 ```js
 const example = of(1, 2, 3);

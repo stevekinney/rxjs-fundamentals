@@ -1,3 +1,8 @@
+---
+title: Counter (Basic) — Exercise
+layout: layouts/lesson.hbs
+---
+
 Alright, so we have a few new tricks up our sleeves.
 
 - We know how to create observables that fire at regular intervals using `timer` and `interval`.

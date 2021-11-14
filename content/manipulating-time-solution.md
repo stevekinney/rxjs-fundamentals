@@ -1,4 +1,7 @@
-# Markdown Renderer: Solution
+---
+title: Markdown Renderer — Solution
+layout: layouts/lesson.hbs
+---
 
 Our first pass might look something like this:
 

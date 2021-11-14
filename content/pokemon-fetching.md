@@ -1,4 +1,7 @@
-# Working with an API: Fetching Pokemon
+---
+title: Fetching Pokémon
+layout: layouts/lesson.hbs
+---
 
 Okay, let's start with the basics:
 

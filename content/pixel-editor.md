@@ -1,4 +1,7 @@
-# Building a Pixel Editor
+---
+title: Pixel Editor
+layout: layouts/lesson.hbs
+---
 
 ```js
 const isDrawingLine$ = mousedown$.pipe(

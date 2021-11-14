@@ -1,4 +1,7 @@
-# Subjects
+---
+title: Subjects
+layout: layouts/lesson.hbs
+---
 
 In the past, we saw that each observer got it's own special and unique subscription to an observable.
 

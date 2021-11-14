@@ -1,0 +1,113 @@
+@use './fonts.scss';
+@import './colors.scss';
+
+html,
+body,
+* {
+  box-sizing: border-box;
+}
+
+body,
+main {
+  font-family: 'Averia', sans-serif;
+  font-size: 20px;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: $blue;
+  background-image: linear-gradient(45deg, $blue, $fuschia);
+  font-size: 64px;
+  background-clip: text;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+code,
+pre {
+  color: white;
+  padding: 3px 6px;
+  font-family: 'Courier Prime', monospace;
+}
+
+a {
+  color: $teal;
+  text-decoration: none;
+  &:hover {
+    text-decoration: dashed;
+    color: lighten($teal, 10%);
+  }
+}
+
+p, li {
+  line-height: 1.6em;
+}
+
+p code, ul code {
+  color: black;
+  font-size: 0.9em;
+  background-color: lighten($teal, 50%);
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.controls {
+  border: 1px solid pink;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.columns {
+  display: flex;
+  height: 100%;
+  gap: 12px;
+}
+
+.column {
+  border: 1px solid lightblue;
+  width: 100%;
+}
+
+.stream-element {
+  border: 1px solid black;
+  padding: 12px;
+  margin: 6px;
+}
+
+.stream-first {
+  background-color: #ff2828;
+}
+
+.stream-second {
+  background-color: #5079ff;
+}
+
+.stream-combined {
+  background-color: #cc26db;
+}
+
+.stream-john {
+  background-color: #ff2828;
+}
+
+.stream-paul {
+  background-color: #5079ff;
+}
+
+.stream-george {
+  background-color: #cc26db;
+}
+
+.stream-ringo {
+  background-color: #27b445;
+}

@@ -1,4 +1,7 @@
-# First and Last Name Operators
+---
+title: First and Last Name — Exercise
+layout: layouts/lesson.hbs
+---
 
 Functions and operators used:
 

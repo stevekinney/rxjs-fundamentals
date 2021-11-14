@@ -5,6 +5,11 @@
     },
     "posthtml-extend": {
       "root": "./shared/"
+    },
+    "posthtml-prism": {
+      "highlight": {
+        "inline": true
+      }
     }
   }
 }

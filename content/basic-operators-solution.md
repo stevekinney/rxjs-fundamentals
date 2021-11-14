@@ -1,3 +1,8 @@
+---
+title: Basic Observables — Solution
+layout: layouts/lesson.hbs
+---
+
 Here is the solution to the suite of tests where we explored how to use some basic operators.
 
 ```js

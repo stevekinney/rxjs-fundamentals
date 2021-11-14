@@ -1,4 +1,7 @@
-# Fetching Dog Facts
+---
+title: Fetching Dog Facts
+layout: layouts/lesson.hbs
+---
 
 Let's start with our endpoint.
 

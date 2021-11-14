@@ -1,3 +1,8 @@
+---
+title: Counter — Follow Along
+layout: layouts/lesson.hbs
+---
+
 If the purpose of using RxJS is to play around with time, then it makes sense to kick the tires on it by building a simple timer, right? Well, I think so anyway.
 
 We're start by selecting all of the elements on the page.

@@ -1,4 +1,7 @@
-## Basic Async
+---
+title: Basic Async
+layout: layouts/lesson.hbs
+---
 
 Making API calls is one of most common asynchornous actions that we do in our client-side applications. Naturally, RxJS comes with `fromFetch` to assist us when we're woring with APIs.
 
@@ -53,7 +56,7 @@ Okay, but what if we wanted to retry?
 import { catchError, of, retry, switchMap, tap } from 'rxjs';
 import { fromFetch } from 'rxjs/fetch';
 
-fromFetch('https://star-wars-character-search.glitch.me/apic/characters')
+fromFetch('https://star-wars-character-search.glitch.me/api/characters')
   .pipe(
     tap((x) => console.log('Trying', x)),
     switchMap((response) => {

@@ -1,3 +1,8 @@
+---
+title: Basic Observables
+layout: layouts/lesson.hbs
+---
+
 Use write some tests to wrap our head around how the two, most basic ways to create observables work.
 
 ```js

@@ -1,4 +1,7 @@
-# Adventures in Mapping
+---
+title: Adventures in Mapping — Follow Along
+layout: layouts/lesson.hbs
+---
 
 Whether it's with arrays or observables, mapping values is a common endeavor. So far in this workshop, we've mapped values into other values, but things can get a little tricky when we want to map values into other observables.
 

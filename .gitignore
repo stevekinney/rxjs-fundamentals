@@ -8,3 +8,4 @@ dist-ssr
 node_modules
 public/
 yarn-error.log
+lessons/

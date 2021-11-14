@@ -1,4 +1,7 @@
-# Using switchMap
+---
+title: Switch Map
+layout: layouts/lesson.hbs
+---
 
 So, in a previous example. I had those nifty "Start" and "Pause" buttons working. How did I do that? Was I subscribing and unsubscribing between observables?
 

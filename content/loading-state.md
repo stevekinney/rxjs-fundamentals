@@ -1,4 +1,7 @@
-# Loading State
+---
+title: Loading State
+layout: layouts/lesson.hbs
+---
 
 We need some amount of DOM manipulation:
 

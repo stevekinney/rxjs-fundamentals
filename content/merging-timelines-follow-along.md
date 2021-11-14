@@ -1,4 +1,7 @@
-# Merging Timelines
+---
+title: Merging Timelines — Follow Along
+layout: layouts/lesson.hbs
+---
 
 We're going to get a bit meta here for a moment and we're going to build the tooling that we're going to use to explore some of the functions for combining observables.
 

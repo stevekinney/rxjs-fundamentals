@@ -1,4 +1,7 @@
-# Building a Markdown Renderer
+---
+title: Manipulating Time — Exercise
+layout: layouts/lesson.hbs
+---
 
 Most applications that have some kind of autosave functionality don't automatically save your work on every keystroke. Instead, they will save at regular intervals.
 

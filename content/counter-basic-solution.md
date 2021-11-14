@@ -1,3 +1,8 @@
+---
+title: Basic Observables — Solution
+layout: layouts/lesson.hbs
+---
+
 Here is one possible solution.
 
 ```js
