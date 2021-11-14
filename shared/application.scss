@@ -51,29 +51,41 @@ body {
 }
 
 .stream-first {
-  background-color: #ff2828;
+  background-color: $coral;
 }
 
 .stream-second {
-  background-color: #5079ff;
+  background-color: $blue;
 }
 
 .stream-combined {
-  background-color: #cc26db;
+  background-color: $fuschia;
 }
 
 .stream-john {
-  background-color: #ff2828;
+  background-color: $coral;
 }
 
 .stream-paul {
-  background-color: #5079ff;
+  background-color: $blue;
 }
 
 .stream-george {
-  background-color: #cc26db;
+  background-color: $fuschia;
 }
 
 .stream-ringo {
-  background-color: #27b445;
+  background-color: $green;
+}
+
+#panel {
+  position: absolute;
+  left: 681px;
+  top: 180px;
+  background: $blue;
+  padding: 1em;
+  border: 1px solid;
+  &.moving {
+    background: $fuschia;
+  }
 }
