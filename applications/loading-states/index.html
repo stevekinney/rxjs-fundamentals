@@ -4,16 +4,22 @@
     <h1>Loading States</h1>
 
     <form id="form">
-      <label for="response-time">API Response Time</label>
-      input type="number" id="response-time" />
+      <div class="form-field">
+        <label for="response-time">API Response Time</label>
+        <input type="number" id="response-time" min="0" />
+      </div>
 
-      <label for="show-loading-after">Show a Loading Indicator After</label>
-      <input type="number" id="show-loading-after" />
+      <div class="form-field">
+        <label for="show-loading-after">Show a Loading Indicator After</label>
+        <input type="number" id="show-loading-after" min="0" />
+      </div>
 
-      <label for="show-loading-for-at-least">
-        Show a Loading Indicator for at Least
-      </label>
-      <input type="number" id="show-loading-for-at-least" />
+      <div class="form-field">
+        <label for="show-loading-for-at-least">
+          Show a Loading Indicator for at Least
+        </label>
+        <input type="number" id="show-loading-for-at-least" min="0" />
+      </div>
     </form>
     <div id="loading-status"></div>
   </block>

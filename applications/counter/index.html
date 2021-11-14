@@ -3,23 +3,21 @@
   <block name="content">
     <h1>Counter</h1>
     <section class="counter">
-      <input disabled id="count" type="number" value="0" />
+      <div class="count">0</div>
       <div class="controls">
-        <button id="start">Start</button>
-        <button id="pause">Pause</button>
-      </div>
-
-      <div class="controls">
-        <div>
+        <div class="control-set">
+          <button id="start">▶️ Start</button>
+          <button id="pause">⏸ Pause</button>
+        </div>
+        <div class="control-set">
           <input id="set-amount" type="number" min="0" value="1" />
           <button id="set">Set</button>
+          <button id="reset">Reset</button>
         </div>
-        <button id="reset">Reset</button>
-      </div>
-
-      <div class="controls">
-        <button id="count-up">Count Up</button>
-        <button id="count-down">Count Down</button>
+        <div class="control-set">
+          <button id="count-up">⬆️ Count Up</button>
+          <button id="count-down">⬇️ Count Down</button>
+        </div>
       </div>
     </section>
   </block>

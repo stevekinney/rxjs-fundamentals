@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "author": "Steve Kinney <hello+frontendmasters@stevekinney.net>",
   "scripts": {
-    "start": "npm run ui",
+    "start": "npm run all",
     "ui": "parcel index.html lessons/**/*.html",
     "api": "node api/server.js",
     "both": "concurrently \"npm:ui\" \"npm:api\"",
@@ -11,8 +11,8 @@
     "build": "npm run build-lessons && npm run build-site",
     "build-site": "parcel build index.html lessons/**/*.html",
     "build-lessons": "eleventy --input=content --output=lessons --formats=md,html,ejs",
-    "watch": "npm run build-lessons -- --watch",
-    "all": "concurrently \"npm:ui\" \"npm:api\" \"npm:watch\""
+    "lessons": "npm run build-lessons -- --watch",
+    "all": "concurrently \"npm:ui\" \"npm:api\" \"npm:lessons\""
   },
   "type": "module",
   "devDependencies": {
