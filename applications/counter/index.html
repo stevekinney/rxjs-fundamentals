@@ -1,0 +1,26 @@
+<extends src="base.html">
+  <block name="head"><title>Counter</title></block>
+  <block name="content">
+    <h1>Counter</h1>
+    <section class="counter">
+      <input disabled id="count" type="number" value="0" />
+      <div class="controls">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+      </div>
+
+      <div class="controls">
+        <div>
+          <input id="set-amount" type="number" min="0" value="1" />
+          <button id="set">Set</button>
+        </div>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div class="controls">
+        <button id="count-up">Count Up</button>
+        <button id="count-down">Count Down</button>
+      </div>
+    </section>
+  </block>
+</extends>

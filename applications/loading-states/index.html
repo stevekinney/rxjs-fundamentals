@@ -1,0 +1,20 @@
+<extends src="base.html">
+  <block name="head"><title>Loading States</title></block>
+  <block name="content">
+    <h1>Loading States</h1>
+
+    <form id="form">
+      <label for="response-time">API Response Time</label>
+      input type="number" id="response-time" />
+
+      <label for="show-loading-after">Show a Loading Indicator After</label>
+      <input type="number" id="show-loading-after" />
+
+      <label for="show-loading-for-at-least">
+        Show a Loading Indicator for at Least
+      </label>
+      <input type="number" id="show-loading-for-at-least" />
+    </form>
+    <div id="loading-status"></div>
+  </block>
+</extends>

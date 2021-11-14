@@ -1,0 +1,21 @@
+<extends src="base.html">
+  <block name="head">
+    <title>Merging Timelines</title>
+  </block>
+  <block name="content">
+    <h1>Merging Timelines</h1>
+    <main class="merging-timelines">
+      <section class="controls">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="clear">Clear</button>
+      </section>
+      <section id="status"></section>
+      <section class="columns">
+        <div id="first-output" class="column"></div>
+        <div id="second-output" class="column"></div>
+        <div id="combined-output" class="column"></div>
+      </section>
+    </main>
+  </block>
+</extends>
