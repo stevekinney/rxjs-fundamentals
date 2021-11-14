@@ -1,6 +1,6 @@
 ---
 title: Creating Observables — Exercise
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 We have a set of tests in `exercises/creating-observables.test.js`. You can run just these tests using the the following.

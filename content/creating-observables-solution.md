@@ -1,6 +1,6 @@
 ---
 title: Creating Observables — Solution
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 ```js

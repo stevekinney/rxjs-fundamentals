@@ -1,6 +1,6 @@
 ---
 title: fromEvent — Exercise
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 ## Your mission

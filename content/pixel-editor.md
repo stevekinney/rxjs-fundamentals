@@ -1,6 +1,6 @@
 ---
 title: Pixel Editor
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 ```js

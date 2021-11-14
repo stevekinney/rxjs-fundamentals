@@ -1,6 +1,6 @@
 ---
 title: Basic Observables
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Use write some tests to wrap our head around how the two, most basic ways to create observables work.

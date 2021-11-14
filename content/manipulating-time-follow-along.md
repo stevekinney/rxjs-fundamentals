@@ -1,6 +1,6 @@
 ---
 title: Manipulating Time — Follow Along
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 We're mostly just trying to get familiar with the `delay`, `throttleTime`, and `debounceTime` operators here. So, let's get to experimenting, shall we?

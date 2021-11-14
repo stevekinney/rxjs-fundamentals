@@ -1,6 +1,6 @@
 ---
 title: Basic Observables — Solution
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Here is the solution to the suite of tests where we explored how to use some basic operators.

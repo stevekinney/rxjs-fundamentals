@@ -1,6 +1,6 @@
 ---
 title: Loading State
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 We need some amount of DOM manipulation:

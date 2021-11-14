@@ -1,6 +1,6 @@
 ---
 title: Fetching Pokémon
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Okay, let's start with the basics:

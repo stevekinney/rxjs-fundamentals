@@ -1,6 +1,6 @@
 ---
 title: Basic Async
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Making API calls is one of most common asynchornous actions that we do in our client-side applications. Naturally, RxJS comes with `fromFetch` to assist us when we're woring with APIs.

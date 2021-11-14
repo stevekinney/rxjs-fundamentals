@@ -1,6 +1,6 @@
 ---
 title: Basic Operators — Exercise
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 ```js

@@ -1,6 +1,6 @@
 ---
 title: Manipulating Time — Exercise
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Most applications that have some kind of autosave functionality don't automatically save your work on every keystroke. Instead, they will save at regular intervals.

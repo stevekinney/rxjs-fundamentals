@@ -1,6 +1,6 @@
 ---
 title: Counter, Starting and Stopping — Exercise
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Alright, so we have a few new tricks up our sleeves.

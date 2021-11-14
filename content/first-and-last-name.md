@@ -1,6 +1,6 @@
 ---
 title: First and Last Name — Exercise
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Functions and operators used:

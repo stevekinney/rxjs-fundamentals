@@ -1,6 +1,6 @@
 ---
 title: Fetching Dog Facts
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Let's start with our endpoint.

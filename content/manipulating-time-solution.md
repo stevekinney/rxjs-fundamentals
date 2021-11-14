@@ -1,6 +1,6 @@
 ---
 title: Markdown Renderer — Solution
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Our first pass might look something like this:

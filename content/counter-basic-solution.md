@@ -1,6 +1,6 @@
 ---
 title: Basic Observables — Solution
-layout: layouts/lesson.hbs
+layout: layouts/lesson.njk
 ---
 
 Here is one possible solution.
