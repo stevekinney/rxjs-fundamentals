@@ -42,7 +42,7 @@ fromFetch('https://star-wars-character-search.glitch.me/api/characters')
     catchError((error) => {
       console.error(error);
       return of({ error: true, message: error.message });
-    })
+    }),
   )
   .subscribe(console.log);
 ```
@@ -67,7 +67,7 @@ fromFetch('https://star-wars-character-search.glitch.me/apic/characters')
     catchError((error) => {
       console.error(error.message);
       return of({ error: true, message: error });
-    })
+    }),
   )
   .subscribe(console.log);
 ```

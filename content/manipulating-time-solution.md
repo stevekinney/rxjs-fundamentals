@@ -5,7 +5,7 @@ Our first pass might look something like this:
 ```js
 const textAreaChanges$ = fromEvent(deepThoughtInput, 'input').pipe(
   map((event) => event.target.value),
-  debounceTime(333)
+  debounceTime(333),
 );
 
 textAreaChanges$.subscribe(setTextArea);
@@ -19,7 +19,7 @@ const textAreaChanges$ = fromEvent(deepThoughtInput, 'input').pipe(
   tap(() => setStatus('Rendering…')),
   debounceTime(2000),
   tap(setTextArea),
-  tap(() => setStatus(''))
+  tap(() => setStatus('')),
 );
 
 textAreaChanges$.subscribe();

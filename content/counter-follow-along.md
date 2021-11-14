@@ -48,7 +48,7 @@ const pause$ = fromEvent(pause, 'click');
 const counter$ = interval(1000).pipe(
   skipUntil(start$),
   scan((total) => total + 1, 0),
-  takeUntil(pause$)
+  takeUntil(pause$),
 );
 ```
 
@@ -94,7 +94,7 @@ We'll deal with the interval again in a moment, but let's merge together the eve
 const counter$ = merge(start$, pause$).pipe(
   startWith({ value: 0, isActive: false }),
   scan((state, payload) => ({ ...state, ...payload }), {}),
-  tap(console.log) // Allows for side effects
+  tap(console.log), // Allows for side effects
 );
 ```
 
@@ -131,9 +131,9 @@ const counter$ = merge(start$, pause$).pipe(
       if (action.type === 'START') return { ...state, isActive: true };
       if (action.type === 'PAUSE') return { ...state, isActive: false };
     },
-    { value: 0, isActive: false }
+    { value: 0, isActive: false },
   ),
-  tap(console.log)
+  tap(console.log),
 );
 ```
 
@@ -156,9 +156,9 @@ const counter$ = merge(interval$, start$, pause$).pipe(
       }
       return state;
     },
-    { value: 0, isActive: false }
+    { value: 0, isActive: false },
   ),
-  tap(console.log)
+  tap(console.log),
 );
 ```
 
@@ -181,18 +181,18 @@ const counter$ = merge(start$, pause$).pipe(
       if (action.type === 'PAUSE') return { ...state, isActive: false };
       return state;
     },
-    { value: 0, isActive: false }
+    { value: 0, isActive: false },
   ),
   switchMap((state) => {
     if (state.isActive) {
       return interval(1000).pipe(
         tap(() => {
           count.value = ++state.value;
-        })
+        }),
       );
     }
     return NEVER;
-  })
+  }),
 );
 ```
 
@@ -219,18 +219,18 @@ const counter$ = merge(start$, pause$, reset$, countUp$, countDown$).pipe(
       if (action.type === 'COUNTDOWN') return { ...state, increment: -1 };
       return state;
     },
-    { value: 0, isActive: false, increment: 1 }
+    { value: 0, isActive: false, increment: 1 },
   ),
   tap((state) => (count.value = state.value)), // For the setting and resetting.
   switchMap((state) => {
     if (state.isActive) {
       return interval(1000).pipe(
         tap(() => (state.value += state.increment)),
-        tap(() => (count.value = state.value))
+        tap(() => (count.value = state.value)),
       );
     }
     return NEVER;
-  })
+  }),
 );
 ```
 
@@ -240,7 +240,7 @@ const counter$ = merge(start$, pause$, reset$, countUp$, countDown$).pipe(
 
 ```js
 const setValue$ = fromEvent(setTo, 'click', () =>
-  parseInt(setToAmount.value, 10)
+  parseInt(setToAmount.value, 10),
 ).pipe(map((amount) => ({ type: 'SET', payload: amount })));
 ```
 
@@ -259,7 +259,7 @@ const counterState$ = merge(
   reset$,
   countUp$,
   countDown$,
-  setValue$
+  setValue$,
 ).pipe(
   scan(
     (state, action) => {
@@ -271,8 +271,8 @@ const counterState$ = merge(
       if (action.type === 'SET') return { ...state, value: action.payload };
       return state;
     },
-    { value: 0, isActive: false, increment: 1 }
-  )
+    { value: 0, isActive: false, increment: 1 },
+  ),
 );
 
 const counter$ = merge(
@@ -282,12 +282,12 @@ const counter$ = merge(
       if (state.isActive) {
         return interval(1000).pipe(
           tap(() => (state.value += state.increment)),
-          mapTo(state)
+          mapTo(state),
         );
       }
       return NEVER;
-    })
-  )
+    }),
+  ),
 );
 
 counter$.subscribe((state) => (count.value = state.value));
@@ -302,16 +302,16 @@ const counterState$ = merge(
   reset$,
   countUp$,
   countDown$,
-  setValue$
+  setValue$,
 ).pipe(
   scan(
     (state, action) => {
       // …
       return state;
     },
-    { value: 0, isActive: false, increment: 1 }
+    { value: 0, isActive: false, increment: 1 },
   ),
-  share() // 👀
+  share(), // 👀
 );
 ```
 
@@ -327,11 +327,11 @@ const counter$ = merge(
       if (state.isActive) {
         return interval(1000).pipe(
           tap(() => (state.value += state.increment)),
-          mapTo(state)
+          mapTo(state),
         );
       }
       return NEVER;
-    })
-  )
+    }),
+  ),
 ).pipe(pluck('value'), distinctUntilChanged());
 ```

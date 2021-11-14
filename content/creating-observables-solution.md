@@ -17,7 +17,7 @@ describe('Exercise: Creating Observables', () => {
         { type: 'INCREMENT', payload: 1 },
         { type: 'RESET' },
         { type: 'INCREMENT', payload: 2 },
-        { type: 'DECREMENT', payload: 1 }
+        { type: 'DECREMENT', payload: 1 },
       );
       const result = [];
 
@@ -83,7 +83,7 @@ describe('Exercise: Creating Observables', () => {
 
     it('should create an observable from a promise that rejects', (done) => {
       const example$ = from(
-        Promise.reject({ error: 'Something terrible happened' })
+        Promise.reject({ error: 'Something terrible happened' }),
       );
 
       example$.subscribe({

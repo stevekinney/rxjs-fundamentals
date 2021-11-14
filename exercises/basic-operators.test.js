@@ -65,7 +65,7 @@ describe('Basic Operators', () => {
       { isRunning: true },
       { currentSpeed: 100 },
       { currentSpeed: 200 },
-      { distance: 500 }
+      { distance: 500 },
     ).pipe();
 
     expect(await getResult(observable$)).toEqual([

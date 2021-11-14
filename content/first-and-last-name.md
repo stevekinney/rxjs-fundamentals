@@ -47,11 +47,11 @@ const firstName = document.getElementById('first-name');
 const lastName = document.getElementById('last-name');
 
 const firstName$ = fromEvent(firstName, 'keyup', (e) => e.target.value).pipe(
-  startWith('')
+  startWith(''),
 );
 
 const lastName$ = fromEvent(lastName, 'keyup', (e) => e.target.value).pipe(
-  startWith('')
+  startWith(''),
 );
 
 combineLatest(firstName$, lastName$)
@@ -66,11 +66,11 @@ const firstName = document.getElementById('first-name');
 const lastName = document.getElementById('last-name');
 
 const firstName$ = fromEvent(firstName, 'keyup', (e) => e.target.value).pipe(
-  startWith(firstName.value)
+  startWith(firstName.value),
 );
 
 const lastName$ = fromEvent(lastName, 'keyup', (e) => e.target.value).pipe(
-  startWith(lastName.value)
+  startWith(lastName.value),
 );
 
 combineLatest(firstName$, lastName$)

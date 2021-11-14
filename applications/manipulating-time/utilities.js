@@ -7,10 +7,10 @@ export const button = document.getElementById('create-notification');
 export const panicButton = document.getElementById('panic-button');
 export const deepThoughtInput = document.getElementById('deep-thought');
 export const deepThoughtRendered = document.getElementById(
-  'deep-thought-rendered'
+  'deep-thought-rendered',
 );
 export const deepThroughtStatus = document.getElementById(
-  'deep-thought-status'
+  'deep-thought-status',
 );
 
 export const createNotificationElement = () => {

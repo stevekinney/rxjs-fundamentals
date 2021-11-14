@@ -24,17 +24,17 @@ const search$ = fromEvent(search, 'input').pipe(
   distinctUntilChanged(),
   switchMap((searchTerm) =>
     fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
-      mergeMap((response) => response.json())
-    )
+      mergeMap((response) => response.json()),
+    ),
   ),
   tap(clearResults),
   mergeMap((response) => response.pokemon),
   mergeMap((pokemon) =>
     fromFetch(endpointFor(pokemon.id)).pipe(
-      mergeMap((response) => response.json())
-    )
+      mergeMap((response) => response.json()),
+    ),
   ),
-  tap(console.log)
+  tap(console.log),
 );
 
 search$.subscribe(addResult);

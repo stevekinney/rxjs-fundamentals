@@ -1,9 +1,6 @@
 [
   {
-    "abilities": [
-      "Overgrow",
-      "Chlorophyll"
-    ],
+    "abilities": ["Overgrow", "Chlorophyll"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -47,10 +44,7 @@
     "id": 1
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Chlorophyll"
-    ],
+    "abilities": ["Overgrow", "Chlorophyll"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -94,10 +88,7 @@
     "id": 2
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Chlorophyll"
-    ],
+    "abilities": ["Overgrow", "Chlorophyll"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -141,10 +132,7 @@
     "id": 3
   },
   {
-    "abilities": [
-      "Blaze",
-      "Solar Power"
-    ],
+    "abilities": ["Blaze", "Solar Power"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -188,10 +176,7 @@
     "id": 4
   },
   {
-    "abilities": [
-      "Blaze",
-      "Solar Power"
-    ],
+    "abilities": ["Blaze", "Solar Power"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -235,10 +220,7 @@
     "id": 5
   },
   {
-    "abilities": [
-      "Blaze",
-      "Solar Power"
-    ],
+    "abilities": ["Blaze", "Solar Power"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -282,10 +264,7 @@
     "id": 6
   },
   {
-    "abilities": [
-      "Torrent",
-      "Rain Dish"
-    ],
+    "abilities": ["Torrent", "Rain Dish"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -329,10 +308,7 @@
     "id": 7
   },
   {
-    "abilities": [
-      "Torrent",
-      "Rain Dish"
-    ],
+    "abilities": ["Torrent", "Rain Dish"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -376,10 +352,7 @@
     "id": 8
   },
   {
-    "abilities": [
-      "Torrent",
-      "Rain Dish"
-    ],
+    "abilities": ["Torrent", "Rain Dish"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -423,10 +396,7 @@
     "id": 9
   },
   {
-    "abilities": [
-      "Shield Dust",
-      "Run Away"
-    ],
+    "abilities": ["Shield Dust", "Run Away"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -470,9 +440,7 @@
     "id": 10
   },
   {
-    "abilities": [
-      "Shed Skin"
-    ],
+    "abilities": ["Shed Skin"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -516,10 +484,7 @@
     "id": 11
   },
   {
-    "abilities": [
-      "Compoundeyes",
-      "Tinted Lens"
-    ],
+    "abilities": ["Compoundeyes", "Tinted Lens"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -563,10 +528,7 @@
     "id": 12
   },
   {
-    "abilities": [
-      "Shield Dust",
-      "Run Away"
-    ],
+    "abilities": ["Shield Dust", "Run Away"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -610,9 +572,7 @@
     "id": 13
   },
   {
-    "abilities": [
-      "Shed Skin"
-    ],
+    "abilities": ["Shed Skin"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -656,10 +616,7 @@
     "id": 14
   },
   {
-    "abilities": [
-      "Swarm",
-      "Sniper"
-    ],
+    "abilities": ["Swarm", "Sniper"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -703,11 +660,7 @@
     "id": 15
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
-    ],
+    "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -751,11 +704,7 @@
     "id": 16
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
-    ],
+    "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -799,11 +748,7 @@
     "id": 17
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
-    ],
+    "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -949,10 +894,7 @@
     "id": 20
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Sniper"
-    ],
+    "abilities": ["Keen Eye", "Sniper"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -996,10 +938,7 @@
     "id": 21
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Sniper"
-    ],
+    "abilities": ["Keen Eye", "Sniper"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1043,11 +982,7 @@
     "id": 22
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Shed Skin",
-      "Unnerve"
-    ],
+    "abilities": ["Intimidate", "Shed Skin", "Unnerve"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1091,11 +1026,7 @@
     "id": 23
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Shed Skin",
-      "Unnerve"
-    ],
+    "abilities": ["Intimidate", "Shed Skin", "Unnerve"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1139,10 +1070,7 @@
     "id": 24
   },
   {
-    "abilities": [
-      "Static",
-      "Lightningrod"
-    ],
+    "abilities": ["Static", "Lightningrod"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1186,11 +1114,7 @@
     "id": 25
   },
   {
-    "abilities": [
-      "Static",
-      "Lightningrod",
-      "Surge Surfer"
-    ],
+    "abilities": ["Static", "Lightningrod", "Surge Surfer"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1234,12 +1158,7 @@
     "id": 26
   },
   {
-    "abilities": [
-      "Sand Veil",
-      "Sand Rush",
-      "Snow Cloak",
-      "Slush Rush"
-    ],
+    "abilities": ["Sand Veil", "Sand Rush", "Snow Cloak", "Slush Rush"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1283,12 +1202,7 @@
     "id": 27
   },
   {
-    "abilities": [
-      "Sand Veil",
-      "Sand Rush",
-      "Snow Cloak",
-      "Slush Rush"
-    ],
+    "abilities": ["Sand Veil", "Sand Rush", "Snow Cloak", "Slush Rush"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1332,11 +1246,7 @@
     "id": 28
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
+    "abilities": ["Poison Point", "Rivalry", "Hustle"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1380,11 +1290,7 @@
     "id": 29
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
+    "abilities": ["Poison Point", "Rivalry", "Hustle"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1428,11 +1334,7 @@
     "id": 30
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Sheer Force"
-    ],
+    "abilities": ["Poison Point", "Rivalry", "Sheer Force"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1476,11 +1378,7 @@
     "id": 31
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
+    "abilities": ["Poison Point", "Rivalry", "Hustle"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1524,11 +1422,7 @@
     "id": 32
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
+    "abilities": ["Poison Point", "Rivalry", "Hustle"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1572,11 +1466,7 @@
     "id": 33
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Sheer Force"
-    ],
+    "abilities": ["Poison Point", "Rivalry", "Sheer Force"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1620,11 +1510,7 @@
     "id": 34
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Friend Guard"
-    ],
+    "abilities": ["Cute Charm", "Magic Guard", "Friend Guard"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -1668,11 +1554,7 @@
     "id": 35
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Unaware"
-    ],
+    "abilities": ["Cute Charm", "Magic Guard", "Unaware"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -1716,12 +1598,7 @@
     "id": 36
   },
   {
-    "abilities": [
-      "Flash Fire",
-      "Drought",
-      "Snow Cloak",
-      "Snow Warning"
-    ],
+    "abilities": ["Flash Fire", "Drought", "Snow Cloak", "Snow Warning"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1765,12 +1642,7 @@
     "id": 37
   },
   {
-    "abilities": [
-      "Flash Fire",
-      "Drought",
-      "Snow Cloak",
-      "Snow Warning"
-    ],
+    "abilities": ["Flash Fire", "Drought", "Snow Cloak", "Snow Warning"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1814,11 +1686,7 @@
     "id": 38
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Friend Guard"
-    ],
+    "abilities": ["Cute Charm", "Competitive", "Friend Guard"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -1862,11 +1730,7 @@
     "id": 39
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Frisk"
-    ],
+    "abilities": ["Cute Charm", "Competitive", "Frisk"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -1910,10 +1774,7 @@
     "id": 40
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Infiltrator"
-    ],
+    "abilities": ["Inner Focus", "Infiltrator"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -1957,10 +1818,7 @@
     "id": 41
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Infiltrator"
-    ],
+    "abilities": ["Inner Focus", "Infiltrator"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2004,10 +1862,7 @@
     "id": 42
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Run Away"
-    ],
+    "abilities": ["Chlorophyll", "Run Away"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2051,10 +1906,7 @@
     "id": 43
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Stench"
-    ],
+    "abilities": ["Chlorophyll", "Stench"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2098,10 +1950,7 @@
     "id": 44
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Effect Spore"
-    ],
+    "abilities": ["Chlorophyll", "Effect Spore"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2145,11 +1994,7 @@
     "id": 45
   },
   {
-    "abilities": [
-      "Effect Spore",
-      "Dry Skin",
-      "Damp"
-    ],
+    "abilities": ["Effect Spore", "Dry Skin", "Damp"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2193,11 +2038,7 @@
     "id": 46
   },
   {
-    "abilities": [
-      "Effect Spore",
-      "Dry Skin",
-      "Damp"
-    ],
+    "abilities": ["Effect Spore", "Dry Skin", "Damp"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2241,11 +2082,7 @@
     "id": 47
   },
   {
-    "abilities": [
-      "Compoundeyes",
-      "Tinted Lens",
-      "Run Away"
-    ],
+    "abilities": ["Compoundeyes", "Tinted Lens", "Run Away"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2289,11 +2126,7 @@
     "id": 48
   },
   {
-    "abilities": [
-      "Shield Dust",
-      "Tinted Lens",
-      "Wonder Skin "
-    ],
+    "abilities": ["Shield Dust", "Tinted Lens", "Wonder Skin "],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2541,11 +2374,7 @@
     "id": 53
   },
   {
-    "abilities": [
-      "Damp",
-      "Cloud Nine",
-      "Swift Swim"
-    ],
+    "abilities": ["Damp", "Cloud Nine", "Swift Swim"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2589,11 +2418,7 @@
     "id": 54
   },
   {
-    "abilities": [
-      "Damp",
-      "Cloud Nine",
-      "Swift Swim"
-    ],
+    "abilities": ["Damp", "Cloud Nine", "Swift Swim"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2637,11 +2462,7 @@
     "id": 55
   },
   {
-    "abilities": [
-      "Vital Spirit",
-      "Anger Point",
-      "Defiant"
-    ],
+    "abilities": ["Vital Spirit", "Anger Point", "Defiant"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -2685,11 +2506,7 @@
     "id": 56
   },
   {
-    "abilities": [
-      "Vital Spirit",
-      "Anger Point",
-      "Defiant"
-    ],
+    "abilities": ["Vital Spirit", "Anger Point", "Defiant"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -2733,11 +2550,7 @@
     "id": 57
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Justified"
-    ],
+    "abilities": ["Intimidate", "Flash Fire", "Justified"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2781,11 +2594,7 @@
     "id": 58
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Justified"
-    ],
+    "abilities": ["Intimidate", "Flash Fire", "Justified"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2829,11 +2638,7 @@
     "id": 59
   },
   {
-    "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Swift Swim"
-    ],
+    "abilities": ["Water Absorb", "Damp", "Swift Swim"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2877,11 +2682,7 @@
     "id": 60
   },
   {
-    "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Swift Swim"
-    ],
+    "abilities": ["Water Absorb", "Damp", "Swift Swim"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -2925,11 +2726,7 @@
     "id": 61
   },
   {
-    "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Swift Swim"
-    ],
+    "abilities": ["Water Absorb", "Damp", "Swift Swim"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -2973,11 +2770,7 @@
     "id": 62
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
-    ],
+    "abilities": ["Synchronize", "Inner Focus", "Magic Guard"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -3021,11 +2814,7 @@
     "id": 63
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
-    ],
+    "abilities": ["Synchronize", "Inner Focus", "Magic Guard"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -3069,11 +2858,7 @@
     "id": 64
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
-    ],
+    "abilities": ["Synchronize", "Inner Focus", "Magic Guard"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -3117,11 +2902,7 @@
     "id": 65
   },
   {
-    "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
-    ],
+    "abilities": ["Guts", "No Guard", "Steadfast"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -3165,11 +2946,7 @@
     "id": 66
   },
   {
-    "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
-    ],
+    "abilities": ["Guts", "No Guard", "Steadfast"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -3213,11 +2990,7 @@
     "id": 67
   },
   {
-    "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
-    ],
+    "abilities": ["Guts", "No Guard", "Steadfast"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -3261,10 +3034,7 @@
     "id": 68
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Gluttony"
-    ],
+    "abilities": ["Chlorophyll", "Gluttony"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -3308,10 +3078,7 @@
     "id": 69
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Gluttony"
-    ],
+    "abilities": ["Chlorophyll", "Gluttony"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -3355,10 +3122,7 @@
     "id": 70
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Gluttony"
-    ],
+    "abilities": ["Chlorophyll", "Gluttony"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -3402,11 +3166,7 @@
     "id": 71
   },
   {
-    "abilities": [
-      "Clear Body",
-      "Liquid Ooze",
-      "Rain Dish"
-    ],
+    "abilities": ["Clear Body", "Liquid Ooze", "Rain Dish"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -3450,11 +3210,7 @@
     "id": 72
   },
   {
-    "abilities": [
-      "Clear Body",
-      "Liquid Ooze",
-      "Rain Dish"
-    ],
+    "abilities": ["Clear Body", "Liquid Ooze", "Rain Dish"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -3651,11 +3407,7 @@
     "id": 76
   },
   {
-    "abilities": [
-      "Run Away",
-      "Flash Fire",
-      "Flame Body"
-    ],
+    "abilities": ["Run Away", "Flash Fire", "Flame Body"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -3699,11 +3451,7 @@
     "id": 77
   },
   {
-    "abilities": [
-      "Run Away",
-      "Flash Fire",
-      "Flame Body"
-    ],
+    "abilities": ["Run Away", "Flash Fire", "Flame Body"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -3747,11 +3495,7 @@
     "id": 78
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Own Tempo",
-      "Regenerator"
-    ],
+    "abilities": ["Oblivious", "Own Tempo", "Regenerator"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -3795,11 +3539,7 @@
     "id": 79
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Own Tempo",
-      "Regenerator"
-    ],
+    "abilities": ["Oblivious", "Own Tempo", "Regenerator"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -3843,11 +3583,7 @@
     "id": 80
   },
   {
-    "abilities": [
-      "Magnet Pull",
-      "Sturdy",
-      "Analytic"
-    ],
+    "abilities": ["Magnet Pull", "Sturdy", "Analytic"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -3891,11 +3627,7 @@
     "id": 81
   },
   {
-    "abilities": [
-      "Magnet Pull",
-      "Sturdy",
-      "Analytic"
-    ],
+    "abilities": ["Magnet Pull", "Sturdy", "Analytic"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -3939,11 +3671,7 @@
     "id": 82
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Inner Focus",
-      "Defiant"
-    ],
+    "abilities": ["Keen Eye", "Inner Focus", "Defiant"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -3987,11 +3715,7 @@
     "id": 83
   },
   {
-    "abilities": [
-      "Run Away",
-      "Early Bird",
-      "Tangled Feet"
-    ],
+    "abilities": ["Run Away", "Early Bird", "Tangled Feet"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4035,11 +3759,7 @@
     "id": 84
   },
   {
-    "abilities": [
-      "Run Away",
-      "Early Bird",
-      "Tangled Feet"
-    ],
+    "abilities": ["Run Away", "Early Bird", "Tangled Feet"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4083,11 +3803,7 @@
     "id": 85
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Hydration",
-      "Ice Body"
-    ],
+    "abilities": ["Thick Fat", "Hydration", "Ice Body"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4131,11 +3847,7 @@
     "id": 86
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Hydration",
-      "Ice Body"
-    ],
+    "abilities": ["Thick Fat", "Hydration", "Ice Body"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4281,11 +3993,7 @@
     "id": 89
   },
   {
-    "abilities": [
-      "Shell Armor",
-      "Skill Link",
-      "Overcoat"
-    ],
+    "abilities": ["Shell Armor", "Skill Link", "Overcoat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4329,11 +4037,7 @@
     "id": 90
   },
   {
-    "abilities": [
-      "Shell Armor",
-      "Skill Link",
-      "Overcoat"
-    ],
+    "abilities": ["Shell Armor", "Skill Link", "Overcoat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4377,9 +4081,7 @@
     "id": 91
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 1,
@@ -4423,9 +4125,7 @@
     "id": 92
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 1,
@@ -4469,9 +4169,7 @@
     "id": 93
   },
   {
-    "abilities": [
-      "Cursed Body"
-    ],
+    "abilities": ["Cursed Body"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 1,
@@ -4515,11 +4213,7 @@
     "id": 94
   },
   {
-    "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Weak Armor"
-    ],
+    "abilities": ["Rock Head", "Sturdy", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4563,11 +4257,7 @@
     "id": 95
   },
   {
-    "abilities": [
-      "Insomnia",
-      "Forewarn",
-      "Inner Focus"
-    ],
+    "abilities": ["Insomnia", "Forewarn", "Inner Focus"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -4611,11 +4301,7 @@
     "id": 96
   },
   {
-    "abilities": [
-      "Insomnia",
-      "Forewarn",
-      "Inner Focus"
-    ],
+    "abilities": ["Insomnia", "Forewarn", "Inner Focus"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -4659,11 +4345,7 @@
     "id": 97
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Sheer Force"
-    ],
+    "abilities": ["Hyper Cutter", "Shell Armor", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4707,11 +4389,7 @@
     "id": 98
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Sheer Force"
-    ],
+    "abilities": ["Hyper Cutter", "Shell Armor", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4755,11 +4433,7 @@
     "id": 99
   },
   {
-    "abilities": [
-      "Soundproof",
-      "Static",
-      "Aftermath"
-    ],
+    "abilities": ["Soundproof", "Static", "Aftermath"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4803,11 +4477,7 @@
     "id": 100
   },
   {
-    "abilities": [
-      "Soundproof",
-      "Static",
-      "Aftermath"
-    ],
+    "abilities": ["Soundproof", "Static", "Aftermath"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -4851,10 +4521,7 @@
     "id": 101
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Harvest"
-    ],
+    "abilities": ["Chlorophyll", "Harvest"],
     "against_bug": 4,
     "against_dark": 2,
     "against_dragon": 1,
@@ -4898,12 +4565,7 @@
     "id": 102
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Harvest",
-      "Frisk",
-      "Harvest"
-    ],
+    "abilities": ["Chlorophyll", "Harvest", "Frisk", "Harvest"],
     "against_bug": 4,
     "against_dark": 2,
     "against_dragon": 1,
@@ -4947,11 +4609,7 @@
     "id": 103
   },
   {
-    "abilities": [
-      "Rock Head",
-      "Lightningrod",
-      "Battle Armor"
-    ],
+    "abilities": ["Rock Head", "Lightningrod", "Battle Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5046,11 +4704,7 @@
     "id": 105
   },
   {
-    "abilities": [
-      "Limber",
-      "Reckless",
-      "Unburden"
-    ],
+    "abilities": ["Limber", "Reckless", "Unburden"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -5094,11 +4748,7 @@
     "id": 106
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Iron Fist",
-      "Inner Focus"
-    ],
+    "abilities": ["Keen Eye", "Iron Fist", "Inner Focus"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -5142,11 +4792,7 @@
     "id": 107
   },
   {
-    "abilities": [
-      "Own Tempo",
-      "Oblivious",
-      "Cloud Nine"
-    ],
+    "abilities": ["Own Tempo", "Oblivious", "Cloud Nine"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5190,9 +4836,7 @@
     "id": 108
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5236,9 +4880,7 @@
     "id": 109
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5282,11 +4924,7 @@
     "id": 110
   },
   {
-    "abilities": [
-      "Lightningrod",
-      "Rock Head",
-      "Reckless"
-    ],
+    "abilities": ["Lightningrod", "Rock Head", "Reckless"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5330,11 +4968,7 @@
     "id": 111
   },
   {
-    "abilities": [
-      "Lightningrod",
-      "Rock Head",
-      "Reckless"
-    ],
+    "abilities": ["Lightningrod", "Rock Head", "Reckless"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5378,11 +5012,7 @@
     "id": 112
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Serene Grace",
-      "Healer"
-    ],
+    "abilities": ["Natural Cure", "Serene Grace", "Healer"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5426,11 +5056,7 @@
     "id": 113
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Regenerator"
-    ],
+    "abilities": ["Chlorophyll", "Leaf Guard", "Regenerator"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5474,11 +5100,7 @@
     "id": 114
   },
   {
-    "abilities": [
-      "Early Bird",
-      "Scrappy",
-      "Inner Focus"
-    ],
+    "abilities": ["Early Bird", "Scrappy", "Inner Focus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5522,11 +5144,7 @@
     "id": 115
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Sniper",
-      "Damp"
-    ],
+    "abilities": ["Swift Swim", "Sniper", "Damp"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5570,11 +5188,7 @@
     "id": 116
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Sniper",
-      "Damp"
-    ],
+    "abilities": ["Poison Point", "Sniper", "Damp"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5618,11 +5232,7 @@
     "id": 117
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Water Veil",
-      "Lightningrod"
-    ],
+    "abilities": ["Swift Swim", "Water Veil", "Lightningrod"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5666,11 +5276,7 @@
     "id": 118
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Water Veil",
-      "Lightningrod"
-    ],
+    "abilities": ["Swift Swim", "Water Veil", "Lightningrod"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5714,11 +5320,7 @@
     "id": 119
   },
   {
-    "abilities": [
-      "Illuminate",
-      "Natural Cure",
-      "Analytic"
-    ],
+    "abilities": ["Illuminate", "Natural Cure", "Analytic"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5762,11 +5364,7 @@
     "id": 120
   },
   {
-    "abilities": [
-      "Illuminate",
-      "Natural Cure",
-      "Analytic"
-    ],
+    "abilities": ["Illuminate", "Natural Cure", "Analytic"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -5810,11 +5408,7 @@
     "id": 121
   },
   {
-    "abilities": [
-      "Soundproof",
-      "Filter",
-      "Technician"
-    ],
+    "abilities": ["Soundproof", "Filter", "Technician"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 0,
@@ -5858,11 +5452,7 @@
     "id": 122
   },
   {
-    "abilities": [
-      "Swarm",
-      "Technician",
-      "Steadfast"
-    ],
+    "abilities": ["Swarm", "Technician", "Steadfast"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -5906,11 +5496,7 @@
     "id": 123
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Forewarn",
-      "Dry Skin"
-    ],
+    "abilities": ["Oblivious", "Forewarn", "Dry Skin"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -5954,10 +5540,7 @@
     "id": 124
   },
   {
-    "abilities": [
-      "Static",
-      "Vital Spirit"
-    ],
+    "abilities": ["Static", "Vital Spirit"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6001,10 +5584,7 @@
     "id": 125
   },
   {
-    "abilities": [
-      "Flame Body",
-      "Vital Spirit"
-    ],
+    "abilities": ["Flame Body", "Vital Spirit"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6048,11 +5628,7 @@
     "id": 126
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Mold Breaker",
-      "Moxie"
-    ],
+    "abilities": ["Hyper Cutter", "Mold Breaker", "Moxie"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6096,11 +5672,7 @@
     "id": 127
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Anger Point",
-      "Sheer Force"
-    ],
+    "abilities": ["Intimidate", "Anger Point", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6144,10 +5716,7 @@
     "id": 128
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Rattled"
-    ],
+    "abilities": ["Swift Swim", "Rattled"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6191,10 +5760,7 @@
     "id": 129
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Moxie"
-    ],
+    "abilities": ["Intimidate", "Moxie"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6238,11 +5804,7 @@
     "id": 130
   },
   {
-    "abilities": [
-      "Water Absorb",
-      "Shell Armor",
-      "Hydration"
-    ],
+    "abilities": ["Water Absorb", "Shell Armor", "Hydration"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6286,10 +5848,7 @@
     "id": 131
   },
   {
-    "abilities": [
-      "Limber",
-      "Imposter"
-    ],
+    "abilities": ["Limber", "Imposter"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6333,11 +5892,7 @@
     "id": 132
   },
   {
-    "abilities": [
-      "Run Away",
-      "Adaptability",
-      "Anticipation"
-    ],
+    "abilities": ["Run Away", "Adaptability", "Anticipation"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6381,10 +5936,7 @@
     "id": 133
   },
   {
-    "abilities": [
-      "Water Absorb",
-      "Hydration"
-    ],
+    "abilities": ["Water Absorb", "Hydration"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6428,10 +5980,7 @@
     "id": 134
   },
   {
-    "abilities": [
-      "Volt Absorb",
-      "Quick Feet"
-    ],
+    "abilities": ["Volt Absorb", "Quick Feet"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6475,10 +6024,7 @@
     "id": 135
   },
   {
-    "abilities": [
-      "Flash Fire",
-      "Guts"
-    ],
+    "abilities": ["Flash Fire", "Guts"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6522,11 +6068,7 @@
     "id": 136
   },
   {
-    "abilities": [
-      "Trace",
-      "Download",
-      "Analytic"
-    ],
+    "abilities": ["Trace", "Download", "Analytic"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6570,11 +6112,7 @@
     "id": 137
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Shell Armor",
-      "Weak Armor"
-    ],
+    "abilities": ["Swift Swim", "Shell Armor", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6618,11 +6156,7 @@
     "id": 138
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Shell Armor",
-      "Weak Armor"
-    ],
+    "abilities": ["Swift Swim", "Shell Armor", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6666,11 +6200,7 @@
     "id": 139
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Battle Armor",
-      "Weak Armor"
-    ],
+    "abilities": ["Swift Swim", "Battle Armor", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6714,11 +6244,7 @@
     "id": 140
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Battle Armor",
-      "Weak Armor"
-    ],
+    "abilities": ["Swift Swim", "Battle Armor", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6762,11 +6288,7 @@
     "id": 141
   },
   {
-    "abilities": [
-      "Rock Head",
-      "Pressure",
-      "Unnerve"
-    ],
+    "abilities": ["Rock Head", "Pressure", "Unnerve"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6810,11 +6332,7 @@
     "id": 142
   },
   {
-    "abilities": [
-      "Immunity",
-      "Thick Fat",
-      "Gluttony"
-    ],
+    "abilities": ["Immunity", "Thick Fat", "Gluttony"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6858,10 +6376,7 @@
     "id": 143
   },
   {
-    "abilities": [
-      "Pressure",
-      "Snow Cloak"
-    ],
+    "abilities": ["Pressure", "Snow Cloak"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6905,10 +6420,7 @@
     "id": 144
   },
   {
-    "abilities": [
-      "Pressure",
-      "Static"
-    ],
+    "abilities": ["Pressure", "Static"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6952,10 +6464,7 @@
     "id": 145
   },
   {
-    "abilities": [
-      "Pressure",
-      "Flame Body"
-    ],
+    "abilities": ["Pressure", "Flame Body"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -6999,10 +6508,7 @@
     "id": 146
   },
   {
-    "abilities": [
-      "Shed Skin",
-      "Marvel Scale"
-    ],
+    "abilities": ["Shed Skin", "Marvel Scale"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -7046,10 +6552,7 @@
     "id": 147
   },
   {
-    "abilities": [
-      "Shed Skin",
-      "Marvel Scale"
-    ],
+    "abilities": ["Shed Skin", "Marvel Scale"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -7093,10 +6596,7 @@
     "id": 148
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Multiscale"
-    ],
+    "abilities": ["Inner Focus", "Multiscale"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 2,
@@ -7140,10 +6640,7 @@
     "id": 149
   },
   {
-    "abilities": [
-      "Pressure",
-      "Unnerve"
-    ],
+    "abilities": ["Pressure", "Unnerve"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -7187,9 +6684,7 @@
     "id": 150
   },
   {
-    "abilities": [
-      "Synchronize"
-    ],
+    "abilities": ["Synchronize"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -7233,10 +6728,7 @@
     "id": 151
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Leaf Guard"
-    ],
+    "abilities": ["Overgrow", "Leaf Guard"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7280,10 +6772,7 @@
     "id": 152
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Leaf Guard"
-    ],
+    "abilities": ["Overgrow", "Leaf Guard"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7327,10 +6816,7 @@
     "id": 153
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Leaf Guard"
-    ],
+    "abilities": ["Overgrow", "Leaf Guard"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7374,10 +6860,7 @@
     "id": 154
   },
   {
-    "abilities": [
-      "Blaze",
-      "Flash Fire"
-    ],
+    "abilities": ["Blaze", "Flash Fire"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7421,10 +6904,7 @@
     "id": 155
   },
   {
-    "abilities": [
-      "Blaze",
-      "Flash Fire"
-    ],
+    "abilities": ["Blaze", "Flash Fire"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7468,10 +6948,7 @@
     "id": 156
   },
   {
-    "abilities": [
-      "Blaze",
-      "Flash Fire"
-    ],
+    "abilities": ["Blaze", "Flash Fire"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7515,10 +6992,7 @@
     "id": 157
   },
   {
-    "abilities": [
-      "Torrent",
-      "Sheer Force"
-    ],
+    "abilities": ["Torrent", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7562,10 +7036,7 @@
     "id": 158
   },
   {
-    "abilities": [
-      "Torrent",
-      "Sheer Force"
-    ],
+    "abilities": ["Torrent", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7609,10 +7080,7 @@
     "id": 159
   },
   {
-    "abilities": [
-      "Torrent",
-      "Sheer Force"
-    ],
+    "abilities": ["Torrent", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7656,11 +7124,7 @@
     "id": 160
   },
   {
-    "abilities": [
-      "Run Away",
-      "Keen Eye",
-      "Frisk"
-    ],
+    "abilities": ["Run Away", "Keen Eye", "Frisk"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7704,11 +7168,7 @@
     "id": 161
   },
   {
-    "abilities": [
-      "Run Away",
-      "Keen Eye",
-      "Frisk"
-    ],
+    "abilities": ["Run Away", "Keen Eye", "Frisk"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7752,11 +7212,7 @@
     "id": 162
   },
   {
-    "abilities": [
-      "Insomnia",
-      "Keen Eye",
-      "Tinted Lens"
-    ],
+    "abilities": ["Insomnia", "Keen Eye", "Tinted Lens"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7800,11 +7256,7 @@
     "id": 163
   },
   {
-    "abilities": [
-      "Insomnia",
-      "Keen Eye",
-      "Tinted Lens"
-    ],
+    "abilities": ["Insomnia", "Keen Eye", "Tinted Lens"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7848,11 +7300,7 @@
     "id": 164
   },
   {
-    "abilities": [
-      "Swarm",
-      "Early Bird",
-      "Rattled"
-    ],
+    "abilities": ["Swarm", "Early Bird", "Rattled"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7896,11 +7344,7 @@
     "id": 165
   },
   {
-    "abilities": [
-      "Swarm",
-      "Early Bird",
-      "Iron Fist"
-    ],
+    "abilities": ["Swarm", "Early Bird", "Iron Fist"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7944,11 +7388,7 @@
     "id": 166
   },
   {
-    "abilities": [
-      "Swarm",
-      "Insomnia",
-      "Sniper"
-    ],
+    "abilities": ["Swarm", "Insomnia", "Sniper"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -7992,11 +7432,7 @@
     "id": 167
   },
   {
-    "abilities": [
-      "Swarm",
-      "Insomnia",
-      "Sniper"
-    ],
+    "abilities": ["Swarm", "Insomnia", "Sniper"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8040,10 +7476,7 @@
     "id": 168
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Infiltrator"
-    ],
+    "abilities": ["Inner Focus", "Infiltrator"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8087,11 +7520,7 @@
     "id": 169
   },
   {
-    "abilities": [
-      "Volt Absorb",
-      "Illuminate",
-      "Water Absorb"
-    ],
+    "abilities": ["Volt Absorb", "Illuminate", "Water Absorb"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8135,11 +7564,7 @@
     "id": 170
   },
   {
-    "abilities": [
-      "Volt Absorb",
-      "Illuminate",
-      "Water Absorb"
-    ],
+    "abilities": ["Volt Absorb", "Illuminate", "Water Absorb"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8183,10 +7608,7 @@
     "id": 171
   },
   {
-    "abilities": [
-      "Static",
-      "Lightningrod"
-    ],
+    "abilities": ["Static", "Lightningrod"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8230,11 +7652,7 @@
     "id": 172
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Friend Guard"
-    ],
+    "abilities": ["Cute Charm", "Magic Guard", "Friend Guard"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -8278,11 +7696,7 @@
     "id": 173
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Friend Guard"
-    ],
+    "abilities": ["Cute Charm", "Competitive", "Friend Guard"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -8326,11 +7740,7 @@
     "id": 174
   },
   {
-    "abilities": [
-      "Hustle",
-      "Serene Grace",
-      "Super Luck"
-    ],
+    "abilities": ["Hustle", "Serene Grace", "Super Luck"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -8374,11 +7784,7 @@
     "id": 175
   },
   {
-    "abilities": [
-      "Hustle",
-      "Serene Grace",
-      "Super Luck"
-    ],
+    "abilities": ["Hustle", "Serene Grace", "Super Luck"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -8422,11 +7828,7 @@
     "id": 176
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Early Bird",
-      "Magic Bounce"
-    ],
+    "abilities": ["Synchronize", "Early Bird", "Magic Bounce"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -8470,11 +7872,7 @@
     "id": 177
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Early Bird",
-      "Magic Bounce"
-    ],
+    "abilities": ["Synchronize", "Early Bird", "Magic Bounce"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -8518,10 +7916,7 @@
     "id": 178
   },
   {
-    "abilities": [
-      "Static",
-      "Plus"
-    ],
+    "abilities": ["Static", "Plus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8565,10 +7960,7 @@
     "id": 179
   },
   {
-    "abilities": [
-      "Static",
-      "Plus"
-    ],
+    "abilities": ["Static", "Plus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8612,10 +8004,7 @@
     "id": 180
   },
   {
-    "abilities": [
-      "Static",
-      "Plus"
-    ],
+    "abilities": ["Static", "Plus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8659,10 +8048,7 @@
     "id": 181
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Healer"
-    ],
+    "abilities": ["Chlorophyll", "Healer"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8706,11 +8092,7 @@
     "id": 182
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Huge Power",
-      "Sap Sipper"
-    ],
+    "abilities": ["Thick Fat", "Huge Power", "Sap Sipper"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -8754,11 +8136,7 @@
     "id": 183
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Huge Power",
-      "Sap Sipper"
-    ],
+    "abilities": ["Thick Fat", "Huge Power", "Sap Sipper"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -8802,11 +8180,7 @@
     "id": 184
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Rattled"
-    ],
+    "abilities": ["Sturdy", "Rock Head", "Rattled"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8850,11 +8224,7 @@
     "id": 185
   },
   {
-    "abilities": [
-      "Water Absorb",
-      "Damp",
-      "Drizzle"
-    ],
+    "abilities": ["Water Absorb", "Damp", "Drizzle"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8898,11 +8268,7 @@
     "id": 186
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Infiltrator"
-    ],
+    "abilities": ["Chlorophyll", "Leaf Guard", "Infiltrator"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8946,11 +8312,7 @@
     "id": 187
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Infiltrator"
-    ],
+    "abilities": ["Chlorophyll", "Leaf Guard", "Infiltrator"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -8994,11 +8356,7 @@
     "id": 188
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Infiltrator"
-    ],
+    "abilities": ["Chlorophyll", "Leaf Guard", "Infiltrator"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9042,11 +8400,7 @@
     "id": 189
   },
   {
-    "abilities": [
-      "Run Away",
-      "Pickup",
-      "Skill Link"
-    ],
+    "abilities": ["Run Away", "Pickup", "Skill Link"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9090,11 +8444,7 @@
     "id": 190
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Solar Power",
-      "Early Bird"
-    ],
+    "abilities": ["Chlorophyll", "Solar Power", "Early Bird"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9138,11 +8488,7 @@
     "id": 191
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Solar Power",
-      "Early Bird"
-    ],
+    "abilities": ["Chlorophyll", "Solar Power", "Early Bird"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9186,11 +8532,7 @@
     "id": 192
   },
   {
-    "abilities": [
-      "Speed Boost",
-      "Compoundeyes",
-      "Frisk"
-    ],
+    "abilities": ["Speed Boost", "Compoundeyes", "Frisk"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9234,11 +8576,7 @@
     "id": 193
   },
   {
-    "abilities": [
-      "Damp",
-      "Water Absorb",
-      "Unaware"
-    ],
+    "abilities": ["Damp", "Water Absorb", "Unaware"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9282,11 +8620,7 @@
     "id": 194
   },
   {
-    "abilities": [
-      "Damp",
-      "Water Absorb",
-      "Unaware"
-    ],
+    "abilities": ["Damp", "Water Absorb", "Unaware"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9330,10 +8664,7 @@
     "id": 195
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Magic Bounce"
-    ],
+    "abilities": ["Synchronize", "Magic Bounce"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -9377,10 +8708,7 @@
     "id": 196
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Inner Focus"
-    ],
+    "abilities": ["Synchronize", "Inner Focus"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -9424,11 +8752,7 @@
     "id": 197
   },
   {
-    "abilities": [
-      "Insomnia",
-      "Super Luck",
-      "Prankster"
-    ],
+    "abilities": ["Insomnia", "Super Luck", "Prankster"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -9472,11 +8796,7 @@
     "id": 198
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Own Tempo",
-      "Regenerator"
-    ],
+    "abilities": ["Oblivious", "Own Tempo", "Regenerator"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -9520,9 +8840,7 @@
     "id": 199
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -9566,9 +8884,7 @@
     "id": 200
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -9612,10 +8928,7 @@
     "id": 201
   },
   {
-    "abilities": [
-      "Shadow Tag",
-      "Telepathy"
-    ],
+    "abilities": ["Shadow Tag", "Telepathy"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -9659,11 +8972,7 @@
     "id": 202
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Early Bird",
-      "Sap Sipper"
-    ],
+    "abilities": ["Inner Focus", "Early Bird", "Sap Sipper"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -9707,10 +9016,7 @@
     "id": 203
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Overcoat"
-    ],
+    "abilities": ["Sturdy", "Overcoat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9754,10 +9060,7 @@
     "id": 204
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Overcoat"
-    ],
+    "abilities": ["Sturdy", "Overcoat"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -9801,11 +9104,7 @@
     "id": 205
   },
   {
-    "abilities": [
-      "Serene Grace",
-      "Run Away",
-      "Rattled"
-    ],
+    "abilities": ["Serene Grace", "Run Away", "Rattled"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9849,11 +9148,7 @@
     "id": 206
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Sand Veil",
-      "Immunity"
-    ],
+    "abilities": ["Hyper Cutter", "Sand Veil", "Immunity"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -9897,11 +9192,7 @@
     "id": 207
   },
   {
-    "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Sheer Force"
-    ],
+    "abilities": ["Rock Head", "Sturdy", "Sheer Force"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -9945,11 +9236,7 @@
     "id": 208
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Run Away",
-      "Rattled"
-    ],
+    "abilities": ["Intimidate", "Run Away", "Rattled"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -9993,11 +9280,7 @@
     "id": 209
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Quick Feet",
-      "Rattled"
-    ],
+    "abilities": ["Intimidate", "Quick Feet", "Rattled"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -10041,11 +9324,7 @@
     "id": 210
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Swift Swim",
-      "Intimidate"
-    ],
+    "abilities": ["Poison Point", "Swift Swim", "Intimidate"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10089,11 +9368,7 @@
     "id": 211
   },
   {
-    "abilities": [
-      "Swarm",
-      "Technician",
-      "Light Metal"
-    ],
+    "abilities": ["Swarm", "Technician", "Light Metal"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -10137,11 +9412,7 @@
     "id": 212
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Gluttony",
-      "Contrary"
-    ],
+    "abilities": ["Sturdy", "Gluttony", "Contrary"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10185,11 +9456,7 @@
     "id": 213
   },
   {
-    "abilities": [
-      "Swarm",
-      "Guts",
-      "Moxie"
-    ],
+    "abilities": ["Swarm", "Guts", "Moxie"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -10233,11 +9500,7 @@
     "id": 214
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Keen Eye",
-      "Pickpocket"
-    ],
+    "abilities": ["Inner Focus", "Keen Eye", "Pickpocket"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -10281,11 +9544,7 @@
     "id": 215
   },
   {
-    "abilities": [
-      "Pickup",
-      "Quick Feet",
-      "Honey Gather"
-    ],
+    "abilities": ["Pickup", "Quick Feet", "Honey Gather"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10329,11 +9588,7 @@
     "id": 216
   },
   {
-    "abilities": [
-      "Guts",
-      "Quick Feet",
-      "Unnerve"
-    ],
+    "abilities": ["Guts", "Quick Feet", "Unnerve"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10377,11 +9632,7 @@
     "id": 217
   },
   {
-    "abilities": [
-      "Magma Armor",
-      "Flame Body",
-      "Weak Armor"
-    ],
+    "abilities": ["Magma Armor", "Flame Body", "Weak Armor"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10425,11 +9676,7 @@
     "id": 218
   },
   {
-    "abilities": [
-      "Magma Armor",
-      "Flame Body",
-      "Weak Armor"
-    ],
+    "abilities": ["Magma Armor", "Flame Body", "Weak Armor"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10473,11 +9720,7 @@
     "id": 219
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Snow Cloak",
-      "Thick Fat"
-    ],
+    "abilities": ["Oblivious", "Snow Cloak", "Thick Fat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10521,11 +9764,7 @@
     "id": 220
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Snow Cloak",
-      "Thick Fat"
-    ],
+    "abilities": ["Oblivious", "Snow Cloak", "Thick Fat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10569,11 +9808,7 @@
     "id": 221
   },
   {
-    "abilities": [
-      "Hustle",
-      "Natural Cure",
-      "Regenerator"
-    ],
+    "abilities": ["Hustle", "Natural Cure", "Regenerator"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10617,11 +9852,7 @@
     "id": 222
   },
   {
-    "abilities": [
-      "Hustle",
-      "Sniper",
-      "Moody"
-    ],
+    "abilities": ["Hustle", "Sniper", "Moody"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10665,11 +9896,7 @@
     "id": 223
   },
   {
-    "abilities": [
-      "Suction Cups",
-      "Sniper",
-      "Moody"
-    ],
+    "abilities": ["Suction Cups", "Sniper", "Moody"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10713,11 +9940,7 @@
     "id": 224
   },
   {
-    "abilities": [
-      "Vital Spirit",
-      "Hustle",
-      "Insomnia"
-    ],
+    "abilities": ["Vital Spirit", "Hustle", "Insomnia"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10761,11 +9984,7 @@
     "id": 225
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Water Absorb",
-      "Water Veil"
-    ],
+    "abilities": ["Swift Swim", "Water Absorb", "Water Veil"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -10809,11 +10028,7 @@
     "id": 226
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Sturdy",
-      "Weak Armor"
-    ],
+    "abilities": ["Keen Eye", "Sturdy", "Weak Armor"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -10857,11 +10072,7 @@
     "id": 227
   },
   {
-    "abilities": [
-      "Early Bird",
-      "Flash Fire",
-      "Unnerve"
-    ],
+    "abilities": ["Early Bird", "Flash Fire", "Unnerve"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -10905,11 +10116,7 @@
     "id": 228
   },
   {
-    "abilities": [
-      "Early Bird",
-      "Flash Fire",
-      "Unnerve"
-    ],
+    "abilities": ["Early Bird", "Flash Fire", "Unnerve"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -10953,11 +10160,7 @@
     "id": 229
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Sniper",
-      "Damp"
-    ],
+    "abilities": ["Swift Swim", "Sniper", "Damp"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -11001,10 +10204,7 @@
     "id": 230
   },
   {
-    "abilities": [
-      "Pickup",
-      "Sand Veil"
-    ],
+    "abilities": ["Pickup", "Sand Veil"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11048,10 +10248,7 @@
     "id": 231
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Sand Veil"
-    ],
+    "abilities": ["Sturdy", "Sand Veil"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11095,11 +10292,7 @@
     "id": 232
   },
   {
-    "abilities": [
-      "Trace",
-      "Download",
-      "Analytic"
-    ],
+    "abilities": ["Trace", "Download", "Analytic"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11143,11 +10336,7 @@
     "id": 233
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Frisk",
-      "Sap Sipper"
-    ],
+    "abilities": ["Intimidate", "Frisk", "Sap Sipper"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11191,11 +10380,7 @@
     "id": 234
   },
   {
-    "abilities": [
-      "Own Tempo",
-      "Technician",
-      "Moody"
-    ],
+    "abilities": ["Own Tempo", "Technician", "Moody"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11239,11 +10424,7 @@
     "id": 235
   },
   {
-    "abilities": [
-      "Guts",
-      "Steadfast",
-      "Vital Spirit"
-    ],
+    "abilities": ["Guts", "Steadfast", "Vital Spirit"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -11287,11 +10468,7 @@
     "id": 236
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Technician",
-      "Steadfast"
-    ],
+    "abilities": ["Intimidate", "Technician", "Steadfast"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -11335,11 +10512,7 @@
     "id": 237
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Forewarn",
-      "Hydration"
-    ],
+    "abilities": ["Oblivious", "Forewarn", "Hydration"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -11383,10 +10556,7 @@
     "id": 238
   },
   {
-    "abilities": [
-      "Static",
-      "Vital Spirit"
-    ],
+    "abilities": ["Static", "Vital Spirit"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11430,10 +10600,7 @@
     "id": 239
   },
   {
-    "abilities": [
-      "Flame Body",
-      "Vital Spirit"
-    ],
+    "abilities": ["Flame Body", "Vital Spirit"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11477,11 +10644,7 @@
     "id": 240
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Scrappy",
-      "Sap Sipper"
-    ],
+    "abilities": ["Thick Fat", "Scrappy", "Sap Sipper"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11525,11 +10688,7 @@
     "id": 241
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Serene Grace",
-      "Healer"
-    ],
+    "abilities": ["Natural Cure", "Serene Grace", "Healer"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11573,10 +10732,7 @@
     "id": 242
   },
   {
-    "abilities": [
-      "Pressure",
-      "Inner Focus"
-    ],
+    "abilities": ["Pressure", "Inner Focus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11620,10 +10776,7 @@
     "id": 243
   },
   {
-    "abilities": [
-      "Pressure",
-      "Inner Focus"
-    ],
+    "abilities": ["Pressure", "Inner Focus"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11667,10 +10820,7 @@
     "id": 244
   },
   {
-    "abilities": [
-      "Pressure",
-      "Inner Focus"
-    ],
+    "abilities": ["Pressure", "Inner Focus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11714,10 +10864,7 @@
     "id": 245
   },
   {
-    "abilities": [
-      "Guts",
-      "Sand Veil"
-    ],
+    "abilities": ["Guts", "Sand Veil"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11761,9 +10908,7 @@
     "id": 246
   },
   {
-    "abilities": [
-      "Shed Skin"
-    ],
+    "abilities": ["Shed Skin"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11807,10 +10952,7 @@
     "id": 247
   },
   {
-    "abilities": [
-      "Sand Stream",
-      "Unnerve"
-    ],
+    "abilities": ["Sand Stream", "Unnerve"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -11854,10 +10996,7 @@
     "id": 248
   },
   {
-    "abilities": [
-      "Pressure",
-      "Multiscale"
-    ],
+    "abilities": ["Pressure", "Multiscale"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -11901,10 +11040,7 @@
     "id": 249
   },
   {
-    "abilities": [
-      "Pressure",
-      "Regenerator"
-    ],
+    "abilities": ["Pressure", "Regenerator"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -11948,9 +11084,7 @@
     "id": 250
   },
   {
-    "abilities": [
-      "Natural Cure"
-    ],
+    "abilities": ["Natural Cure"],
     "against_bug": 4,
     "against_dark": 2,
     "against_dragon": 1,
@@ -11994,10 +11128,7 @@
     "id": 251
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Unburden"
-    ],
+    "abilities": ["Overgrow", "Unburden"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12041,10 +11172,7 @@
     "id": 252
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Unburden"
-    ],
+    "abilities": ["Overgrow", "Unburden"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12088,10 +11216,7 @@
     "id": 253
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Unburden"
-    ],
+    "abilities": ["Overgrow", "Unburden"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12135,10 +11260,7 @@
     "id": 254
   },
   {
-    "abilities": [
-      "Blaze",
-      "Speed Boost"
-    ],
+    "abilities": ["Blaze", "Speed Boost"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12182,10 +11304,7 @@
     "id": 255
   },
   {
-    "abilities": [
-      "Blaze",
-      "Speed Boost"
-    ],
+    "abilities": ["Blaze", "Speed Boost"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -12229,10 +11348,7 @@
     "id": 256
   },
   {
-    "abilities": [
-      "Blaze",
-      "Speed Boost"
-    ],
+    "abilities": ["Blaze", "Speed Boost"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -12276,10 +11392,7 @@
     "id": 257
   },
   {
-    "abilities": [
-      "Torrent",
-      "Damp"
-    ],
+    "abilities": ["Torrent", "Damp"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12323,10 +11436,7 @@
     "id": 258
   },
   {
-    "abilities": [
-      "Torrent",
-      "Damp"
-    ],
+    "abilities": ["Torrent", "Damp"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12370,10 +11480,7 @@
     "id": 259
   },
   {
-    "abilities": [
-      "Torrent",
-      "Damp"
-    ],
+    "abilities": ["Torrent", "Damp"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12417,11 +11524,7 @@
     "id": 260
   },
   {
-    "abilities": [
-      "Run Away",
-      "Quick Feet",
-      "Rattled"
-    ],
+    "abilities": ["Run Away", "Quick Feet", "Rattled"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -12465,11 +11568,7 @@
     "id": 261
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Quick Feet",
-      "Moxie"
-    ],
+    "abilities": ["Intimidate", "Quick Feet", "Moxie"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -12513,11 +11612,7 @@
     "id": 262
   },
   {
-    "abilities": [
-      "Pickup",
-      "Gluttony",
-      "Quick Feet"
-    ],
+    "abilities": ["Pickup", "Gluttony", "Quick Feet"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12561,11 +11656,7 @@
     "id": 263
   },
   {
-    "abilities": [
-      "Pickup",
-      "Gluttony",
-      "Quick Feet"
-    ],
+    "abilities": ["Pickup", "Gluttony", "Quick Feet"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12609,10 +11700,7 @@
     "id": 264
   },
   {
-    "abilities": [
-      "Shield Dust",
-      "Run Away"
-    ],
+    "abilities": ["Shield Dust", "Run Away"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12656,9 +11744,7 @@
     "id": 265
   },
   {
-    "abilities": [
-      "Shed Skin"
-    ],
+    "abilities": ["Shed Skin"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12702,10 +11788,7 @@
     "id": 266
   },
   {
-    "abilities": [
-      "Swarm",
-      "Rivalry"
-    ],
+    "abilities": ["Swarm", "Rivalry"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12749,9 +11832,7 @@
     "id": 267
   },
   {
-    "abilities": [
-      "Shed Skin"
-    ],
+    "abilities": ["Shed Skin"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12795,10 +11876,7 @@
     "id": 268
   },
   {
-    "abilities": [
-      "Shield Dust",
-      "Compoundeyes"
-    ],
+    "abilities": ["Shield Dust", "Compoundeyes"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12842,11 +11920,7 @@
     "id": 269
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Rain Dish",
-      "Own Tempo"
-    ],
+    "abilities": ["Swift Swim", "Rain Dish", "Own Tempo"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12890,11 +11964,7 @@
     "id": 270
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Rain Dish",
-      "Own Tempo"
-    ],
+    "abilities": ["Swift Swim", "Rain Dish", "Own Tempo"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12938,11 +12008,7 @@
     "id": 271
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Rain Dish",
-      "Own Tempo"
-    ],
+    "abilities": ["Swift Swim", "Rain Dish", "Own Tempo"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -12986,11 +12052,7 @@
     "id": 272
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Early Bird",
-      "Pickpocket"
-    ],
+    "abilities": ["Chlorophyll", "Early Bird", "Pickpocket"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13034,11 +12096,7 @@
     "id": 273
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Early Bird",
-      "Pickpocket"
-    ],
+    "abilities": ["Chlorophyll", "Early Bird", "Pickpocket"],
     "against_bug": 4,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -13082,11 +12140,7 @@
     "id": 274
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Early Bird",
-      "Pickpocket"
-    ],
+    "abilities": ["Chlorophyll", "Early Bird", "Pickpocket"],
     "against_bug": 4,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -13130,10 +12184,7 @@
     "id": 275
   },
   {
-    "abilities": [
-      "Guts",
-      "Scrappy"
-    ],
+    "abilities": ["Guts", "Scrappy"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13177,10 +12228,7 @@
     "id": 276
   },
   {
-    "abilities": [
-      "Guts",
-      "Scrappy"
-    ],
+    "abilities": ["Guts", "Scrappy"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13224,11 +12272,7 @@
     "id": 277
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Hydration",
-      "Rain Dish"
-    ],
+    "abilities": ["Keen Eye", "Hydration", "Rain Dish"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13272,11 +12316,7 @@
     "id": 278
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Drizzle",
-      "Rain Dish"
-    ],
+    "abilities": ["Keen Eye", "Drizzle", "Rain Dish"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13320,11 +12360,7 @@
     "id": 279
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Trace",
-      "Telepathy"
-    ],
+    "abilities": ["Synchronize", "Trace", "Telepathy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 0,
@@ -13368,11 +12404,7 @@
     "id": 280
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Trace",
-      "Telepathy"
-    ],
+    "abilities": ["Synchronize", "Trace", "Telepathy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 0,
@@ -13416,11 +12448,7 @@
     "id": 281
   },
   {
-    "abilities": [
-      "Synchronize",
-      "Trace",
-      "Telepathy"
-    ],
+    "abilities": ["Synchronize", "Trace", "Telepathy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 0,
@@ -13464,10 +12492,7 @@
     "id": 282
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Rain Dish"
-    ],
+    "abilities": ["Swift Swim", "Rain Dish"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13511,10 +12536,7 @@
     "id": 283
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Unnerve"
-    ],
+    "abilities": ["Intimidate", "Unnerve"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13558,11 +12580,7 @@
     "id": 284
   },
   {
-    "abilities": [
-      "Effect Spore",
-      "Poison Heal",
-      "Quick Feet"
-    ],
+    "abilities": ["Effect Spore", "Poison Heal", "Quick Feet"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13606,11 +12624,7 @@
     "id": 285
   },
   {
-    "abilities": [
-      "Effect Spore",
-      "Poison Heal",
-      "Technician"
-    ],
+    "abilities": ["Effect Spore", "Poison Heal", "Technician"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -13654,9 +12668,7 @@
     "id": 286
   },
   {
-    "abilities": [
-      "Truant"
-    ],
+    "abilities": ["Truant"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13700,9 +12712,7 @@
     "id": 287
   },
   {
-    "abilities": [
-      "Vital Spirit"
-    ],
+    "abilities": ["Vital Spirit"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13746,9 +12756,7 @@
     "id": 288
   },
   {
-    "abilities": [
-      "Truant"
-    ],
+    "abilities": ["Truant"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13792,10 +12800,7 @@
     "id": 289
   },
   {
-    "abilities": [
-      "Compoundeyes",
-      "Run Away"
-    ],
+    "abilities": ["Compoundeyes", "Run Away"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13839,10 +12844,7 @@
     "id": 290
   },
   {
-    "abilities": [
-      "Speed Boost",
-      "Infiltrator"
-    ],
+    "abilities": ["Speed Boost", "Infiltrator"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13886,9 +12888,7 @@
     "id": 291
   },
   {
-    "abilities": [
-      "Wonder Guard"
-    ],
+    "abilities": ["Wonder Guard"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -13932,10 +12932,7 @@
     "id": 292
   },
   {
-    "abilities": [
-      "Soundproof",
-      "Rattled"
-    ],
+    "abilities": ["Soundproof", "Rattled"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -13979,10 +12976,7 @@
     "id": 293
   },
   {
-    "abilities": [
-      "Soundproof",
-      "Scrappy"
-    ],
+    "abilities": ["Soundproof", "Scrappy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14026,10 +13020,7 @@
     "id": 294
   },
   {
-    "abilities": [
-      "Soundproof",
-      "Scrappy"
-    ],
+    "abilities": ["Soundproof", "Scrappy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14073,11 +13064,7 @@
     "id": 295
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Guts",
-      "Sheer Force"
-    ],
+    "abilities": ["Thick Fat", "Guts", "Sheer Force"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -14121,11 +13108,7 @@
     "id": 296
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Guts",
-      "Sheer Force"
-    ],
+    "abilities": ["Thick Fat", "Guts", "Sheer Force"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -14169,11 +13152,7 @@
     "id": 297
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Huge Power",
-      "Sap Sipper"
-    ],
+    "abilities": ["Thick Fat", "Huge Power", "Sap Sipper"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -14217,11 +13196,7 @@
     "id": 298
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Magnet Pull",
-      "Sand Force"
-    ],
+    "abilities": ["Sturdy", "Magnet Pull", "Sand Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14265,11 +13240,7 @@
     "id": 299
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Normalize",
-      "Wonder Skin "
-    ],
+    "abilities": ["Cute Charm", "Normalize", "Wonder Skin "],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14313,11 +13284,7 @@
     "id": 300
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Normalize",
-      "Wonder Skin "
-    ],
+    "abilities": ["Cute Charm", "Normalize", "Wonder Skin "],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14361,11 +13328,7 @@
     "id": 301
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Stall",
-      "Prankster"
-    ],
+    "abilities": ["Keen Eye", "Stall", "Prankster"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14409,11 +13372,7 @@
     "id": 302
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Intimidate",
-      "Sheer Force"
-    ],
+    "abilities": ["Hyper Cutter", "Intimidate", "Sheer Force"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -14457,11 +13416,7 @@
     "id": 303
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Heavy Metal"
-    ],
+    "abilities": ["Sturdy", "Rock Head", "Heavy Metal"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -14505,11 +13460,7 @@
     "id": 304
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Heavy Metal"
-    ],
+    "abilities": ["Sturdy", "Rock Head", "Heavy Metal"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -14553,11 +13504,7 @@
     "id": 305
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Heavy Metal"
-    ],
+    "abilities": ["Sturdy", "Rock Head", "Heavy Metal"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -14601,10 +13548,7 @@
     "id": 306
   },
   {
-    "abilities": [
-      "Pure Power",
-      "Telepathy"
-    ],
+    "abilities": ["Pure Power", "Telepathy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14648,10 +13592,7 @@
     "id": 307
   },
   {
-    "abilities": [
-      "Pure Power",
-      "Telepathy"
-    ],
+    "abilities": ["Pure Power", "Telepathy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14695,11 +13636,7 @@
     "id": 308
   },
   {
-    "abilities": [
-      "Static",
-      "Lightningrod",
-      "Minus"
-    ],
+    "abilities": ["Static", "Lightningrod", "Minus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14743,11 +13680,7 @@
     "id": 309
   },
   {
-    "abilities": [
-      "Static",
-      "Lightningrod",
-      "Minus"
-    ],
+    "abilities": ["Static", "Lightningrod", "Minus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14791,10 +13724,7 @@
     "id": 310
   },
   {
-    "abilities": [
-      "Plus",
-      "Lightningrod"
-    ],
+    "abilities": ["Plus", "Lightningrod"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14838,10 +13768,7 @@
     "id": 311
   },
   {
-    "abilities": [
-      "Minus",
-      "Volt Absorb"
-    ],
+    "abilities": ["Minus", "Volt Absorb"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14885,11 +13812,7 @@
     "id": 312
   },
   {
-    "abilities": [
-      "Illuminate",
-      "Swarm",
-      "Prankster"
-    ],
+    "abilities": ["Illuminate", "Swarm", "Prankster"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14933,11 +13856,7 @@
     "id": 313
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Tinted Lens",
-      "Prankster"
-    ],
+    "abilities": ["Oblivious", "Tinted Lens", "Prankster"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -14981,11 +13900,7 @@
     "id": 314
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Leaf Guard"
-    ],
+    "abilities": ["Natural Cure", "Poison Point", "Leaf Guard"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15029,11 +13944,7 @@
     "id": 315
   },
   {
-    "abilities": [
-      "Liquid Ooze",
-      "Sticky Hold",
-      "Gluttony"
-    ],
+    "abilities": ["Liquid Ooze", "Sticky Hold", "Gluttony"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15077,11 +13988,7 @@
     "id": 316
   },
   {
-    "abilities": [
-      "Liquid Ooze",
-      "Sticky Hold",
-      "Gluttony"
-    ],
+    "abilities": ["Liquid Ooze", "Sticky Hold", "Gluttony"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15125,10 +14032,7 @@
     "id": 317
   },
   {
-    "abilities": [
-      "Rough Skin",
-      "Speed Boost"
-    ],
+    "abilities": ["Rough Skin", "Speed Boost"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -15172,10 +14076,7 @@
     "id": 318
   },
   {
-    "abilities": [
-      "Rough Skin",
-      "Speed Boost"
-    ],
+    "abilities": ["Rough Skin", "Speed Boost"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -15219,11 +14120,7 @@
     "id": 319
   },
   {
-    "abilities": [
-      "Water Veil",
-      "Oblivious",
-      "Pressure"
-    ],
+    "abilities": ["Water Veil", "Oblivious", "Pressure"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15267,11 +14164,7 @@
     "id": 320
   },
   {
-    "abilities": [
-      "Water Veil",
-      "Oblivious",
-      "Pressure"
-    ],
+    "abilities": ["Water Veil", "Oblivious", "Pressure"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15315,11 +14208,7 @@
     "id": 321
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Simple",
-      "Own Tempo"
-    ],
+    "abilities": ["Oblivious", "Simple", "Own Tempo"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15363,11 +14252,7 @@
     "id": 322
   },
   {
-    "abilities": [
-      "Magma Armor",
-      "Solid Rock",
-      "Anger Point"
-    ],
+    "abilities": ["Magma Armor", "Solid Rock", "Anger Point"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15411,11 +14296,7 @@
     "id": 323
   },
   {
-    "abilities": [
-      "White Smoke",
-      "Drought",
-      "Shell Armor"
-    ],
+    "abilities": ["White Smoke", "Drought", "Shell Armor"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15459,11 +14340,7 @@
     "id": 324
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Own Tempo",
-      "Gluttony"
-    ],
+    "abilities": ["Thick Fat", "Own Tempo", "Gluttony"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -15507,11 +14384,7 @@
     "id": 325
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Own Tempo",
-      "Gluttony"
-    ],
+    "abilities": ["Thick Fat", "Own Tempo", "Gluttony"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -15555,11 +14428,7 @@
     "id": 326
   },
   {
-    "abilities": [
-      "Own Tempo",
-      "Tangled Feet",
-      "Contrary"
-    ],
+    "abilities": ["Own Tempo", "Tangled Feet", "Contrary"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15603,11 +14472,7 @@
     "id": 327
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Arena Trap",
-      "Sheer Force"
-    ],
+    "abilities": ["Hyper Cutter", "Arena Trap", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15651,9 +14516,7 @@
     "id": 328
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -15697,9 +14560,7 @@
     "id": 329
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -15743,10 +14604,7 @@
     "id": 330
   },
   {
-    "abilities": [
-      "Sand Veil",
-      "Water Absorb"
-    ],
+    "abilities": ["Sand Veil", "Water Absorb"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15790,10 +14648,7 @@
     "id": 331
   },
   {
-    "abilities": [
-      "Sand Veil",
-      "Water Absorb"
-    ],
+    "abilities": ["Sand Veil", "Water Absorb"],
     "against_bug": 4,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -15837,10 +14692,7 @@
     "id": 332
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Cloud Nine"
-    ],
+    "abilities": ["Natural Cure", "Cloud Nine"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15884,10 +14736,7 @@
     "id": 333
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Cloud Nine"
-    ],
+    "abilities": ["Natural Cure", "Cloud Nine"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 2,
@@ -15931,10 +14780,7 @@
     "id": 334
   },
   {
-    "abilities": [
-      "Immunity",
-      "Toxic Boost"
-    ],
+    "abilities": ["Immunity", "Toxic Boost"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -15978,10 +14824,7 @@
     "id": 335
   },
   {
-    "abilities": [
-      "Shed Skin",
-      "Infiltrator"
-    ],
+    "abilities": ["Shed Skin", "Infiltrator"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16025,9 +14868,7 @@
     "id": 336
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -16071,9 +14912,7 @@
     "id": 337
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -16117,11 +14956,7 @@
     "id": 338
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Anticipation",
-      "Hydration"
-    ],
+    "abilities": ["Oblivious", "Anticipation", "Hydration"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16165,11 +15000,7 @@
     "id": 339
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Anticipation",
-      "Hydration"
-    ],
+    "abilities": ["Oblivious", "Anticipation", "Hydration"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16213,11 +15044,7 @@
     "id": 340
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Adaptability"
-    ],
+    "abilities": ["Hyper Cutter", "Shell Armor", "Adaptability"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16261,11 +15088,7 @@
     "id": 341
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Adaptability"
-    ],
+    "abilities": ["Hyper Cutter", "Shell Armor", "Adaptability"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -16309,9 +15132,7 @@
     "id": 342
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -16355,9 +15176,7 @@
     "id": 343
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -16401,10 +15220,7 @@
     "id": 344
   },
   {
-    "abilities": [
-      "Suction Cups",
-      "Storm Drain"
-    ],
+    "abilities": ["Suction Cups", "Storm Drain"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16448,10 +15264,7 @@
     "id": 345
   },
   {
-    "abilities": [
-      "Suction Cups",
-      "Storm Drain"
-    ],
+    "abilities": ["Suction Cups", "Storm Drain"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16495,10 +15308,7 @@
     "id": 346
   },
   {
-    "abilities": [
-      "Battle Armor",
-      "Swift Swim"
-    ],
+    "abilities": ["Battle Armor", "Swift Swim"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16542,10 +15352,7 @@
     "id": 347
   },
   {
-    "abilities": [
-      "Battle Armor",
-      "Swift Swim"
-    ],
+    "abilities": ["Battle Armor", "Swift Swim"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16589,11 +15396,7 @@
     "id": 348
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Oblivious",
-      "Adaptability"
-    ],
+    "abilities": ["Swift Swim", "Oblivious", "Adaptability"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16637,11 +15440,7 @@
     "id": 349
   },
   {
-    "abilities": [
-      "Marvel Scale",
-      "Competitive",
-      "Cute Charm"
-    ],
+    "abilities": ["Marvel Scale", "Competitive", "Cute Charm"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16685,9 +15484,7 @@
     "id": 350
   },
   {
-    "abilities": [
-      "Forecast"
-    ],
+    "abilities": ["Forecast"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16731,10 +15528,7 @@
     "id": 351
   },
   {
-    "abilities": [
-      "Color Change",
-      "Protean"
-    ],
+    "abilities": ["Color Change", "Protean"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -16778,11 +15572,7 @@
     "id": 352
   },
   {
-    "abilities": [
-      "Insomnia",
-      "Frisk",
-      "Cursed Body"
-    ],
+    "abilities": ["Insomnia", "Frisk", "Cursed Body"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -16826,11 +15616,7 @@
     "id": 353
   },
   {
-    "abilities": [
-      "Insomnia",
-      "Frisk",
-      "Cursed Body"
-    ],
+    "abilities": ["Insomnia", "Frisk", "Cursed Body"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -16874,10 +15660,7 @@
     "id": 354
   },
   {
-    "abilities": [
-      "Levitate",
-      "Frisk"
-    ],
+    "abilities": ["Levitate", "Frisk"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -16921,10 +15704,7 @@
     "id": 355
   },
   {
-    "abilities": [
-      "Pressure",
-      "Frisk"
-    ],
+    "abilities": ["Pressure", "Frisk"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -16968,11 +15748,7 @@
     "id": 356
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Solar Power",
-      "Harvest"
-    ],
+    "abilities": ["Chlorophyll", "Solar Power", "Harvest"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17016,9 +15792,7 @@
     "id": 357
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -17062,11 +15836,7 @@
     "id": 358
   },
   {
-    "abilities": [
-      "Pressure",
-      "Super Luck",
-      "Justified"
-    ],
+    "abilities": ["Pressure", "Super Luck", "Justified"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -17110,10 +15880,7 @@
     "id": 359
   },
   {
-    "abilities": [
-      "Shadow Tag",
-      "Telepathy"
-    ],
+    "abilities": ["Shadow Tag", "Telepathy"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -17157,11 +15924,7 @@
     "id": 360
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Ice Body",
-      "Moody"
-    ],
+    "abilities": ["Inner Focus", "Ice Body", "Moody"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17205,11 +15968,7 @@
     "id": 361
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Ice Body",
-      "Moody"
-    ],
+    "abilities": ["Inner Focus", "Ice Body", "Moody"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17253,11 +16012,7 @@
     "id": 362
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Ice Body",
-      "Oblivious"
-    ],
+    "abilities": ["Thick Fat", "Ice Body", "Oblivious"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17301,11 +16056,7 @@
     "id": 363
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Ice Body",
-      "Oblivious"
-    ],
+    "abilities": ["Thick Fat", "Ice Body", "Oblivious"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17349,11 +16100,7 @@
     "id": 364
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Ice Body",
-      "Oblivious"
-    ],
+    "abilities": ["Thick Fat", "Ice Body", "Oblivious"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17397,10 +16144,7 @@
     "id": 365
   },
   {
-    "abilities": [
-      "Shell Armor",
-      "Rattled"
-    ],
+    "abilities": ["Shell Armor", "Rattled"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17444,10 +16188,7 @@
     "id": 366
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Water Veil"
-    ],
+    "abilities": ["Swift Swim", "Water Veil"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17491,10 +16232,7 @@
     "id": 367
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Hydration"
-    ],
+    "abilities": ["Swift Swim", "Hydration"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17538,11 +16276,7 @@
     "id": 368
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Rock Head",
-      "Sturdy"
-    ],
+    "abilities": ["Swift Swim", "Rock Head", "Sturdy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17586,10 +16320,7 @@
     "id": 369
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Hydration"
-    ],
+    "abilities": ["Swift Swim", "Hydration"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17633,10 +16364,7 @@
     "id": 370
   },
   {
-    "abilities": [
-      "Rock Head",
-      "Sheer Force"
-    ],
+    "abilities": ["Rock Head", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -17680,10 +16408,7 @@
     "id": 371
   },
   {
-    "abilities": [
-      "Rock Head",
-      "Overcoat"
-    ],
+    "abilities": ["Rock Head", "Overcoat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -17727,10 +16452,7 @@
     "id": 372
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Moxie"
-    ],
+    "abilities": ["Intimidate", "Moxie"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 2,
@@ -17774,10 +16496,7 @@
     "id": 373
   },
   {
-    "abilities": [
-      "Clear Body",
-      "Light Metal"
-    ],
+    "abilities": ["Clear Body", "Light Metal"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -17821,10 +16540,7 @@
     "id": 374
   },
   {
-    "abilities": [
-      "Clear Body",
-      "Light Metal"
-    ],
+    "abilities": ["Clear Body", "Light Metal"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -17868,10 +16584,7 @@
     "id": 375
   },
   {
-    "abilities": [
-      "Clear Body",
-      "Light Metal"
-    ],
+    "abilities": ["Clear Body", "Light Metal"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -17915,10 +16628,7 @@
     "id": 376
   },
   {
-    "abilities": [
-      "Clear Body",
-      "Sturdy"
-    ],
+    "abilities": ["Clear Body", "Sturdy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -17962,10 +16672,7 @@
     "id": 377
   },
   {
-    "abilities": [
-      "Clear Body",
-      "Ice Body"
-    ],
+    "abilities": ["Clear Body", "Ice Body"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18009,10 +16716,7 @@
     "id": 378
   },
   {
-    "abilities": [
-      "Clear Body",
-      "Light Metal"
-    ],
+    "abilities": ["Clear Body", "Light Metal"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -18056,9 +16760,7 @@
     "id": 379
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 2,
@@ -18102,9 +16804,7 @@
     "id": 380
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 2,
@@ -18148,9 +16848,7 @@
     "id": 381
   },
   {
-    "abilities": [
-      "Drizzle"
-    ],
+    "abilities": ["Drizzle"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18194,9 +16892,7 @@
     "id": 382
   },
   {
-    "abilities": [
-      "Drought"
-    ],
+    "abilities": ["Drought"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18240,9 +16936,7 @@
     "id": 383
   },
   {
-    "abilities": [
-      "Air Lock"
-    ],
+    "abilities": ["Air Lock"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 2,
@@ -18286,9 +16980,7 @@
     "id": 384
   },
   {
-    "abilities": [
-      "Serene Grace"
-    ],
+    "abilities": ["Serene Grace"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -18332,9 +17024,7 @@
     "id": 385
   },
   {
-    "abilities": [
-      "Pressure"
-    ],
+    "abilities": ["Pressure"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -18378,10 +17068,7 @@
     "id": 386
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Shell Armor"
-    ],
+    "abilities": ["Overgrow", "Shell Armor"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18425,10 +17112,7 @@
     "id": 387
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Shell Armor"
-    ],
+    "abilities": ["Overgrow", "Shell Armor"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18472,10 +17156,7 @@
     "id": 388
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Shell Armor"
-    ],
+    "abilities": ["Overgrow", "Shell Armor"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18519,10 +17200,7 @@
     "id": 389
   },
   {
-    "abilities": [
-      "Blaze",
-      "Iron Fist"
-    ],
+    "abilities": ["Blaze", "Iron Fist"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18566,10 +17244,7 @@
     "id": 390
   },
   {
-    "abilities": [
-      "Blaze",
-      "Iron Fist"
-    ],
+    "abilities": ["Blaze", "Iron Fist"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -18613,10 +17288,7 @@
     "id": 391
   },
   {
-    "abilities": [
-      "Blaze",
-      "Iron Fist"
-    ],
+    "abilities": ["Blaze", "Iron Fist"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -18660,10 +17332,7 @@
     "id": 392
   },
   {
-    "abilities": [
-      "Torrent",
-      "Defiant"
-    ],
+    "abilities": ["Torrent", "Defiant"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18707,10 +17376,7 @@
     "id": 393
   },
   {
-    "abilities": [
-      "Torrent",
-      "Defiant"
-    ],
+    "abilities": ["Torrent", "Defiant"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18754,10 +17420,7 @@
     "id": 394
   },
   {
-    "abilities": [
-      "Torrent",
-      "Defiant"
-    ],
+    "abilities": ["Torrent", "Defiant"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -18801,10 +17464,7 @@
     "id": 395
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Reckless"
-    ],
+    "abilities": ["Keen Eye", "Reckless"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18848,10 +17508,7 @@
     "id": 396
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Reckless"
-    ],
+    "abilities": ["Intimidate", "Reckless"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18895,10 +17552,7 @@
     "id": 397
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Reckless"
-    ],
+    "abilities": ["Intimidate", "Reckless"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18942,11 +17596,7 @@
     "id": 398
   },
   {
-    "abilities": [
-      "Simple",
-      "Unaware",
-      "Moody"
-    ],
+    "abilities": ["Simple", "Unaware", "Moody"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -18990,11 +17640,7 @@
     "id": 399
   },
   {
-    "abilities": [
-      "Simple",
-      "Unaware",
-      "Moody"
-    ],
+    "abilities": ["Simple", "Unaware", "Moody"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19038,10 +17684,7 @@
     "id": 400
   },
   {
-    "abilities": [
-      "Shed Skin",
-      "Run Away"
-    ],
+    "abilities": ["Shed Skin", "Run Away"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19085,10 +17728,7 @@
     "id": 401
   },
   {
-    "abilities": [
-      "Swarm",
-      "Technician"
-    ],
+    "abilities": ["Swarm", "Technician"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19132,11 +17772,7 @@
     "id": 402
   },
   {
-    "abilities": [
-      "Rivalry",
-      "Intimidate",
-      "Guts"
-    ],
+    "abilities": ["Rivalry", "Intimidate", "Guts"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19180,11 +17816,7 @@
     "id": 403
   },
   {
-    "abilities": [
-      "Rivalry",
-      "Intimidate",
-      "Guts"
-    ],
+    "abilities": ["Rivalry", "Intimidate", "Guts"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19228,11 +17860,7 @@
     "id": 404
   },
   {
-    "abilities": [
-      "Rivalry",
-      "Intimidate",
-      "Guts"
-    ],
+    "abilities": ["Rivalry", "Intimidate", "Guts"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19276,11 +17904,7 @@
     "id": 405
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Leaf Guard"
-    ],
+    "abilities": ["Natural Cure", "Poison Point", "Leaf Guard"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19324,11 +17948,7 @@
     "id": 406
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Technician"
-    ],
+    "abilities": ["Natural Cure", "Poison Point", "Technician"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19372,10 +17992,7 @@
     "id": 407
   },
   {
-    "abilities": [
-      "Mold Breaker",
-      "Sheer Force"
-    ],
+    "abilities": ["Mold Breaker", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19419,10 +18036,7 @@
     "id": 408
   },
   {
-    "abilities": [
-      "Mold Breaker",
-      "Sheer Force"
-    ],
+    "abilities": ["Mold Breaker", "Sheer Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19466,10 +18080,7 @@
     "id": 409
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Soundproof"
-    ],
+    "abilities": ["Sturdy", "Soundproof"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -19513,10 +18124,7 @@
     "id": 410
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Soundproof"
-    ],
+    "abilities": ["Sturdy", "Soundproof"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -19560,10 +18168,7 @@
     "id": 411
   },
   {
-    "abilities": [
-      "Shed Skin",
-      "Overcoat"
-    ],
+    "abilities": ["Shed Skin", "Overcoat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19607,10 +18212,7 @@
     "id": 412
   },
   {
-    "abilities": [
-      "Anticipation",
-      "Overcoat"
-    ],
+    "abilities": ["Anticipation", "Overcoat"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19654,10 +18256,7 @@
     "id": 413
   },
   {
-    "abilities": [
-      "Swarm",
-      "Tinted Lens"
-    ],
+    "abilities": ["Swarm", "Tinted Lens"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19701,10 +18300,7 @@
     "id": 414
   },
   {
-    "abilities": [
-      "Honey Gather",
-      "Hustle"
-    ],
+    "abilities": ["Honey Gather", "Hustle"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19748,10 +18344,7 @@
     "id": 415
   },
   {
-    "abilities": [
-      "Pressure",
-      "Unnerve"
-    ],
+    "abilities": ["Pressure", "Unnerve"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19795,11 +18388,7 @@
     "id": 416
   },
   {
-    "abilities": [
-      "Run Away",
-      "Pickup",
-      "Volt Absorb"
-    ],
+    "abilities": ["Run Away", "Pickup", "Volt Absorb"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19843,10 +18432,7 @@
     "id": 417
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Water Veil"
-    ],
+    "abilities": ["Swift Swim", "Water Veil"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19890,10 +18476,7 @@
     "id": 418
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Water Veil"
-    ],
+    "abilities": ["Swift Swim", "Water Veil"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19937,9 +18520,7 @@
     "id": 419
   },
   {
-    "abilities": [
-      "Chlorophyll"
-    ],
+    "abilities": ["Chlorophyll"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -19983,9 +18564,7 @@
     "id": 420
   },
   {
-    "abilities": [
-      "Flower Gift"
-    ],
+    "abilities": ["Flower Gift"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20029,11 +18608,7 @@
     "id": 421
   },
   {
-    "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
-    ],
+    "abilities": ["Sticky Hold", "Storm Drain", "Sand Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20077,11 +18652,7 @@
     "id": 422
   },
   {
-    "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
-    ],
+    "abilities": ["Sticky Hold", "Storm Drain", "Sand Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20125,11 +18696,7 @@
     "id": 423
   },
   {
-    "abilities": [
-      "Technician",
-      "Pickup",
-      "Skill Link"
-    ],
+    "abilities": ["Technician", "Pickup", "Skill Link"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20173,11 +18740,7 @@
     "id": 424
   },
   {
-    "abilities": [
-      "Aftermath",
-      "Unburden",
-      "Flare Boost"
-    ],
+    "abilities": ["Aftermath", "Unburden", "Flare Boost"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 1,
@@ -20221,11 +18784,7 @@
     "id": 425
   },
   {
-    "abilities": [
-      "Aftermath",
-      "Unburden",
-      "Flare Boost"
-    ],
+    "abilities": ["Aftermath", "Unburden", "Flare Boost"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 1,
@@ -20269,11 +18828,7 @@
     "id": 426
   },
   {
-    "abilities": [
-      "Run Away",
-      "Klutz",
-      "Limber"
-    ],
+    "abilities": ["Run Away", "Klutz", "Limber"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20317,11 +18872,7 @@
     "id": 427
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Klutz",
-      "Limber"
-    ],
+    "abilities": ["Cute Charm", "Klutz", "Limber"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20365,9 +18916,7 @@
     "id": 428
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -20411,11 +18960,7 @@
     "id": 429
   },
   {
-    "abilities": [
-      "Insomnia",
-      "Super Luck",
-      "Moxie"
-    ],
+    "abilities": ["Insomnia", "Super Luck", "Moxie"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -20459,11 +19004,7 @@
     "id": 430
   },
   {
-    "abilities": [
-      "Limber",
-      "Own Tempo",
-      "Keen Eye"
-    ],
+    "abilities": ["Limber", "Own Tempo", "Keen Eye"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20507,11 +19048,7 @@
     "id": 431
   },
   {
-    "abilities": [
-      "Thick Fat",
-      "Own Tempo",
-      "Defiant"
-    ],
+    "abilities": ["Thick Fat", "Own Tempo", "Defiant"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20555,9 +19092,7 @@
     "id": 432
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -20601,11 +19136,7 @@
     "id": 433
   },
   {
-    "abilities": [
-      "Stench",
-      "Aftermath",
-      "Keen Eye"
-    ],
+    "abilities": ["Stench", "Aftermath", "Keen Eye"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -20649,11 +19180,7 @@
     "id": 434
   },
   {
-    "abilities": [
-      "Stench",
-      "Aftermath",
-      "Keen Eye"
-    ],
+    "abilities": ["Stench", "Aftermath", "Keen Eye"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -20697,11 +19224,7 @@
     "id": 435
   },
   {
-    "abilities": [
-      "Levitate",
-      "Heatproof",
-      "Heavy Metal"
-    ],
+    "abilities": ["Levitate", "Heatproof", "Heavy Metal"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -20745,11 +19268,7 @@
     "id": 436
   },
   {
-    "abilities": [
-      "Levitate",
-      "Heatproof",
-      "Heavy Metal"
-    ],
+    "abilities": ["Levitate", "Heatproof", "Heavy Metal"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -20793,11 +19312,7 @@
     "id": 437
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Rattled"
-    ],
+    "abilities": ["Sturdy", "Rock Head", "Rattled"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20841,11 +19356,7 @@
     "id": 438
   },
   {
-    "abilities": [
-      "Soundproof",
-      "Filter",
-      "Technician"
-    ],
+    "abilities": ["Soundproof", "Filter", "Technician"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 0,
@@ -20889,11 +19400,7 @@
     "id": 439
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Serene Grace",
-      "Friend Guard"
-    ],
+    "abilities": ["Natural Cure", "Serene Grace", "Friend Guard"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20937,11 +19444,7 @@
     "id": 440
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Tangled Feet",
-      "Big Pecks"
-    ],
+    "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -20985,10 +19488,7 @@
     "id": 441
   },
   {
-    "abilities": [
-      "Pressure",
-      "Infiltrator"
-    ],
+    "abilities": ["Pressure", "Infiltrator"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21032,10 +19532,7 @@
     "id": 442
   },
   {
-    "abilities": [
-      "Sand Veil",
-      "Rough Skin"
-    ],
+    "abilities": ["Sand Veil", "Rough Skin"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -21079,10 +19576,7 @@
     "id": 443
   },
   {
-    "abilities": [
-      "Sand Veil",
-      "Rough Skin"
-    ],
+    "abilities": ["Sand Veil", "Rough Skin"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -21126,10 +19620,7 @@
     "id": 444
   },
   {
-    "abilities": [
-      "Sand Veil",
-      "Rough Skin"
-    ],
+    "abilities": ["Sand Veil", "Rough Skin"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -21173,11 +19664,7 @@
     "id": 445
   },
   {
-    "abilities": [
-      "Pickup",
-      "Thick Fat",
-      "Gluttony"
-    ],
+    "abilities": ["Pickup", "Thick Fat", "Gluttony"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21221,11 +19708,7 @@
     "id": 446
   },
   {
-    "abilities": [
-      "Steadfast",
-      "Inner Focus",
-      "Prankster"
-    ],
+    "abilities": ["Steadfast", "Inner Focus", "Prankster"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -21269,11 +19752,7 @@
     "id": 447
   },
   {
-    "abilities": [
-      "Steadfast",
-      "Inner Focus",
-      "Justified"
-    ],
+    "abilities": ["Steadfast", "Inner Focus", "Justified"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 0.5,
@@ -21317,10 +19796,7 @@
     "id": 448
   },
   {
-    "abilities": [
-      "Sand Stream",
-      "Sand Force"
-    ],
+    "abilities": ["Sand Stream", "Sand Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21364,10 +19840,7 @@
     "id": 449
   },
   {
-    "abilities": [
-      "Sand Stream",
-      "Sand Force"
-    ],
+    "abilities": ["Sand Stream", "Sand Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21411,11 +19884,7 @@
     "id": 450
   },
   {
-    "abilities": [
-      "Battle Armor",
-      "Sniper",
-      "Keen Eye"
-    ],
+    "abilities": ["Battle Armor", "Sniper", "Keen Eye"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21459,11 +19928,7 @@
     "id": 451
   },
   {
-    "abilities": [
-      "Battle Armor",
-      "Sniper",
-      "Keen Eye"
-    ],
+    "abilities": ["Battle Armor", "Sniper", "Keen Eye"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -21507,11 +19972,7 @@
     "id": 452
   },
   {
-    "abilities": [
-      "Anticipation",
-      "Dry Skin",
-      "Poison Touch"
-    ],
+    "abilities": ["Anticipation", "Dry Skin", "Poison Touch"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -21555,11 +20016,7 @@
     "id": 453
   },
   {
-    "abilities": [
-      "Anticipation",
-      "Dry Skin",
-      "Poison Touch"
-    ],
+    "abilities": ["Anticipation", "Dry Skin", "Poison Touch"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -21603,9 +20060,7 @@
     "id": 454
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21649,11 +20104,7 @@
     "id": 455
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Storm Drain",
-      "Water Veil"
-    ],
+    "abilities": ["Swift Swim", "Storm Drain", "Water Veil"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21697,11 +20148,7 @@
     "id": 456
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Storm Drain",
-      "Water Veil"
-    ],
+    "abilities": ["Swift Swim", "Storm Drain", "Water Veil"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21745,11 +20192,7 @@
     "id": 457
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Water Absorb",
-      "Water Veil"
-    ],
+    "abilities": ["Swift Swim", "Water Absorb", "Water Veil"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21793,10 +20236,7 @@
     "id": 458
   },
   {
-    "abilities": [
-      "Snow Warning",
-      "Soundproof"
-    ],
+    "abilities": ["Snow Warning", "Soundproof"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21840,10 +20280,7 @@
     "id": 459
   },
   {
-    "abilities": [
-      "Snow Warning",
-      "Soundproof"
-    ],
+    "abilities": ["Snow Warning", "Soundproof"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -21887,10 +20324,7 @@
     "id": 460
   },
   {
-    "abilities": [
-      "Pressure",
-      "Pickpocket"
-    ],
+    "abilities": ["Pressure", "Pickpocket"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -21934,11 +20368,7 @@
     "id": 461
   },
   {
-    "abilities": [
-      "Magnet Pull",
-      "Sturdy",
-      "Analytic"
-    ],
+    "abilities": ["Magnet Pull", "Sturdy", "Analytic"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -21982,11 +20412,7 @@
     "id": 462
   },
   {
-    "abilities": [
-      "Own Tempo",
-      "Oblivious",
-      "Cloud Nine"
-    ],
+    "abilities": ["Own Tempo", "Oblivious", "Cloud Nine"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22030,11 +20456,7 @@
     "id": 463
   },
   {
-    "abilities": [
-      "Lightningrod",
-      "Solid Rock",
-      "Reckless"
-    ],
+    "abilities": ["Lightningrod", "Solid Rock", "Reckless"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22078,11 +20500,7 @@
     "id": 464
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Regenerator"
-    ],
+    "abilities": ["Chlorophyll", "Leaf Guard", "Regenerator"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22126,10 +20544,7 @@
     "id": 465
   },
   {
-    "abilities": [
-      "Motor Drive",
-      "Vital Spirit"
-    ],
+    "abilities": ["Motor Drive", "Vital Spirit"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22173,10 +20588,7 @@
     "id": 466
   },
   {
-    "abilities": [
-      "Flame Body",
-      "Vital Spirit"
-    ],
+    "abilities": ["Flame Body", "Vital Spirit"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22220,11 +20632,7 @@
     "id": 467
   },
   {
-    "abilities": [
-      "Hustle",
-      "Serene Grace",
-      "Super Luck"
-    ],
+    "abilities": ["Hustle", "Serene Grace", "Super Luck"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -22268,11 +20676,7 @@
     "id": 468
   },
   {
-    "abilities": [
-      "Speed Boost",
-      "Tinted Lens",
-      "Frisk"
-    ],
+    "abilities": ["Speed Boost", "Tinted Lens", "Frisk"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22316,10 +20720,7 @@
     "id": 469
   },
   {
-    "abilities": [
-      "Leaf Guard",
-      "Chlorophyll"
-    ],
+    "abilities": ["Leaf Guard", "Chlorophyll"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22363,10 +20764,7 @@
     "id": 470
   },
   {
-    "abilities": [
-      "Snow Cloak",
-      "Ice Body"
-    ],
+    "abilities": ["Snow Cloak", "Ice Body"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22410,11 +20808,7 @@
     "id": 471
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Sand Veil",
-      "Poison Heal"
-    ],
+    "abilities": ["Hyper Cutter", "Sand Veil", "Poison Heal"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22458,11 +20852,7 @@
     "id": 472
   },
   {
-    "abilities": [
-      "Oblivious",
-      "Snow Cloak",
-      "Thick Fat"
-    ],
+    "abilities": ["Oblivious", "Snow Cloak", "Thick Fat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22506,11 +20896,7 @@
     "id": 473
   },
   {
-    "abilities": [
-      "Adaptability",
-      "Download",
-      "Analytic"
-    ],
+    "abilities": ["Adaptability", "Download", "Analytic"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22554,10 +20940,7 @@
     "id": 474
   },
   {
-    "abilities": [
-      "Steadfast",
-      "Justified"
-    ],
+    "abilities": ["Steadfast", "Justified"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22601,11 +20984,7 @@
     "id": 475
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Magnet Pull",
-      "Sand Force"
-    ],
+    "abilities": ["Sturdy", "Magnet Pull", "Sand Force"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -22649,10 +21028,7 @@
     "id": 476
   },
   {
-    "abilities": [
-      "Pressure",
-      "Frisk"
-    ],
+    "abilities": ["Pressure", "Frisk"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -22696,10 +21072,7 @@
     "id": 477
   },
   {
-    "abilities": [
-      "Snow Cloak",
-      "Cursed Body"
-    ],
+    "abilities": ["Snow Cloak", "Cursed Body"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -22743,9 +21116,7 @@
     "id": 478
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -22789,9 +21160,7 @@
     "id": 479
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -22835,9 +21204,7 @@
     "id": 480
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -22881,9 +21248,7 @@
     "id": 481
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -22927,10 +21292,7 @@
     "id": 482
   },
   {
-    "abilities": [
-      "Pressure",
-      "Telepathy"
-    ],
+    "abilities": ["Pressure", "Telepathy"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -22974,10 +21336,7 @@
     "id": 483
   },
   {
-    "abilities": [
-      "Pressure",
-      "Telepathy"
-    ],
+    "abilities": ["Pressure", "Telepathy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -23021,10 +21380,7 @@
     "id": 484
   },
   {
-    "abilities": [
-      "Flash Fire",
-      "Flame Body"
-    ],
+    "abilities": ["Flash Fire", "Flame Body"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -23068,9 +21424,7 @@
     "id": 485
   },
   {
-    "abilities": [
-      "Slow Start"
-    ],
+    "abilities": ["Slow Start"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23114,11 +21468,7 @@
     "id": 486
   },
   {
-    "abilities": [
-      "Pressure",
-      "Telepathy",
-      "Levitate"
-    ],
+    "abilities": ["Pressure", "Telepathy", "Levitate"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 2,
@@ -23162,9 +21512,7 @@
     "id": 487
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -23208,9 +21556,7 @@
     "id": 488
   },
   {
-    "abilities": [
-      "Hydration"
-    ],
+    "abilities": ["Hydration"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23254,9 +21600,7 @@
     "id": 489
   },
   {
-    "abilities": [
-      "Hydration"
-    ],
+    "abilities": ["Hydration"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23300,9 +21644,7 @@
     "id": 490
   },
   {
-    "abilities": [
-      "Bad Dreams"
-    ],
+    "abilities": ["Bad Dreams"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -23346,10 +21688,7 @@
     "id": 491
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Serene Grace"
-    ],
+    "abilities": ["Natural Cure", "Serene Grace"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23393,9 +21732,7 @@
     "id": 492
   },
   {
-    "abilities": [
-      "Multitype"
-    ],
+    "abilities": ["Multitype"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23439,9 +21776,7 @@
     "id": 493
   },
   {
-    "abilities": [
-      "Victory Star"
-    ],
+    "abilities": ["Victory Star"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -23485,10 +21820,7 @@
     "id": 494
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Contrary"
-    ],
+    "abilities": ["Overgrow", "Contrary"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23532,10 +21864,7 @@
     "id": 495
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Contrary"
-    ],
+    "abilities": ["Overgrow", "Contrary"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23579,10 +21908,7 @@
     "id": 496
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Contrary"
-    ],
+    "abilities": ["Overgrow", "Contrary"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23626,10 +21952,7 @@
     "id": 497
   },
   {
-    "abilities": [
-      "Blaze",
-      "Thick Fat"
-    ],
+    "abilities": ["Blaze", "Thick Fat"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23673,10 +21996,7 @@
     "id": 498
   },
   {
-    "abilities": [
-      "Blaze",
-      "Thick Fat"
-    ],
+    "abilities": ["Blaze", "Thick Fat"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -23720,10 +22040,7 @@
     "id": 499
   },
   {
-    "abilities": [
-      "Blaze",
-      "Reckless"
-    ],
+    "abilities": ["Blaze", "Reckless"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -23767,10 +22084,7 @@
     "id": 500
   },
   {
-    "abilities": [
-      "Torrent",
-      "Shell Armor"
-    ],
+    "abilities": ["Torrent", "Shell Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23814,10 +22128,7 @@
     "id": 501
   },
   {
-    "abilities": [
-      "Torrent",
-      "Shell Armor"
-    ],
+    "abilities": ["Torrent", "Shell Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23861,10 +22172,7 @@
     "id": 502
   },
   {
-    "abilities": [
-      "Torrent",
-      "Shell Armor"
-    ],
+    "abilities": ["Torrent", "Shell Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23908,11 +22216,7 @@
     "id": 503
   },
   {
-    "abilities": [
-      "Run Away",
-      "Keen Eye",
-      "Analytic"
-    ],
+    "abilities": ["Run Away", "Keen Eye", "Analytic"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -23956,11 +22260,7 @@
     "id": 504
   },
   {
-    "abilities": [
-      "Illuminate",
-      "Keen Eye",
-      "Analytic"
-    ],
+    "abilities": ["Illuminate", "Keen Eye", "Analytic"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24004,11 +22304,7 @@
     "id": 505
   },
   {
-    "abilities": [
-      "Vital Spirit",
-      "Pickup",
-      "Run Away"
-    ],
+    "abilities": ["Vital Spirit", "Pickup", "Run Away"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24052,11 +22348,7 @@
     "id": 506
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Sand Rush",
-      "Scrappy"
-    ],
+    "abilities": ["Intimidate", "Sand Rush", "Scrappy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24100,11 +22392,7 @@
     "id": 507
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Sand Rush",
-      "Scrappy"
-    ],
+    "abilities": ["Intimidate", "Sand Rush", "Scrappy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24148,11 +22436,7 @@
     "id": 508
   },
   {
-    "abilities": [
-      "Limber",
-      "Unburden",
-      "Prankster"
-    ],
+    "abilities": ["Limber", "Unburden", "Prankster"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -24196,11 +22480,7 @@
     "id": 509
   },
   {
-    "abilities": [
-      "Limber",
-      "Unburden",
-      "Prankster"
-    ],
+    "abilities": ["Limber", "Unburden", "Prankster"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -24244,10 +22524,7 @@
     "id": 510
   },
   {
-    "abilities": [
-      "Gluttony",
-      "Overgrow"
-    ],
+    "abilities": ["Gluttony", "Overgrow"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24291,10 +22568,7 @@
     "id": 511
   },
   {
-    "abilities": [
-      "Gluttony",
-      "Overgrow"
-    ],
+    "abilities": ["Gluttony", "Overgrow"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24338,10 +22612,7 @@
     "id": 512
   },
   {
-    "abilities": [
-      "Gluttony",
-      "Blaze"
-    ],
+    "abilities": ["Gluttony", "Blaze"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24385,10 +22656,7 @@
     "id": 513
   },
   {
-    "abilities": [
-      "Gluttony",
-      "Blaze"
-    ],
+    "abilities": ["Gluttony", "Blaze"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24432,10 +22700,7 @@
     "id": 514
   },
   {
-    "abilities": [
-      "Gluttony",
-      "Torrent"
-    ],
+    "abilities": ["Gluttony", "Torrent"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24479,10 +22744,7 @@
     "id": 515
   },
   {
-    "abilities": [
-      "Gluttony",
-      "Torrent"
-    ],
+    "abilities": ["Gluttony", "Torrent"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24526,11 +22788,7 @@
     "id": 516
   },
   {
-    "abilities": [
-      "Forewarn",
-      "Synchronize",
-      "Telepathy"
-    ],
+    "abilities": ["Forewarn", "Synchronize", "Telepathy"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -24574,11 +22832,7 @@
     "id": 517
   },
   {
-    "abilities": [
-      "Forewarn",
-      "Synchronize",
-      "Telepathy"
-    ],
+    "abilities": ["Forewarn", "Synchronize", "Telepathy"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -24622,11 +22876,7 @@
     "id": 518
   },
   {
-    "abilities": [
-      "Big Pecks",
-      "Super Luck",
-      "Rivalry"
-    ],
+    "abilities": ["Big Pecks", "Super Luck", "Rivalry"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24670,11 +22920,7 @@
     "id": 519
   },
   {
-    "abilities": [
-      "Big Pecks",
-      "Super Luck",
-      "Rivalry"
-    ],
+    "abilities": ["Big Pecks", "Super Luck", "Rivalry"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24718,11 +22964,7 @@
     "id": 520
   },
   {
-    "abilities": [
-      "Big Pecks",
-      "Super Luck",
-      "Rivalry"
-    ],
+    "abilities": ["Big Pecks", "Super Luck", "Rivalry"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24766,11 +23008,7 @@
     "id": 521
   },
   {
-    "abilities": [
-      "Lightningrod",
-      "Motor Drive",
-      "Sap Sipper"
-    ],
+    "abilities": ["Lightningrod", "Motor Drive", "Sap Sipper"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24814,11 +23052,7 @@
     "id": 522
   },
   {
-    "abilities": [
-      "Lightningrod",
-      "Motor Drive",
-      "Sap Sipper"
-    ],
+    "abilities": ["Lightningrod", "Motor Drive", "Sap Sipper"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24862,11 +23096,7 @@
     "id": 523
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Weak Armor",
-      "Sand Force"
-    ],
+    "abilities": ["Sturdy", "Weak Armor", "Sand Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24910,11 +23140,7 @@
     "id": 524
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Weak Armor",
-      "Sand Force"
-    ],
+    "abilities": ["Sturdy", "Weak Armor", "Sand Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -24958,11 +23184,7 @@
     "id": 525
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Sand Stream",
-      "Sand Force"
-    ],
+    "abilities": ["Sturdy", "Sand Stream", "Sand Force"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25006,11 +23228,7 @@
     "id": 526
   },
   {
-    "abilities": [
-      "Unaware",
-      "Klutz",
-      "Simple"
-    ],
+    "abilities": ["Unaware", "Klutz", "Simple"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -25054,11 +23272,7 @@
     "id": 527
   },
   {
-    "abilities": [
-      "Unaware",
-      "Klutz",
-      "Simple"
-    ],
+    "abilities": ["Unaware", "Klutz", "Simple"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -25102,11 +23316,7 @@
     "id": 528
   },
   {
-    "abilities": [
-      "Sand Rush",
-      "Sand Force",
-      "Mold Breaker"
-    ],
+    "abilities": ["Sand Rush", "Sand Force", "Mold Breaker"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25150,11 +23360,7 @@
     "id": 529
   },
   {
-    "abilities": [
-      "Sand Rush",
-      "Sand Force",
-      "Mold Breaker"
-    ],
+    "abilities": ["Sand Rush", "Sand Force", "Mold Breaker"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -25198,11 +23404,7 @@
     "id": 530
   },
   {
-    "abilities": [
-      "Healer",
-      "Regenerator",
-      "Klutz"
-    ],
+    "abilities": ["Healer", "Regenerator", "Klutz"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25246,11 +23448,7 @@
     "id": 531
   },
   {
-    "abilities": [
-      "Guts",
-      "Sheer Force",
-      "Iron Fist"
-    ],
+    "abilities": ["Guts", "Sheer Force", "Iron Fist"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -25294,11 +23492,7 @@
     "id": 532
   },
   {
-    "abilities": [
-      "Guts",
-      "Sheer Force",
-      "Iron Fist"
-    ],
+    "abilities": ["Guts", "Sheer Force", "Iron Fist"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -25342,11 +23536,7 @@
     "id": 533
   },
   {
-    "abilities": [
-      "Guts",
-      "Sheer Force",
-      "Iron Fist"
-    ],
+    "abilities": ["Guts", "Sheer Force", "Iron Fist"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -25390,11 +23580,7 @@
     "id": 534
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Hydration",
-      "Water Absorb"
-    ],
+    "abilities": ["Swift Swim", "Hydration", "Water Absorb"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25438,11 +23624,7 @@
     "id": 535
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Hydration",
-      "Water Absorb"
-    ],
+    "abilities": ["Swift Swim", "Hydration", "Water Absorb"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25486,11 +23668,7 @@
     "id": 536
   },
   {
-    "abilities": [
-      "Swift Swim",
-      "Poison Touch",
-      "Water Absorb"
-    ],
+    "abilities": ["Swift Swim", "Poison Touch", "Water Absorb"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25534,11 +23712,7 @@
     "id": 537
   },
   {
-    "abilities": [
-      "Guts",
-      "Inner Focus",
-      "Mold Breaker"
-    ],
+    "abilities": ["Guts", "Inner Focus", "Mold Breaker"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -25582,11 +23756,7 @@
     "id": 538
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Inner Focus",
-      "Mold Breaker"
-    ],
+    "abilities": ["Sturdy", "Inner Focus", "Mold Breaker"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -25630,11 +23800,7 @@
     "id": 539
   },
   {
-    "abilities": [
-      "Swarm",
-      "Chlorophyll",
-      "Overcoat"
-    ],
+    "abilities": ["Swarm", "Chlorophyll", "Overcoat"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25678,11 +23844,7 @@
     "id": 540
   },
   {
-    "abilities": [
-      "Leaf Guard",
-      "Chlorophyll",
-      "Overcoat"
-    ],
+    "abilities": ["Leaf Guard", "Chlorophyll", "Overcoat"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25726,11 +23888,7 @@
     "id": 541
   },
   {
-    "abilities": [
-      "Swarm",
-      "Chlorophyll",
-      "Overcoat"
-    ],
+    "abilities": ["Swarm", "Chlorophyll", "Overcoat"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25774,11 +23932,7 @@
     "id": 542
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Swarm",
-      "Speed Boost"
-    ],
+    "abilities": ["Poison Point", "Swarm", "Speed Boost"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25822,11 +23976,7 @@
     "id": 543
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Swarm",
-      "Speed Boost"
-    ],
+    "abilities": ["Poison Point", "Swarm", "Speed Boost"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25870,11 +24020,7 @@
     "id": 544
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Swarm",
-      "Speed Boost"
-    ],
+    "abilities": ["Poison Point", "Swarm", "Speed Boost"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -25918,11 +24064,7 @@
     "id": 545
   },
   {
-    "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Chlorophyll"
-    ],
+    "abilities": ["Prankster", "Infiltrator", "Chlorophyll"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -25966,11 +24108,7 @@
     "id": 546
   },
   {
-    "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Chlorophyll"
-    ],
+    "abilities": ["Prankster", "Infiltrator", "Chlorophyll"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -26014,11 +24152,7 @@
     "id": 547
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Own Tempo",
-      "Leaf Guard"
-    ],
+    "abilities": ["Chlorophyll", "Own Tempo", "Leaf Guard"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26062,11 +24196,7 @@
     "id": 548
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Own Tempo",
-      "Leaf Guard"
-    ],
+    "abilities": ["Chlorophyll", "Own Tempo", "Leaf Guard"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26110,12 +24240,7 @@
     "id": 549
   },
   {
-    "abilities": [
-      "Reckless",
-      "Rock Head",
-      "Adaptability",
-      "Mold Breaker"
-    ],
+    "abilities": ["Reckless", "Rock Head", "Adaptability", "Mold Breaker"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26159,11 +24284,7 @@
     "id": 550
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Moxie",
-      "Anger Point"
-    ],
+    "abilities": ["Intimidate", "Moxie", "Anger Point"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -26207,11 +24328,7 @@
     "id": 551
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Moxie",
-      "Anger Point"
-    ],
+    "abilities": ["Intimidate", "Moxie", "Anger Point"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -26255,11 +24372,7 @@
     "id": 552
   },
   {
-    "abilities": [
-      "Intimidate",
-      "Moxie",
-      "Anger Point"
-    ],
+    "abilities": ["Intimidate", "Moxie", "Anger Point"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -26303,10 +24416,7 @@
     "id": 553
   },
   {
-    "abilities": [
-      "Hustle",
-      "Inner Focus"
-    ],
+    "abilities": ["Hustle", "Inner Focus"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26350,10 +24460,7 @@
     "id": 554
   },
   {
-    "abilities": [
-      "Sheer Force",
-      "Zen Mode"
-    ],
+    "abilities": ["Sheer Force", "Zen Mode"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26397,11 +24504,7 @@
     "id": 555
   },
   {
-    "abilities": [
-      "Water Absorb",
-      "Chlorophyll",
-      "Storm Drain"
-    ],
+    "abilities": ["Water Absorb", "Chlorophyll", "Storm Drain"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26445,11 +24548,7 @@
     "id": 556
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Shell Armor",
-      "Weak Armor"
-    ],
+    "abilities": ["Sturdy", "Shell Armor", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26493,11 +24592,7 @@
     "id": 557
   },
   {
-    "abilities": [
-      "Sturdy",
-      "Shell Armor",
-      "Weak Armor"
-    ],
+    "abilities": ["Sturdy", "Shell Armor", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26541,11 +24636,7 @@
     "id": 558
   },
   {
-    "abilities": [
-      "Shed Skin",
-      "Moxie",
-      "Intimidate"
-    ],
+    "abilities": ["Shed Skin", "Moxie", "Intimidate"],
     "against_bug": 1,
     "against_dark": 0.25,
     "against_dragon": 1,
@@ -26589,11 +24680,7 @@
     "id": 559
   },
   {
-    "abilities": [
-      "Shed Skin",
-      "Moxie",
-      "Intimidate"
-    ],
+    "abilities": ["Shed Skin", "Moxie", "Intimidate"],
     "against_bug": 1,
     "against_dark": 0.25,
     "against_dragon": 1,
@@ -26637,11 +24724,7 @@
     "id": 560
   },
   {
-    "abilities": [
-      "Wonder Skin ",
-      "Magic Guard",
-      "Tinted Lens"
-    ],
+    "abilities": ["Wonder Skin ", "Magic Guard", "Tinted Lens"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -26685,9 +24768,7 @@
     "id": 561
   },
   {
-    "abilities": [
-      "Mummy"
-    ],
+    "abilities": ["Mummy"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -26731,9 +24812,7 @@
     "id": 562
   },
   {
-    "abilities": [
-      "Mummy"
-    ],
+    "abilities": ["Mummy"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -26777,11 +24856,7 @@
     "id": 563
   },
   {
-    "abilities": [
-      "Solid Rock",
-      "Sturdy",
-      "Swift Swim"
-    ],
+    "abilities": ["Solid Rock", "Sturdy", "Swift Swim"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26825,11 +24900,7 @@
     "id": 564
   },
   {
-    "abilities": [
-      "Solid Rock",
-      "Sturdy",
-      "Swift Swim"
-    ],
+    "abilities": ["Solid Rock", "Sturdy", "Swift Swim"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26873,9 +24944,7 @@
     "id": 565
   },
   {
-    "abilities": [
-      "Defeatist"
-    ],
+    "abilities": ["Defeatist"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26919,9 +24988,7 @@
     "id": 566
   },
   {
-    "abilities": [
-      "Defeatist"
-    ],
+    "abilities": ["Defeatist"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -26965,11 +25032,7 @@
     "id": 567
   },
   {
-    "abilities": [
-      "Stench",
-      "Sticky Hold",
-      "Aftermath"
-    ],
+    "abilities": ["Stench", "Sticky Hold", "Aftermath"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27013,11 +25076,7 @@
     "id": 568
   },
   {
-    "abilities": [
-      "Stench",
-      "Weak Armor",
-      "Aftermath"
-    ],
+    "abilities": ["Stench", "Weak Armor", "Aftermath"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27061,9 +25120,7 @@
     "id": 569
   },
   {
-    "abilities": [
-      "Illusion"
-    ],
+    "abilities": ["Illusion"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -27107,9 +25164,7 @@
     "id": 570
   },
   {
-    "abilities": [
-      "Illusion"
-    ],
+    "abilities": ["Illusion"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -27153,11 +25208,7 @@
     "id": 571
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Technician",
-      "Skill Link"
-    ],
+    "abilities": ["Cute Charm", "Technician", "Skill Link"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27201,11 +25252,7 @@
     "id": 572
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Technician",
-      "Skill Link"
-    ],
+    "abilities": ["Cute Charm", "Technician", "Skill Link"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27249,11 +25296,7 @@
     "id": 573
   },
   {
-    "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
-    ],
+    "abilities": ["Frisk", "Competitive", "Shadow Tag"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -27297,11 +25340,7 @@
     "id": 574
   },
   {
-    "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
-    ],
+    "abilities": ["Frisk", "Competitive", "Shadow Tag"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -27345,11 +25384,7 @@
     "id": 575
   },
   {
-    "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
-    ],
+    "abilities": ["Frisk", "Competitive", "Shadow Tag"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -27393,11 +25428,7 @@
     "id": 576
   },
   {
-    "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
-    ],
+    "abilities": ["Overcoat", "Magic Guard", "Regenerator"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -27441,11 +25472,7 @@
     "id": 577
   },
   {
-    "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
-    ],
+    "abilities": ["Overcoat", "Magic Guard", "Regenerator"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -27489,11 +25516,7 @@
     "id": 578
   },
   {
-    "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
-    ],
+    "abilities": ["Overcoat", "Magic Guard", "Regenerator"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -27537,11 +25560,7 @@
     "id": 579
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Big Pecks",
-      "Hydration"
-    ],
+    "abilities": ["Keen Eye", "Big Pecks", "Hydration"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27585,11 +25604,7 @@
     "id": 580
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Big Pecks",
-      "Hydration"
-    ],
+    "abilities": ["Keen Eye", "Big Pecks", "Hydration"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27633,11 +25648,7 @@
     "id": 581
   },
   {
-    "abilities": [
-      "Ice Body",
-      "Snow Cloak",
-      "Weak Armor"
-    ],
+    "abilities": ["Ice Body", "Snow Cloak", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27681,11 +25692,7 @@
     "id": 582
   },
   {
-    "abilities": [
-      "Ice Body",
-      "Snow Cloak",
-      "Weak Armor"
-    ],
+    "abilities": ["Ice Body", "Snow Cloak", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27729,11 +25736,7 @@
     "id": 583
   },
   {
-    "abilities": [
-      "Ice Body",
-      "Snow Warning",
-      "Weak Armor"
-    ],
+    "abilities": ["Ice Body", "Snow Warning", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27777,11 +25780,7 @@
     "id": 584
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+    "abilities": ["Chlorophyll", "Sap Sipper", "Serene Grace"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27825,11 +25824,7 @@
     "id": 585
   },
   {
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+    "abilities": ["Chlorophyll", "Sap Sipper", "Serene Grace"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27873,10 +25868,7 @@
     "id": 586
   },
   {
-    "abilities": [
-      "Static",
-      "Motor Drive"
-    ],
+    "abilities": ["Static", "Motor Drive"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27920,11 +25912,7 @@
     "id": 587
   },
   {
-    "abilities": [
-      "Swarm",
-      "Shed Skin",
-      "No Guard"
-    ],
+    "abilities": ["Swarm", "Shed Skin", "No Guard"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -27968,11 +25956,7 @@
     "id": 588
   },
   {
-    "abilities": [
-      "Swarm",
-      "Shell Armor",
-      "Overcoat"
-    ],
+    "abilities": ["Swarm", "Shell Armor", "Overcoat"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -28016,10 +26000,7 @@
     "id": 589
   },
   {
-    "abilities": [
-      "Effect Spore",
-      "Regenerator"
-    ],
+    "abilities": ["Effect Spore", "Regenerator"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -28063,10 +26044,7 @@
     "id": 590
   },
   {
-    "abilities": [
-      "Effect Spore",
-      "Regenerator"
-    ],
+    "abilities": ["Effect Spore", "Regenerator"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -28110,11 +26088,7 @@
     "id": 591
   },
   {
-    "abilities": [
-      "Water Absorb",
-      "Cursed Body",
-      "Damp"
-    ],
+    "abilities": ["Water Absorb", "Cursed Body", "Damp"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -28158,11 +26132,7 @@
     "id": 592
   },
   {
-    "abilities": [
-      "Water Absorb",
-      "Cursed Body",
-      "Damp"
-    ],
+    "abilities": ["Water Absorb", "Cursed Body", "Damp"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -28206,11 +26176,7 @@
     "id": 593
   },
   {
-    "abilities": [
-      "Healer",
-      "Hydration",
-      "Regenerator"
-    ],
+    "abilities": ["Healer", "Hydration", "Regenerator"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -28254,11 +26220,7 @@
     "id": 594
   },
   {
-    "abilities": [
-      "Compoundeyes",
-      "Unnerve",
-      "Swarm"
-    ],
+    "abilities": ["Compoundeyes", "Unnerve", "Swarm"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -28302,11 +26264,7 @@
     "id": 595
   },
   {
-    "abilities": [
-      "Compoundeyes",
-      "Unnerve",
-      "Swarm"
-    ],
+    "abilities": ["Compoundeyes", "Unnerve", "Swarm"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -28350,9 +26308,7 @@
     "id": 596
   },
   {
-    "abilities": [
-      "Iron Barbs"
-    ],
+    "abilities": ["Iron Barbs"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -28396,10 +26352,7 @@
     "id": 597
   },
   {
-    "abilities": [
-      "Iron Barbs",
-      "Anticipation"
-    ],
+    "abilities": ["Iron Barbs", "Anticipation"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -28443,11 +26396,7 @@
     "id": 598
   },
   {
-    "abilities": [
-      "Plus",
-      "Minus",
-      "Clear Body"
-    ],
+    "abilities": ["Plus", "Minus", "Clear Body"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -28491,11 +26440,7 @@
     "id": 599
   },
   {
-    "abilities": [
-      "Plus",
-      "Minus",
-      "Clear Body"
-    ],
+    "abilities": ["Plus", "Minus", "Clear Body"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -28539,11 +26484,7 @@
     "id": 600
   },
   {
-    "abilities": [
-      "Plus",
-      "Minus",
-      "Clear Body"
-    ],
+    "abilities": ["Plus", "Minus", "Clear Body"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -28587,9 +26528,7 @@
     "id": 601
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -28633,9 +26572,7 @@
     "id": 602
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -28679,9 +26616,7 @@
     "id": 603
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -28725,11 +26660,7 @@
     "id": 604
   },
   {
-    "abilities": [
-      "Telepathy",
-      "Synchronize",
-      "Analytic"
-    ],
+    "abilities": ["Telepathy", "Synchronize", "Analytic"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -28773,11 +26704,7 @@
     "id": 605
   },
   {
-    "abilities": [
-      "Telepathy",
-      "Synchronize",
-      "Analytic"
-    ],
+    "abilities": ["Telepathy", "Synchronize", "Analytic"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -28821,11 +26748,7 @@
     "id": 606
   },
   {
-    "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
-    ],
+    "abilities": ["Flash Fire", "Flame Body", "Infiltrator"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 1,
@@ -28869,11 +26792,7 @@
     "id": 607
   },
   {
-    "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
-    ],
+    "abilities": ["Flash Fire", "Flame Body", "Infiltrator"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 1,
@@ -28917,11 +26836,7 @@
     "id": 608
   },
   {
-    "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
-    ],
+    "abilities": ["Flash Fire", "Flame Body", "Infiltrator"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 1,
@@ -28965,11 +26880,7 @@
     "id": 609
   },
   {
-    "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
-    ],
+    "abilities": ["Rivalry", "Mold Breaker", "Unnerve"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -29013,11 +26924,7 @@
     "id": 610
   },
   {
-    "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
-    ],
+    "abilities": ["Rivalry", "Mold Breaker", "Unnerve"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -29061,11 +26968,7 @@
     "id": 611
   },
   {
-    "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
-    ],
+    "abilities": ["Rivalry", "Mold Breaker", "Unnerve"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -29109,11 +27012,7 @@
     "id": 612
   },
   {
-    "abilities": [
-      "Snow Cloak",
-      "Slush Rush",
-      "Rattled"
-    ],
+    "abilities": ["Snow Cloak", "Slush Rush", "Rattled"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -29157,11 +27056,7 @@
     "id": 613
   },
   {
-    "abilities": [
-      "Snow Cloak",
-      "Slush Rush",
-      "Swift Swim"
-    ],
+    "abilities": ["Snow Cloak", "Slush Rush", "Swift Swim"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -29205,9 +27100,7 @@
     "id": 614
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -29251,11 +27144,7 @@
     "id": 615
   },
   {
-    "abilities": [
-      "Hydration",
-      "Shell Armor",
-      "Overcoat"
-    ],
+    "abilities": ["Hydration", "Shell Armor", "Overcoat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -29299,11 +27188,7 @@
     "id": 616
   },
   {
-    "abilities": [
-      "Hydration",
-      "Sticky Hold",
-      "Unburden"
-    ],
+    "abilities": ["Hydration", "Sticky Hold", "Unburden"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -29347,11 +27232,7 @@
     "id": 617
   },
   {
-    "abilities": [
-      "Static",
-      "Limber",
-      "Sand Veil"
-    ],
+    "abilities": ["Static", "Limber", "Sand Veil"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -29395,11 +27276,7 @@
     "id": 618
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Regenerator",
-      "Reckless"
-    ],
+    "abilities": ["Inner Focus", "Regenerator", "Reckless"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -29443,11 +27320,7 @@
     "id": 619
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Regenerator",
-      "Reckless"
-    ],
+    "abilities": ["Inner Focus", "Regenerator", "Reckless"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -29491,11 +27364,7 @@
     "id": 620
   },
   {
-    "abilities": [
-      "Rough Skin",
-      "Sheer Force",
-      "Mold Breaker"
-    ],
+    "abilities": ["Rough Skin", "Sheer Force", "Mold Breaker"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -29539,11 +27408,7 @@
     "id": 621
   },
   {
-    "abilities": [
-      "Iron Fist",
-      "Klutz",
-      "No Guard"
-    ],
+    "abilities": ["Iron Fist", "Klutz", "No Guard"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -29587,11 +27452,7 @@
     "id": 622
   },
   {
-    "abilities": [
-      "Iron Fist",
-      "Klutz",
-      "No Guard"
-    ],
+    "abilities": ["Iron Fist", "Klutz", "No Guard"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -29635,11 +27496,7 @@
     "id": 623
   },
   {
-    "abilities": [
-      "Defiant",
-      "Inner Focus",
-      "Pressure"
-    ],
+    "abilities": ["Defiant", "Inner Focus", "Pressure"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 0.5,
@@ -29683,11 +27540,7 @@
     "id": 624
   },
   {
-    "abilities": [
-      "Defiant",
-      "Inner Focus",
-      "Pressure"
-    ],
+    "abilities": ["Defiant", "Inner Focus", "Pressure"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 0.5,
@@ -29731,11 +27584,7 @@
     "id": 625
   },
   {
-    "abilities": [
-      "Reckless",
-      "Sap Sipper",
-      "Soundproof"
-    ],
+    "abilities": ["Reckless", "Sap Sipper", "Soundproof"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -29779,11 +27628,7 @@
     "id": 626
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Sheer Force",
-      "Hustle"
-    ],
+    "abilities": ["Keen Eye", "Sheer Force", "Hustle"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -29827,11 +27672,7 @@
     "id": 627
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Sheer Force",
-      "Defiant"
-    ],
+    "abilities": ["Keen Eye", "Sheer Force", "Defiant"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -29875,11 +27716,7 @@
     "id": 628
   },
   {
-    "abilities": [
-      "Big Pecks",
-      "Overcoat",
-      "Weak Armor"
-    ],
+    "abilities": ["Big Pecks", "Overcoat", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -29923,11 +27760,7 @@
     "id": 629
   },
   {
-    "abilities": [
-      "Big Pecks",
-      "Overcoat",
-      "Weak Armor"
-    ],
+    "abilities": ["Big Pecks", "Overcoat", "Weak Armor"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -29971,11 +27804,7 @@
     "id": 630
   },
   {
-    "abilities": [
-      "Gluttony",
-      "Flash Fire",
-      "White Smoke"
-    ],
+    "abilities": ["Gluttony", "Flash Fire", "White Smoke"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -30019,11 +27848,7 @@
     "id": 631
   },
   {
-    "abilities": [
-      "Swarm",
-      "Hustle",
-      "Truant"
-    ],
+    "abilities": ["Swarm", "Hustle", "Truant"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -30067,9 +27892,7 @@
     "id": 632
   },
   {
-    "abilities": [
-      "Hustle"
-    ],
+    "abilities": ["Hustle"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 2,
@@ -30113,9 +27936,7 @@
     "id": 633
   },
   {
-    "abilities": [
-      "Hustle"
-    ],
+    "abilities": ["Hustle"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 2,
@@ -30159,9 +27980,7 @@
     "id": 634
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 2,
@@ -30205,10 +28024,7 @@
     "id": 635
   },
   {
-    "abilities": [
-      "Flame Body",
-      "Swarm"
-    ],
+    "abilities": ["Flame Body", "Swarm"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -30252,10 +28068,7 @@
     "id": 636
   },
   {
-    "abilities": [
-      "Flame Body",
-      "Swarm"
-    ],
+    "abilities": ["Flame Body", "Swarm"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -30299,9 +28112,7 @@
     "id": 637
   },
   {
-    "abilities": [
-      "Justified"
-    ],
+    "abilities": ["Justified"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 0.5,
@@ -30345,9 +28156,7 @@
     "id": 638
   },
   {
-    "abilities": [
-      "Justified"
-    ],
+    "abilities": ["Justified"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -30391,9 +28200,7 @@
     "id": 639
   },
   {
-    "abilities": [
-      "Justified"
-    ],
+    "abilities": ["Justified"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -30437,11 +28244,7 @@
     "id": 640
   },
   {
-    "abilities": [
-      "Prankster",
-      "Defiant",
-      "Regenerator"
-    ],
+    "abilities": ["Prankster", "Defiant", "Regenerator"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -30485,11 +28288,7 @@
     "id": 641
   },
   {
-    "abilities": [
-      "Prankster",
-      "Defiant",
-      "Volt Absorb"
-    ],
+    "abilities": ["Prankster", "Defiant", "Volt Absorb"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -30533,9 +28332,7 @@
     "id": 642
   },
   {
-    "abilities": [
-      "Turboblaze"
-    ],
+    "abilities": ["Turboblaze"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 2,
@@ -30579,9 +28376,7 @@
     "id": 643
   },
   {
-    "abilities": [
-      "Teravolt"
-    ],
+    "abilities": ["Teravolt"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -30625,11 +28420,7 @@
     "id": 644
   },
   {
-    "abilities": [
-      "Sand Force",
-      "Sheer Force",
-      "Intimidate"
-    ],
+    "abilities": ["Sand Force", "Sheer Force", "Intimidate"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -30673,11 +28464,7 @@
     "id": 645
   },
   {
-    "abilities": [
-      "Pressure",
-      "Teravolt",
-      "Turboblaze"
-    ],
+    "abilities": ["Pressure", "Teravolt", "Turboblaze"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -30721,9 +28508,7 @@
     "id": 646
   },
   {
-    "abilities": [
-      "Justified"
-    ],
+    "abilities": ["Justified"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -30767,9 +28552,7 @@
     "id": 647
   },
   {
-    "abilities": [
-      "Serene Grace"
-    ],
+    "abilities": ["Serene Grace"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -30813,9 +28596,7 @@
     "id": 648
   },
   {
-    "abilities": [
-      "Download"
-    ],
+    "abilities": ["Download"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -30859,10 +28640,7 @@
     "id": 649
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Bulletproof"
-    ],
+    "abilities": ["Overgrow", "Bulletproof"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -30906,10 +28684,7 @@
     "id": 650
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Bulletproof"
-    ],
+    "abilities": ["Overgrow", "Bulletproof"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -30953,10 +28728,7 @@
     "id": 651
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Bulletproof"
-    ],
+    "abilities": ["Overgrow", "Bulletproof"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -31000,10 +28772,7 @@
     "id": 652
   },
   {
-    "abilities": [
-      "Blaze",
-      "Magician"
-    ],
+    "abilities": ["Blaze", "Magician"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31047,10 +28816,7 @@
     "id": 653
   },
   {
-    "abilities": [
-      "Blaze",
-      "Magician"
-    ],
+    "abilities": ["Blaze", "Magician"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31094,10 +28860,7 @@
     "id": 654
   },
   {
-    "abilities": [
-      "Blaze",
-      "Magician"
-    ],
+    "abilities": ["Blaze", "Magician"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -31141,10 +28904,7 @@
     "id": 655
   },
   {
-    "abilities": [
-      "Torrent",
-      "Protean"
-    ],
+    "abilities": ["Torrent", "Protean"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31188,10 +28948,7 @@
     "id": 656
   },
   {
-    "abilities": [
-      "Torrent",
-      "Protean"
-    ],
+    "abilities": ["Torrent", "Protean"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31235,11 +28992,7 @@
     "id": 657
   },
   {
-    "abilities": [
-      "Torrent",
-      "Protean",
-      "Battle Bond"
-    ],
+    "abilities": ["Torrent", "Protean", "Battle Bond"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -31283,11 +29036,7 @@
     "id": 658
   },
   {
-    "abilities": [
-      "Pickup",
-      "Cheek Pouch",
-      "Huge Power"
-    ],
+    "abilities": ["Pickup", "Cheek Pouch", "Huge Power"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31331,11 +29080,7 @@
     "id": 659
   },
   {
-    "abilities": [
-      "Pickup",
-      "Cheek Pouch",
-      "Huge Power"
-    ],
+    "abilities": ["Pickup", "Cheek Pouch", "Huge Power"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31379,10 +29124,7 @@
     "id": 660
   },
   {
-    "abilities": [
-      "Big Pecks",
-      "Gale Wings"
-    ],
+    "abilities": ["Big Pecks", "Gale Wings"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31426,10 +29168,7 @@
     "id": 661
   },
   {
-    "abilities": [
-      "Flame Body",
-      "Gale Wings"
-    ],
+    "abilities": ["Flame Body", "Gale Wings"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31473,10 +29212,7 @@
     "id": 662
   },
   {
-    "abilities": [
-      "Flame Body",
-      "Gale Wings"
-    ],
+    "abilities": ["Flame Body", "Gale Wings"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31520,11 +29256,7 @@
     "id": 663
   },
   {
-    "abilities": [
-      "Shield Dust",
-      "Compoundeyes",
-      "Friend Guard"
-    ],
+    "abilities": ["Shield Dust", "Compoundeyes", "Friend Guard"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31568,10 +29300,7 @@
     "id": 664
   },
   {
-    "abilities": [
-      "Shed Skin",
-      "Friend Guard"
-    ],
+    "abilities": ["Shed Skin", "Friend Guard"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31615,11 +29344,7 @@
     "id": 665
   },
   {
-    "abilities": [
-      "Shield Dust",
-      "Compoundeyes",
-      "Friend Guard"
-    ],
+    "abilities": ["Shield Dust", "Compoundeyes", "Friend Guard"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31663,11 +29388,7 @@
     "id": 666
   },
   {
-    "abilities": [
-      "Rivalry",
-      "Unnerve",
-      "Moxie"
-    ],
+    "abilities": ["Rivalry", "Unnerve", "Moxie"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31711,11 +29432,7 @@
     "id": 667
   },
   {
-    "abilities": [
-      "Rivalry",
-      "Unnerve",
-      "Moxie"
-    ],
+    "abilities": ["Rivalry", "Unnerve", "Moxie"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31759,10 +29476,7 @@
     "id": 668
   },
   {
-    "abilities": [
-      "Flower Veil",
-      "Symbiosis"
-    ],
+    "abilities": ["Flower Veil", "Symbiosis"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -31806,10 +29520,7 @@
     "id": 669
   },
   {
-    "abilities": [
-      "Flower Veil",
-      "Symbiosis"
-    ],
+    "abilities": ["Flower Veil", "Symbiosis"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -31853,10 +29564,7 @@
     "id": 670
   },
   {
-    "abilities": [
-      "Flower Veil",
-      "Symbiosis"
-    ],
+    "abilities": ["Flower Veil", "Symbiosis"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -31900,10 +29608,7 @@
     "id": 671
   },
   {
-    "abilities": [
-      "Sap Sipper",
-      "Grass Pelt"
-    ],
+    "abilities": ["Sap Sipper", "Grass Pelt"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31947,10 +29652,7 @@
     "id": 672
   },
   {
-    "abilities": [
-      "Sap Sipper",
-      "Grass Pelt"
-    ],
+    "abilities": ["Sap Sipper", "Grass Pelt"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -31994,11 +29696,7 @@
     "id": 673
   },
   {
-    "abilities": [
-      "Iron Fist",
-      "Mold Breaker",
-      "Scrappy"
-    ],
+    "abilities": ["Iron Fist", "Mold Breaker", "Scrappy"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -32042,11 +29740,7 @@
     "id": 674
   },
   {
-    "abilities": [
-      "Iron Fist",
-      "Mold Breaker",
-      "Scrappy"
-    ],
+    "abilities": ["Iron Fist", "Mold Breaker", "Scrappy"],
     "against_bug": 1,
     "against_dark": 0.25,
     "against_dragon": 1,
@@ -32090,9 +29784,7 @@
     "id": 675
   },
   {
-    "abilities": [
-      "Fur Coat"
-    ],
+    "abilities": ["Fur Coat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -32136,11 +29828,7 @@
     "id": 676
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Infiltrator",
-      "Own Tempo"
-    ],
+    "abilities": ["Keen Eye", "Infiltrator", "Own Tempo"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -32184,12 +29872,7 @@
     "id": 677
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Infiltrator",
-      "Prankster",
-      "Competitive"
-    ],
+    "abilities": ["Keen Eye", "Infiltrator", "Prankster", "Competitive"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -32233,9 +29916,7 @@
     "id": 678
   },
   {
-    "abilities": [
-      "No Guard"
-    ],
+    "abilities": ["No Guard"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -32279,9 +29960,7 @@
     "id": 679
   },
   {
-    "abilities": [
-      "No Guard"
-    ],
+    "abilities": ["No Guard"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -32325,9 +30004,7 @@
     "id": 680
   },
   {
-    "abilities": [
-      "Stance Change"
-    ],
+    "abilities": ["Stance Change"],
     "against_bug": 0.25,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -32371,10 +30048,7 @@
     "id": 681
   },
   {
-    "abilities": [
-      "Healer",
-      "Aroma Veil"
-    ],
+    "abilities": ["Healer", "Aroma Veil"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -32418,10 +30092,7 @@
     "id": 682
   },
   {
-    "abilities": [
-      "Healer",
-      "Aroma Veil"
-    ],
+    "abilities": ["Healer", "Aroma Veil"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -32465,10 +30136,7 @@
     "id": 683
   },
   {
-    "abilities": [
-      "Sweet Veil",
-      "Unburden"
-    ],
+    "abilities": ["Sweet Veil", "Unburden"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -32512,10 +30180,7 @@
     "id": 684
   },
   {
-    "abilities": [
-      "Sweet Veil",
-      "Unburden"
-    ],
+    "abilities": ["Sweet Veil", "Unburden"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -32559,11 +30224,7 @@
     "id": 685
   },
   {
-    "abilities": [
-      "Contrary",
-      "Suction Cups",
-      "Infiltrator"
-    ],
+    "abilities": ["Contrary", "Suction Cups", "Infiltrator"],
     "against_bug": 4,
     "against_dark": 1,
     "against_dragon": 1,
@@ -32607,11 +30268,7 @@
     "id": 686
   },
   {
-    "abilities": [
-      "Contrary",
-      "Suction Cups",
-      "Infiltrator"
-    ],
+    "abilities": ["Contrary", "Suction Cups", "Infiltrator"],
     "against_bug": 4,
     "against_dark": 1,
     "against_dragon": 1,
@@ -32655,11 +30312,7 @@
     "id": 687
   },
   {
-    "abilities": [
-      "Tough Claws",
-      "Sniper",
-      "Pickpocket"
-    ],
+    "abilities": ["Tough Claws", "Sniper", "Pickpocket"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -32703,11 +30356,7 @@
     "id": 688
   },
   {
-    "abilities": [
-      "Tough Claws",
-      "Sniper",
-      "Pickpocket"
-    ],
+    "abilities": ["Tough Claws", "Sniper", "Pickpocket"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -32751,11 +30400,7 @@
     "id": 689
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Poison Touch",
-      "Adaptability"
-    ],
+    "abilities": ["Poison Point", "Poison Touch", "Adaptability"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -32799,11 +30444,7 @@
     "id": 690
   },
   {
-    "abilities": [
-      "Poison Point",
-      "Poison Touch",
-      "Adaptability"
-    ],
+    "abilities": ["Poison Point", "Poison Touch", "Adaptability"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 2,
@@ -32847,9 +30488,7 @@
     "id": 691
   },
   {
-    "abilities": [
-      "Mega Launcher"
-    ],
+    "abilities": ["Mega Launcher"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -32893,9 +30532,7 @@
     "id": 692
   },
   {
-    "abilities": [
-      "Mega Launcher"
-    ],
+    "abilities": ["Mega Launcher"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -32939,11 +30576,7 @@
     "id": 693
   },
   {
-    "abilities": [
-      "Dry Skin",
-      "Sand Veil",
-      "Solar Power"
-    ],
+    "abilities": ["Dry Skin", "Sand Veil", "Solar Power"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -32987,11 +30620,7 @@
     "id": 694
   },
   {
-    "abilities": [
-      "Dry Skin",
-      "Sand Veil",
-      "Solar Power"
-    ],
+    "abilities": ["Dry Skin", "Sand Veil", "Solar Power"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -33035,10 +30664,7 @@
     "id": 695
   },
   {
-    "abilities": [
-      "Strong Jaw",
-      "Sturdy"
-    ],
+    "abilities": ["Strong Jaw", "Sturdy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -33082,10 +30708,7 @@
     "id": 696
   },
   {
-    "abilities": [
-      "Strong Jaw",
-      "Rock Head"
-    ],
+    "abilities": ["Strong Jaw", "Rock Head"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -33129,10 +30752,7 @@
     "id": 697
   },
   {
-    "abilities": [
-      "Refrigerate",
-      "Snow Warning"
-    ],
+    "abilities": ["Refrigerate", "Snow Warning"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -33176,10 +30796,7 @@
     "id": 698
   },
   {
-    "abilities": [
-      "Refrigerate",
-      "Snow Warning"
-    ],
+    "abilities": ["Refrigerate", "Snow Warning"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -33223,10 +30840,7 @@
     "id": 699
   },
   {
-    "abilities": [
-      "Cute Charm",
-      "Pixilate"
-    ],
+    "abilities": ["Cute Charm", "Pixilate"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -33270,11 +30884,7 @@
     "id": 700
   },
   {
-    "abilities": [
-      "Limber",
-      "Unburden",
-      "Mold Breaker"
-    ],
+    "abilities": ["Limber", "Unburden", "Mold Breaker"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -33318,11 +30928,7 @@
     "id": 701
   },
   {
-    "abilities": [
-      "Cheek Pouch",
-      "Pickup",
-      "Plus"
-    ],
+    "abilities": ["Cheek Pouch", "Pickup", "Plus"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -33366,10 +30972,7 @@
     "id": 702
   },
   {
-    "abilities": [
-      "Clear Body",
-      "Sturdy"
-    ],
+    "abilities": ["Clear Body", "Sturdy"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -33413,11 +31016,7 @@
     "id": 703
   },
   {
-    "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
-    ],
+    "abilities": ["Sap Sipper", "Hydration", "Gooey"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -33461,11 +31060,7 @@
     "id": 704
   },
   {
-    "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
-    ],
+    "abilities": ["Sap Sipper", "Hydration", "Gooey"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -33509,11 +31104,7 @@
     "id": 705
   },
   {
-    "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
-    ],
+    "abilities": ["Sap Sipper", "Hydration", "Gooey"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -33557,10 +31148,7 @@
     "id": 706
   },
   {
-    "abilities": [
-      "Prankster",
-      "Magician"
-    ],
+    "abilities": ["Prankster", "Magician"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -33604,11 +31192,7 @@
     "id": 707
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Frisk",
-      "Harvest"
-    ],
+    "abilities": ["Natural Cure", "Frisk", "Harvest"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -33652,11 +31236,7 @@
     "id": 708
   },
   {
-    "abilities": [
-      "Natural Cure",
-      "Frisk",
-      "Harvest"
-    ],
+    "abilities": ["Natural Cure", "Frisk", "Harvest"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -33700,11 +31280,7 @@
     "id": 709
   },
   {
-    "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
-    ],
+    "abilities": ["Pickup", "Frisk", "Insomnia"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -33748,11 +31324,7 @@
     "id": 710
   },
   {
-    "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
-    ],
+    "abilities": ["Pickup", "Frisk", "Insomnia"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -33796,11 +31368,7 @@
     "id": 711
   },
   {
-    "abilities": [
-      "Own Tempo",
-      "Ice Body",
-      "Sturdy"
-    ],
+    "abilities": ["Own Tempo", "Ice Body", "Sturdy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -33844,11 +31412,7 @@
     "id": 712
   },
   {
-    "abilities": [
-      "Own Tempo",
-      "Ice Body",
-      "Sturdy"
-    ],
+    "abilities": ["Own Tempo", "Ice Body", "Sturdy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -33892,11 +31456,7 @@
     "id": 713
   },
   {
-    "abilities": [
-      "Frisk",
-      "Infiltrator",
-      "Telepathy"
-    ],
+    "abilities": ["Frisk", "Infiltrator", "Telepathy"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 2,
@@ -33940,11 +31500,7 @@
     "id": 714
   },
   {
-    "abilities": [
-      "Frisk",
-      "Infiltrator",
-      "Telepathy"
-    ],
+    "abilities": ["Frisk", "Infiltrator", "Telepathy"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 2,
@@ -33988,9 +31544,7 @@
     "id": 715
   },
   {
-    "abilities": [
-      "Fairy Aura"
-    ],
+    "abilities": ["Fairy Aura"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -34034,9 +31588,7 @@
     "id": 716
   },
   {
-    "abilities": [
-      "Dark Aura"
-    ],
+    "abilities": ["Dark Aura"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -34080,10 +31632,7 @@
     "id": 717
   },
   {
-    "abilities": [
-      "Aura Break",
-      "Power Construct"
-    ],
+    "abilities": ["Aura Break", "Power Construct"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -34127,9 +31676,7 @@
     "id": 718
   },
   {
-    "abilities": [
-      "Clear Body"
-    ],
+    "abilities": ["Clear Body"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -34173,9 +31720,7 @@
     "id": 719
   },
   {
-    "abilities": [
-      "Magician"
-    ],
+    "abilities": ["Magician"],
     "against_bug": 1,
     "against_dark": 4,
     "against_dragon": 1,
@@ -34219,9 +31764,7 @@
     "id": 720
   },
   {
-    "abilities": [
-      "Water Absorb"
-    ],
+    "abilities": ["Water Absorb"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34265,10 +31808,7 @@
     "id": 721
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Long Reach"
-    ],
+    "abilities": ["Overgrow", "Long Reach"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34312,10 +31852,7 @@
     "id": 722
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Long Reach"
-    ],
+    "abilities": ["Overgrow", "Long Reach"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34359,10 +31896,7 @@
     "id": 723
   },
   {
-    "abilities": [
-      "Overgrow",
-      "Long Reach"
-    ],
+    "abilities": ["Overgrow", "Long Reach"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -34406,10 +31940,7 @@
     "id": 724
   },
   {
-    "abilities": [
-      "Blaze",
-      "Intimidate"
-    ],
+    "abilities": ["Blaze", "Intimidate"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34453,10 +31984,7 @@
     "id": 725
   },
   {
-    "abilities": [
-      "Blaze",
-      "Intimidate"
-    ],
+    "abilities": ["Blaze", "Intimidate"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34500,10 +32028,7 @@
     "id": 726
   },
   {
-    "abilities": [
-      "Blaze",
-      "Intimidate"
-    ],
+    "abilities": ["Blaze", "Intimidate"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -34547,10 +32072,7 @@
     "id": 727
   },
   {
-    "abilities": [
-      "Torrent",
-      "Liquid Voice"
-    ],
+    "abilities": ["Torrent", "Liquid Voice"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34594,10 +32116,7 @@
     "id": 728
   },
   {
-    "abilities": [
-      "Torrent",
-      "Liquid Voice"
-    ],
+    "abilities": ["Torrent", "Liquid Voice"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34641,10 +32160,7 @@
     "id": 729
   },
   {
-    "abilities": [
-      "Torrent",
-      "Liquid Voice"
-    ],
+    "abilities": ["Torrent", "Liquid Voice"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -34688,11 +32204,7 @@
     "id": 730
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Skill Link",
-      "Pickup"
-    ],
+    "abilities": ["Keen Eye", "Skill Link", "Pickup"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34736,11 +32248,7 @@
     "id": 731
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Skill Link",
-      "Pickup"
-    ],
+    "abilities": ["Keen Eye", "Skill Link", "Pickup"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34784,11 +32292,7 @@
     "id": 732
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Skill Link",
-      "Sheer Force"
-    ],
+    "abilities": ["Keen Eye", "Skill Link", "Sheer Force"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34832,11 +32336,7 @@
     "id": 733
   },
   {
-    "abilities": [
-      "Stakeout",
-      "Strong Jaw",
-      "Adaptability"
-    ],
+    "abilities": ["Stakeout", "Strong Jaw", "Adaptability"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34880,11 +32380,7 @@
     "id": 734
   },
   {
-    "abilities": [
-      "Stakeout",
-      "Strong Jaw",
-      "Adaptability"
-    ],
+    "abilities": ["Stakeout", "Strong Jaw", "Adaptability"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34928,9 +32424,7 @@
     "id": 735
   },
   {
-    "abilities": [
-      "Swarm"
-    ],
+    "abilities": ["Swarm"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -34974,9 +32468,7 @@
     "id": 736
   },
   {
-    "abilities": [
-      "Battery"
-    ],
+    "abilities": ["Battery"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35020,9 +32512,7 @@
     "id": 737
   },
   {
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": ["Levitate"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35066,11 +32556,7 @@
     "id": 738
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Iron Fist",
-      "Anger Point"
-    ],
+    "abilities": ["Hyper Cutter", "Iron Fist", "Anger Point"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -35114,11 +32600,7 @@
     "id": 739
   },
   {
-    "abilities": [
-      "Hyper Cutter",
-      "Iron Fist",
-      "Anger Point"
-    ],
+    "abilities": ["Hyper Cutter", "Iron Fist", "Anger Point"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -35162,9 +32644,7 @@
     "id": 740
   },
   {
-    "abilities": [
-      "Dancer"
-    ],
+    "abilities": ["Dancer"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35208,11 +32688,7 @@
     "id": 741
   },
   {
-    "abilities": [
-      "Honey Gather",
-      "Shield Dust",
-      "Sweet Veil"
-    ],
+    "abilities": ["Honey Gather", "Shield Dust", "Sweet Veil"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -35256,11 +32732,7 @@
     "id": 742
   },
   {
-    "abilities": [
-      "Honey Gather",
-      "Shield Dust",
-      "Sweet Veil"
-    ],
+    "abilities": ["Honey Gather", "Shield Dust", "Sweet Veil"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -35304,11 +32776,7 @@
     "id": 743
   },
   {
-    "abilities": [
-      "Keen Eye",
-      "Vital Spirit",
-      "Steadfast"
-    ],
+    "abilities": ["Keen Eye", "Vital Spirit", "Steadfast"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35403,9 +32871,7 @@
     "id": 745
   },
   {
-    "abilities": [
-      "Schooling"
-    ],
+    "abilities": ["Schooling"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35449,11 +32915,7 @@
     "id": 746
   },
   {
-    "abilities": [
-      "Merciless",
-      "Limber",
-      "Regenerator"
-    ],
+    "abilities": ["Merciless", "Limber", "Regenerator"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35497,11 +32959,7 @@
     "id": 747
   },
   {
-    "abilities": [
-      "Merciless",
-      "Limber",
-      "Regenerator"
-    ],
+    "abilities": ["Merciless", "Limber", "Regenerator"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35545,11 +33003,7 @@
     "id": 748
   },
   {
-    "abilities": [
-      "Own Tempo",
-      "Stamina",
-      "Inner Focus"
-    ],
+    "abilities": ["Own Tempo", "Stamina", "Inner Focus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35593,11 +33047,7 @@
     "id": 749
   },
   {
-    "abilities": [
-      "Own Tempo",
-      "Stamina",
-      "Inner Focus"
-    ],
+    "abilities": ["Own Tempo", "Stamina", "Inner Focus"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35641,10 +33091,7 @@
     "id": 750
   },
   {
-    "abilities": [
-      "Water Bubble",
-      "Water Absorb"
-    ],
+    "abilities": ["Water Bubble", "Water Absorb"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35688,10 +33135,7 @@
     "id": 751
   },
   {
-    "abilities": [
-      "Water Bubble",
-      "Water Absorb"
-    ],
+    "abilities": ["Water Bubble", "Water Absorb"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35735,10 +33179,7 @@
     "id": 752
   },
   {
-    "abilities": [
-      "Leaf Guard",
-      "Contrary"
-    ],
+    "abilities": ["Leaf Guard", "Contrary"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35782,10 +33223,7 @@
     "id": 753
   },
   {
-    "abilities": [
-      "Leaf Guard",
-      "Contrary"
-    ],
+    "abilities": ["Leaf Guard", "Contrary"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35829,11 +33267,7 @@
     "id": 754
   },
   {
-    "abilities": [
-      "Illuminate",
-      "Effect Spore",
-      "Rain Dish"
-    ],
+    "abilities": ["Illuminate", "Effect Spore", "Rain Dish"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -35877,11 +33311,7 @@
     "id": 755
   },
   {
-    "abilities": [
-      "Illuminate",
-      "Effect Spore",
-      "Rain Dish"
-    ],
+    "abilities": ["Illuminate", "Effect Spore", "Rain Dish"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -35925,10 +33355,7 @@
     "id": 756
   },
   {
-    "abilities": [
-      "Corrosion",
-      "Oblivious"
-    ],
+    "abilities": ["Corrosion", "Oblivious"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -35972,10 +33399,7 @@
     "id": 757
   },
   {
-    "abilities": [
-      "Corrosion",
-      "Oblivious"
-    ],
+    "abilities": ["Corrosion", "Oblivious"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36019,11 +33443,7 @@
     "id": 758
   },
   {
-    "abilities": [
-      "Fluffy",
-      "Klutz",
-      "Cute Charm"
-    ],
+    "abilities": ["Fluffy", "Klutz", "Cute Charm"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -36067,11 +33487,7 @@
     "id": 759
   },
   {
-    "abilities": [
-      "Fluffy",
-      "Klutz",
-      "Unnerve"
-    ],
+    "abilities": ["Fluffy", "Klutz", "Unnerve"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -36115,11 +33531,7 @@
     "id": 760
   },
   {
-    "abilities": [
-      "Leaf Guard",
-      "Oblivious",
-      "Sweet Veil"
-    ],
+    "abilities": ["Leaf Guard", "Oblivious", "Sweet Veil"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36163,11 +33575,7 @@
     "id": 761
   },
   {
-    "abilities": [
-      "Leaf Guard",
-      "Oblivious",
-      "Sweet Veil"
-    ],
+    "abilities": ["Leaf Guard", "Oblivious", "Sweet Veil"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36211,11 +33619,7 @@
     "id": 762
   },
   {
-    "abilities": [
-      "Leaf Guard",
-      "Queenly Majesty",
-      "Sweet Veil"
-    ],
+    "abilities": ["Leaf Guard", "Queenly Majesty", "Sweet Veil"],
     "against_bug": 2,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36259,11 +33663,7 @@
     "id": 763
   },
   {
-    "abilities": [
-      "Flower Veil",
-      "Triage",
-      "Natural Cure"
-    ],
+    "abilities": ["Flower Veil", "Triage", "Natural Cure"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -36307,11 +33707,7 @@
     "id": 764
   },
   {
-    "abilities": [
-      "Inner Focus",
-      "Telepathy",
-      "Symbiosis"
-    ],
+    "abilities": ["Inner Focus", "Telepathy", "Symbiosis"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -36355,10 +33751,7 @@
     "id": 765
   },
   {
-    "abilities": [
-      "Receiver",
-      "Defiant"
-    ],
+    "abilities": ["Receiver", "Defiant"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -36402,9 +33795,7 @@
     "id": 766
   },
   {
-    "abilities": [
-      "Wimp Out"
-    ],
+    "abilities": ["Wimp Out"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36448,9 +33839,7 @@
     "id": 767
   },
   {
-    "abilities": [
-      "Emergency Exit"
-    ],
+    "abilities": ["Emergency Exit"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36494,10 +33883,7 @@
     "id": 768
   },
   {
-    "abilities": [
-      "Water Compaction",
-      "Sand Veil"
-    ],
+    "abilities": ["Water Compaction", "Sand Veil"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -36541,10 +33927,7 @@
     "id": 769
   },
   {
-    "abilities": [
-      "Water Compaction",
-      "Sand Veil"
-    ],
+    "abilities": ["Water Compaction", "Sand Veil"],
     "against_bug": 0.5,
     "against_dark": 2,
     "against_dragon": 1,
@@ -36588,10 +33971,7 @@
     "id": 770
   },
   {
-    "abilities": [
-      "Innards Out",
-      "Unaware"
-    ],
+    "abilities": ["Innards Out", "Unaware"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36635,9 +34015,7 @@
     "id": 771
   },
   {
-    "abilities": [
-      "Battle Armor"
-    ],
+    "abilities": ["Battle Armor"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36681,9 +34059,7 @@
     "id": 772
   },
   {
-    "abilities": [
-      "RKS System"
-    ],
+    "abilities": ["RKS System"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36727,9 +34103,7 @@
     "id": 773
   },
   {
-    "abilities": [
-      "Shields Down"
-    ],
+    "abilities": ["Shields Down"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36773,9 +34147,7 @@
     "id": 774
   },
   {
-    "abilities": [
-      "Comatose"
-    ],
+    "abilities": ["Comatose"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -36819,9 +34191,7 @@
     "id": 775
   },
   {
-    "abilities": [
-      "Shell Armor"
-    ],
+    "abilities": ["Shell Armor"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 2,
@@ -36865,11 +34235,7 @@
     "id": 776
   },
   {
-    "abilities": [
-      "Iron Barbs",
-      "Lightningrod",
-      "Sturdy"
-    ],
+    "abilities": ["Iron Barbs", "Lightningrod", "Sturdy"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -36913,9 +34279,7 @@
     "id": 777
   },
   {
-    "abilities": [
-      "Disguise"
-    ],
+    "abilities": ["Disguise"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 0,
@@ -36959,11 +34323,7 @@
     "id": 778
   },
   {
-    "abilities": [
-      "Dazzling",
-      "Strong Jaw",
-      "Wonder Skin "
-    ],
+    "abilities": ["Dazzling", "Strong Jaw", "Wonder Skin "],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -37007,11 +34367,7 @@
     "id": 779
   },
   {
-    "abilities": [
-      "Berserk",
-      "Sap Sipper",
-      "Cloud Nine"
-    ],
+    "abilities": ["Berserk", "Sap Sipper", "Cloud Nine"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -37055,9 +34411,7 @@
     "id": 780
   },
   {
-    "abilities": [
-      "Steelworker"
-    ],
+    "abilities": ["Steelworker"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 1,
@@ -37101,11 +34455,7 @@
     "id": 781
   },
   {
-    "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
-    ],
+    "abilities": ["Bulletproof", "Soundproof", "Overcoat"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 2,
@@ -37149,11 +34499,7 @@
     "id": 782
   },
   {
-    "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
-    ],
+    "abilities": ["Bulletproof", "Soundproof", "Overcoat"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 2,
@@ -37197,11 +34543,7 @@
     "id": 783
   },
   {
-    "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
-    ],
+    "abilities": ["Bulletproof", "Soundproof", "Overcoat"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 2,
@@ -37245,10 +34587,7 @@
     "id": 784
   },
   {
-    "abilities": [
-      "Electric Surge",
-      "Telepathy"
-    ],
+    "abilities": ["Electric Surge", "Telepathy"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -37292,10 +34631,7 @@
     "id": 785
   },
   {
-    "abilities": [
-      "Psychic Surge",
-      "Telepathy"
-    ],
+    "abilities": ["Psychic Surge", "Telepathy"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 0,
@@ -37339,10 +34675,7 @@
     "id": 786
   },
   {
-    "abilities": [
-      "Grassy Surge",
-      "Telepathy"
-    ],
+    "abilities": ["Grassy Surge", "Telepathy"],
     "against_bug": 1,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -37386,10 +34719,7 @@
     "id": 787
   },
   {
-    "abilities": [
-      "Misty Surge",
-      "Telepathy"
-    ],
+    "abilities": ["Misty Surge", "Telepathy"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 0,
@@ -37433,9 +34763,7 @@
     "id": 788
   },
   {
-    "abilities": [
-      "Unaware"
-    ],
+    "abilities": ["Unaware"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -37479,9 +34807,7 @@
     "id": 789
   },
   {
-    "abilities": [
-      "Sturdy"
-    ],
+    "abilities": ["Sturdy"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -37525,9 +34851,7 @@
     "id": 790
   },
   {
-    "abilities": [
-      "Full Metal Body"
-    ],
+    "abilities": ["Full Metal Body"],
     "against_bug": 1,
     "against_dark": 2,
     "against_dragon": 0.5,
@@ -37571,9 +34895,7 @@
     "id": 791
   },
   {
-    "abilities": [
-      "Shadow Shield"
-    ],
+    "abilities": ["Shadow Shield"],
     "against_bug": 1,
     "against_dark": 4,
     "against_dragon": 1,
@@ -37617,9 +34939,7 @@
     "id": 792
   },
   {
-    "abilities": [
-      "Beast Boost"
-    ],
+    "abilities": ["Beast Boost"],
     "against_bug": 0.5,
     "against_dark": 1,
     "against_dragon": 1,
@@ -37663,9 +34983,7 @@
     "id": 793
   },
   {
-    "abilities": [
-      "Beast Boost"
-    ],
+    "abilities": ["Beast Boost"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -37709,9 +35027,7 @@
     "id": 794
   },
   {
-    "abilities": [
-      "Beast Boost"
-    ],
+    "abilities": ["Beast Boost"],
     "against_bug": 0.5,
     "against_dark": 0.5,
     "against_dragon": 1,
@@ -37755,9 +35071,7 @@
     "id": 795
   },
   {
-    "abilities": [
-      "Beast Boost"
-    ],
+    "abilities": ["Beast Boost"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 1,
@@ -37801,9 +35115,7 @@
     "id": 796
   },
   {
-    "abilities": [
-      "Beast Boost"
-    ],
+    "abilities": ["Beast Boost"],
     "against_bug": 0.25,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -37847,9 +35159,7 @@
     "id": 797
   },
   {
-    "abilities": [
-      "Beast Boost"
-    ],
+    "abilities": ["Beast Boost"],
     "against_bug": 1,
     "against_dark": 1,
     "against_dragon": 0.5,
@@ -37893,9 +35203,7 @@
     "id": 798
   },
   {
-    "abilities": [
-      "Beast Boost"
-    ],
+    "abilities": ["Beast Boost"],
     "against_bug": 2,
     "against_dark": 0.5,
     "against_dragon": 2,
@@ -37939,9 +35247,7 @@
     "id": 799
   },
   {
-    "abilities": [
-      "Prism Armor"
-    ],
+    "abilities": ["Prism Armor"],
     "against_bug": 2,
     "against_dark": 2,
     "against_dragon": 1,
@@ -37985,9 +35291,7 @@
     "id": 800
   },
   {
-    "abilities": [
-      "Soul-Heart"
-    ],
+    "abilities": ["Soul-Heart"],
     "against_bug": 0.25,
     "against_dark": 0.5,
     "against_dragon": 0,

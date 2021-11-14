@@ -6,7 +6,8 @@ body,
   font-family: 'Averia', sans-serif;
 }
 
-body, main {
+body,
+main {
   height: 100vh;
 }
 

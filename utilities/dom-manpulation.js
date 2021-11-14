@@ -11,7 +11,7 @@ export const createElement = (
   { tagName, classList, className, ...attributes } = {
     tagName: 'article',
     classList: [],
-  }
+  },
 ) => {
   const element = document.createElement(tagName || 'div');
 

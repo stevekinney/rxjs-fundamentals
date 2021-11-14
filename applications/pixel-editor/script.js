@@ -37,9 +37,9 @@ const isMovingPanel$ = panelstart$.pipe(
       tap(() => panel.classList.add('moving')),
       map((event) => [event.x - start.offsetX, event.y - start.offsetY]),
       takeUntil(panelend$),
-      finalize(() => panel.classList.remove('moving'))
-    )
-  )
+      finalize(() => panel.classList.remove('moving')),
+    ),
+  ),
 );
 
 const mousedown$ = fromEvent(canvas, 'mousedown').pipe(map(getCoordinates));
@@ -47,7 +47,7 @@ const mousemove$ = fromEvent(canvas, 'mousemove').pipe(map(getCoordinates));
 const mouseup$ = fromEvent(canvas, 'mouseup').pipe(map(getCoordinates));
 
 const color$ = fromEvent(color, 'change', (event) => event.target.value).pipe(
-  startWith(color.value)
+  startWith(color.value),
 );
 
 const isDrawingLine$ = mousedown$.pipe(
@@ -55,10 +55,10 @@ const isDrawingLine$ = mousedown$.pipe(
     mousemove$.pipe(
       map(roundDownPoints),
       distinctUntilChanged(pointsAreEqual),
-      takeUntil(mouseup$)
-    )
+      takeUntil(mouseup$),
+    ),
   ),
-  withLatestFrom(color$)
+  withLatestFrom(color$),
 );
 
 const isDrawingBox$ = mousedown$.pipe(
@@ -68,10 +68,10 @@ const isDrawingBox$ = mousedown$.pipe(
         start,
         current,
       })),
-      takeUntil(mouseup$)
-    )
+      takeUntil(mouseup$),
+    ),
   ),
-  withLatestFrom(color$)
+  withLatestFrom(color$),
 );
 
 // isDrawingLine$.subscribe(([point, color]) => {
@@ -97,7 +97,7 @@ isDrawingBox$.subscribe(([points, color]) => {
     Math.abs(Math.ceil(startX - currentX, startY - currentY)),
     0,
     2 * Math.PI,
-    false
+    false,
   );
   ctx.fill();
 });

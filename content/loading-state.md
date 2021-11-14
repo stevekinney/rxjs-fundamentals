@@ -16,7 +16,7 @@ fromEvent(start, 'click').pipe(
   exhaustMap(() => {
     const fetch$ = fetchData().pipe(share());
     return forkJoin([createTimer(fetch$), fetch$]);
-  })
+  }),
 );
 
 const fetchData$ = () => {
@@ -40,7 +40,7 @@ fromEvent(start, 'click').pipe(
   exhaustMap(() => {
     const fetch$ = fetchData().pipe(share());
     return forkJoin([createTimer(fetch$), fetch$]);
-  })
+  }),
 );
 
 const fetchData$ = () => {
@@ -52,7 +52,7 @@ const fetchData$ = () => {
 
   const showSpinner$ = of(true).pipe(
     delay(showAfter),
-    tap((amount) => showSpinnerInUI(amount))
+    tap((amount) => showSpinnerInUI(amount)),
   );
 
   return data$;
@@ -64,7 +64,7 @@ Do you need `of(true).pipe(delay(…))` or just use a timer.
 ```js
 const spinner$ = concat(
   showSpinner$,
-  data$.pipe(tap(() => toggleSpinner(false)))
+  data$.pipe(tap(() => toggleSpinner(false))),
 );
 ```
 
@@ -108,7 +108,7 @@ Okay, so how would we fix this:
 const data$ = of(true).pipe(
   delay(apiDuration),
   shareReplay(1),
-  tap(console.log)
+  tap(console.log),
 );
 ```
 
@@ -122,7 +122,7 @@ const delaySpinner$ = timer(showFor).pipe(first());
 const spinner$ = concat(
   showSpinner$,
   delaySpinner$,
-  data$.pipe(tap(() => toggleSpinner(false)))
+  data$.pipe(tap(() => toggleSpinner(false))),
 );
 ```
 

@@ -25,7 +25,7 @@ Well, that gives me back an array of promises, which I guess I could turn into o
 ```js
 const characters$ = of(1, 2, 3, 4).pipe(
   map((id) => getCharacter(id)),
-  map((promise) => from(promise))
+  map((promise) => from(promise)),
 );
 
 characters$.subscribe(render);
@@ -44,7 +44,7 @@ const characters$ = of(1, 2, 3, 4).pipe(
   map((id) => getCharacter(id)),
   map((promise) => from(promise)),
   mergeAll(),
-  pluck('name')
+  pluck('name'),
 );
 ```
 
@@ -57,7 +57,7 @@ It's called `mergeMap`.
 ```js
 const characters$ = of(1, 2, 3, 4).pipe(
   map((id) => getCharacter(id)),
-  mergeMap((promise) => from(promise))
+  mergeMap((promise) => from(promise)),
 );
 
 characters$.subscribe(render);
@@ -67,7 +67,7 @@ We could even make this a little shorter by wrapping those promises with `from` 
 
 ```js
 const characters$ = of(1, 2, 3, 4).pipe(
-  mergeMap((id) => from(getCharacter(id)))
+  mergeMap((id) => from(getCharacter(id))),
 );
 
 characters$.subscribe(render);
@@ -81,7 +81,7 @@ This doesn't work.
 
 ```js
 const example$ = of('John', 'Paul', 'George', 'Ringo').pipe(
-  map((value, index) => interval(index * 1000).pipe(take(4)))
+  map((value, index) => interval(index * 1000).pipe(take(4))),
 );
 
 example$.subscribe(render);
@@ -91,7 +91,7 @@ But this does.
 
 ```js
 const example$ = of(1, 2, 3, 4).pipe(
-  mergeMap((value) => interval(value * 1000).pipe(take(4)))
+  mergeMap((value) => interval(value * 1000).pipe(take(4))),
 );
 
 example$.subscribe(render);
@@ -104,9 +104,9 @@ const example$ = of('John', 'Paul', 'George', 'Ringo').pipe(
   mergeMap((beatle, index) =>
     interval(index * 1000).pipe(
       take(4),
-      map((i) => `${beatle} ${i}`)
-    )
-  )
+      map((i) => `${beatle} ${i}`),
+    ),
+  ),
 );
 
 example$.subscribe(render);
@@ -121,9 +121,9 @@ const example$ = of('John', 'Paul', 'George', 'Ringo').pipe(
   concatMap((beatle, index) =>
     interval(index * 1000).pipe(
       take(4),
-      map((i) => `${beatle} ${i}`)
-    )
-  )
+      map((i) => `${beatle} ${i}`),
+    ),
+  ),
 );
 
 example$.subscribe(render);
@@ -138,9 +138,9 @@ const example$ = of('John', 'Paul', 'George', 'Ringo').pipe(
   switchMap((beatle, index) =>
     interval(index * 1000).pipe(
       take(4),
-      map((i) => `${beatle} ${i}`)
-    )
-  )
+      map((i) => `${beatle} ${i}`),
+    ),
+  ),
 );
 
 example$.subscribe(render);
@@ -157,9 +157,9 @@ const example$ = of('John', 'Paul', 'George', 'Ringo').pipe(
   exhaustMap((beatle, index) =>
     interval(index * 1000).pipe(
       take(4),
-      map((i) => `${beatle} ${i}`)
-    )
-  )
+      map((i) => `${beatle} ${i}`),
+    ),
+  ),
 );
 
 example$.subscribe(render);
@@ -174,10 +174,10 @@ const example$ = of('John', 'Paul', 'George', 'Ringo').pipe(
   map((beatle, index) =>
     interval(index * 1000).pipe(
       take(4),
-      map((i) => `${beatle} ${i}`)
-    )
+      map((i) => `${beatle} ${i}`),
+    ),
   ),
-  combineLatestAll()
+  combineLatestAll(),
 );
 ```
 
@@ -191,10 +191,10 @@ const example$ = of('John', 'Paul', 'George', 'Ringo').pipe(
     interval(index * 1000).pipe(
       startWith('(Not Started)'),
       take(5),
-      map((i) => `${beatle} ${i}`)
-    )
+      map((i) => `${beatle} ${i}`),
+    ),
   ),
-  combineLatestAll()
+  combineLatestAll(),
 );
 
 example$.subscribe(render);
@@ -209,10 +209,10 @@ const example$ = of('John', 'Paul', 'George', 'Ringo').pipe(
       startWith('(Not Started)'),
       take(6),
       endWith('(Done)'),
-      map((i) => `${beatle} ${i}`)
-    )
+      map((i) => `${beatle} ${i}`),
+    ),
   ),
-  combineLatestAll()
+  combineLatestAll(),
 );
 
 example$.subscribe(render);

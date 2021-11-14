@@ -2,7 +2,7 @@
 
 ```js
 const isDrawingLine$ = mousedown$.pipe(
-  switchMap(() => mousemove$.pipe(takeUntil(mouseup$)))
+  switchMap(() => mousemove$.pipe(takeUntil(mouseup$))),
 );
 ```
 
@@ -13,9 +13,9 @@ const isDrawingLine$ = mousedown$.pipe(
   switchMap(() =>
     mousemove$.pipe(
       map((points) => points.map(roundDown)),
-      takeUntil(mouseup$)
-    )
-  )
+      takeUntil(mouseup$),
+    ),
+  ),
 );
 ```
 
@@ -33,8 +33,8 @@ Now, drawing tot he canvas isn't super expensive, but other stuff is. Could we o
 ```js
 const isDrawingLine$ = mousedown$.pipe(
   switchMap(() =>
-    mousemove$.pipe(map(roundDownPoints), distinct(), takeUntil(mouseup$))
-  )
+    mousemove$.pipe(map(roundDownPoints), distinct(), takeUntil(mouseup$)),
+  ),
 );
 ```
 
@@ -56,9 +56,9 @@ const isDrawingLine$ = mousedown$.pipe(
     mousemove$.pipe(
       map(roundDownPoints),
       distinctUntilChanged(pointsAreEqual),
-      takeUntil(mouseup$)
-    )
-  )
+      takeUntil(mouseup$),
+    ),
+  ),
 );
 ```
 
@@ -66,7 +66,7 @@ Okay, what if we want to know the current color?
 
 ```js
 const color$ = fromEvent(color, 'change', (event) => event.target.value).pipe(
-  startWith(color.value)
+  startWith(color.value),
 );
 ```
 
@@ -92,10 +92,10 @@ const isDrawingLine$ = mousedown$.pipe(
     mousemove$.pipe(
       map(roundDownPoints),
       distinctUntilChanged(pointsAreEqual),
-      takeUntil(mouseup$)
-    )
+      takeUntil(mouseup$),
+    ),
   ),
-  withLatestFrom(color$)
+  withLatestFrom(color$),
 );
 ```
 
@@ -133,7 +133,7 @@ const mousemove$ = fromEvent(canvas, 'mousemove').pipe(map(getCoordinates));
 const mouseup$ = fromEvent(canvas, 'mouseup').pipe(map(getCoordinates));
 
 const color$ = fromEvent(color, 'change', (event) => event.target.value).pipe(
-  startWith(color.value)
+  startWith(color.value),
 );
 
 const isDrawingLine$ = mousedown$.pipe(
@@ -141,10 +141,10 @@ const isDrawingLine$ = mousedown$.pipe(
     mousemove$.pipe(
       map(roundDownPoints),
       distinctUntilChanged(pointsAreEqual),
-      takeUntil(mouseup$)
-    )
+      takeUntil(mouseup$),
+    ),
   ),
-  withLatestFrom(color$)
+  withLatestFrom(color$),
 );
 
 isDrawingLine$.subscribe(([point, color]) => {
@@ -167,9 +167,9 @@ const isMovingPanel$ = panelstart$.pipe(
   switchMap(() =>
     panelmove$.pipe(
       map((event) => [event.x, event.y]),
-      takeUntil(panelend$)
-    )
-  )
+      takeUntil(panelend$),
+    ),
+  ),
 );
 
 isMovingPanel$.subscribe(([x, y]) => {
@@ -187,9 +187,9 @@ const isMovingPanel$ = panelstart$.pipe(
       tap(() => panel.classList.add('moving')),
       map((event) => [event.x, event.y]),
       takeUntil(panelend$),
-      finalize(() => panel.classList.remove('moving'))
-    )
-  )
+      finalize(() => panel.classList.remove('moving')),
+    ),
+  ),
 );
 ```
 
@@ -204,9 +204,9 @@ const isMovingPanel$ = panelstart$.pipe(
       tap(() => panel.classList.add('moving')),
       map((event) => [event.x - start.offsetX, event.y - start.offsetY]),
       takeUntil(panelend$),
-      finalize(() => panel.classList.remove('moving'))
-    )
-  )
+      finalize(() => panel.classList.remove('moving')),
+    ),
+  ),
 );
 ```
 
@@ -222,10 +222,10 @@ const isDrawingBox$ = mousedown$.pipe(
         start: roundDownPoints(start),
         current: roundDownPoints(current),
       })),
-      takeUntil(mouseup$)
-    )
+      takeUntil(mouseup$),
+    ),
   ),
-  withLatestFrom(color$)
+  withLatestFrom(color$),
 );
 
 isDrawingBox$.subscribe(([points, color]) => {
@@ -252,7 +252,7 @@ isDrawingBox$.subscribe(([points, color]) => {
     Math.abs(Math.ceil(startX - currentX, startY - currentY)),
     0,
     2 * Math.PI,
-    false
+    false,
   );
   ctx.fill();
 
@@ -311,9 +311,9 @@ const isMovingPanel$ = panelstart$.pipe(
       tap(() => panel.classList.add('moving')),
       map((event) => [event.x - start.offsetX, event.y - start.offsetY]),
       takeUntil(panelend$),
-      finalize(() => panel.classList.remove('moving'))
-    )
-  )
+      finalize(() => panel.classList.remove('moving')),
+    ),
+  ),
 );
 
 const mousedown$ = fromEvent(canvas, 'mousedown').pipe(map(getCoordinates));
@@ -321,7 +321,7 @@ const mousemove$ = fromEvent(canvas, 'mousemove').pipe(map(getCoordinates));
 const mouseup$ = fromEvent(canvas, 'mouseup').pipe(map(getCoordinates));
 
 const color$ = fromEvent(color, 'change', (event) => event.target.value).pipe(
-  startWith(color.value)
+  startWith(color.value),
 );
 
 const isDrawingLine$ = mousedown$.pipe(
@@ -329,10 +329,10 @@ const isDrawingLine$ = mousedown$.pipe(
     mousemove$.pipe(
       map(roundDownPoints),
       distinctUntilChanged(pointsAreEqual),
-      takeUntil(mouseup$)
-    )
+      takeUntil(mouseup$),
+    ),
   ),
-  withLatestFrom(color$)
+  withLatestFrom(color$),
 );
 
 const isDrawingBox$ = mousedown$.pipe(
@@ -342,10 +342,10 @@ const isDrawingBox$ = mousedown$.pipe(
         start: roundDownPoints(start),
         current: roundDownPoints(current),
       })),
-      takeUntil(mouseup$)
-    )
+      takeUntil(mouseup$),
+    ),
   ),
-  withLatestFrom(color$)
+  withLatestFrom(color$),
 );
 
 // isDrawingLine$.subscribe(([point, color]) => {

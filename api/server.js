@@ -25,7 +25,7 @@ app.use(cors());
 app.use(
   urlencoded({
     extended: true,
-  })
+  }),
 );
 app.use(express.static('public'));
 
@@ -60,7 +60,7 @@ app.get('/api/pokemon/search/:query', withChaos, (request, response) => {
   let limit = +request.query.limit || 10;
 
   let matching = pokemonMetadata.filter(({ name }) =>
-    name.toLowerCase().startsWith(query)
+    name.toLowerCase().startsWith(query),
   );
 
   let selection = matching.slice(page, page + limit);

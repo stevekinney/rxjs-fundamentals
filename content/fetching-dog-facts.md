@@ -39,7 +39,7 @@ We need one of our fancier operators.
 
 ```js
 const fetch$ = fromFetch(endpoint).pipe(
-  mergeMap((response) => response.json())
+  mergeMap((response) => response.json()),
 );
 ```
 
@@ -59,8 +59,8 @@ Okay, but now, let's make it work with that button, shall we? Let's create a str
 ```js
 const fetch$ = fromEvent(fetchButton, 'click').pipe(
   mergeMap(() =>
-    fromFetch(endpoint).pipe(mergeMap((response) => response.json()))
-  )
+    fromFetch(endpoint).pipe(mergeMap((response) => response.json())),
+  ),
 );
 ```
 
@@ -89,8 +89,8 @@ Let's take it for a spin.
 ```js
 const fetch$ = fromEvent(fetchButton, 'click').pipe(
   exhaustMap(() =>
-    fromFetch(endpoint).pipe(mergeMap((response) => response.json()))
-  )
+    fromFetch(endpoint).pipe(mergeMap((response) => response.json())),
+  ),
 );
 ```
 
@@ -105,8 +105,8 @@ const fetch$ = fromEvent(fetchButton, 'click').pipe(
   throttleTime(1000),
   tap(console.log),
   exhaustMap(() =>
-    fromFetch(endpoint).pipe(mergeMap((response) => response.json()))
-  )
+    fromFetch(endpoint).pipe(mergeMap((response) => response.json())),
+  ),
 );
 ```
 
@@ -131,9 +131,9 @@ const fetch$ = fromEvent(fetchButton, 'click').pipe(
         } else {
           return of({ error: 'Something went wrong!' });
         }
-      })
-    )
-  )
+      }),
+    ),
+  ),
 );
 
 fetch$.subscribe(({ facts, error }) => {
@@ -166,9 +166,9 @@ const fetch$ = fromEvent(fetchButton, 'click').pipe(
       catchError((error) => {
         console.error(error);
         return of({ error: 'The stream caught an error. Cool, right?' });
-      })
-    )
-  )
+      }),
+    ),
+  ),
 );
 ```
 
@@ -190,12 +190,12 @@ const fetchData = () =>
     catchError((error) => {
       console.error(error);
       return of({ error: 'The stream caught an error. Cool, right?' });
-    })
+    }),
   );
 
 const fetch$ = fromEvent(fetchButton, 'click').pipe(
   tap(() => clearError()),
-  exhaustMap(fetchData)
+  exhaustMap(fetchData),
 );
 ```
 
@@ -214,8 +214,8 @@ const fetch$ = fromEvent(fetchButton, 'click').pipe(
   tap(() => clearError()),
   exhaustMap(fetchData),
   switchMap((results) =>
-    concat(of(results), interval(5000).pipe(mergeMap(fetchData)), take(1))
-  )
+    concat(of(results), interval(5000).pipe(mergeMap(fetchData)), take(1)),
+  ),
 );
 ```
 
@@ -230,9 +230,9 @@ const factStream$ = merge(start$, stop$).pipe(
     return shouldFetch
       ? timer(0, 5000).pipe(
           tap(() => clearError()),
-          exhaustMap(fetchData)
+          exhaustMap(fetchData),
         )
       : NEVER;
-  })
+  }),
 );
 ```

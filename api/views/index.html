@@ -2,51 +2,72 @@
 <html lang="en">
   <head>
     <title>Pokemon</title>
-    <meta name="description" content="A cool thing made with Glitch">
-    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://glitch.com/edit/favicon-app.ico"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" href="/style.css" />
+
     <!-- import the webpage's client-side javascript file -->
   </head>
   <body>
     <header>
-      <h1>
-        Pokemon
-      </h1>
+      <h1>Pokemon</h1>
     </header>
 
     <main>
       <p>
-        This is a quick and simple API for the example applications in Steve's course on RxJS.
+        This is a quick and simple API for the example applications in Steve's
+        course on RxJS.
       </p>
-      
-      <h2>
-        Endpoints
-      </h2>
-      
+
+      <h2>Endpoints</h2>
+
       <ul>
-        <li><a href="/api/pokemon"><code>/api/pokemon</code></a> returns an array of 10 Pokemon and optionally a next page token.</li> 
-        <li><a href="/api/pokemon?page=MTE%3D"><code>/api/pokemon?page={token}</code></a> returns an array of all of the Pokemon starting from a provided page.</li> 
-        <li><a href="/api/pokemon/1"><code>/api/pokemon/1</code></a> return a single Pokemon.</li> 
-        <li><a href="/api/search/l"><code>/api/search/:query</code></a> searches by the Pokemon's name.</li> 
+        <li>
+          <a href="/api/pokemon"><code>/api/pokemon</code></a> returns an array
+          of 10 Pokemon and optionally a next page token.
+        </li>
+        <li>
+          <a href="/api/pokemon?page=MTE%3D"
+            ><code>/api/pokemon?page={token}</code></a
+          >
+          returns an array of all of the Pokemon starting from a provided page.
+        </li>
+        <li>
+          <a href="/api/pokemon/1"><code>/api/pokemon/1</code></a> return a
+          single Pokemon.
+        </li>
+        <li>
+          <a href="/api/search/l"><code>/api/search/:query</code></a> searches
+          by the Pokemon's name.
+        </li>
       </ul>
-      
+
       <section id="search">
-        <input type="text" id="search-query" placeholder="Start Typing a Pokemon's Name Here">
+        <input
+          type="text"
+          id="search-query"
+          placeholder="Start Typing a Pokemon's Name Here"
+        />
         <div id="search-results"></div>
       </section>
     </main>
 
-    <footer>
-      Made with <a href="https://glitch.com">Glitch</a>!
-    </footer>
+    <footer>Made with <a href="https://glitch.com">Glitch</a>!</footer>
 
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <div
+      class="glitchButton"
+      style="position: fixed; top: 20px; right: 20px"
+    ></div>
     <script src="https://button.glitch.me/button.js"></script>
     <script src="/client.js" defer></script>
   </body>

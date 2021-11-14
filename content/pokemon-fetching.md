@@ -41,7 +41,7 @@ Start small. Just get the response logged to the console.
 const fetch$ = fromEvent(form, 'submit').pipe(
   switchMap(() => {
     return fromFetch(endpoint).pipe(mergeMap((response) => response.json()));
-  })
+  }),
 );
 
 fetch$.subscribe(console.log);
@@ -67,12 +67,12 @@ const getData = (url = endpoint) => {
     }),
     filter(Boolean),
     tap(addResults),
-    catchError(console.error)
+    catchError(console.error),
   );
 };
 
 const fetch$ = fromEvent(form, 'submit').pipe(
-  switchMap(() => getData(endpoint))
+  switchMap(() => getData(endpoint)),
 );
 
 fetch$.subscribe(console.log);
@@ -86,7 +86,7 @@ Let's start by listening to the search field.
 
 ```js
 const search$ = fromEvent(search, 'input').pipe(
-  map((event) => event.target.value)
+  map((event) => event.target.value),
 );
 
 search$.subscribe(console.log);
@@ -101,11 +101,11 @@ const search$ = fromEvent(search, 'input').pipe(
   map((event) => event.target.value),
   mergeMap((searchTerm) =>
     fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
-      mergeMap((response) => response.json())
-    )
+      mergeMap((response) => response.json()),
+    ),
   ),
   tap(clearResults),
-  map((response) => response.pokemon)
+  map((response) => response.pokemon),
 );
 ```
 
@@ -120,11 +120,11 @@ const search$ = fromEvent(search, 'input').pipe(
   map((event) => event.target.value),
   switchMap((searchTerm) =>
     fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
-      mergeMap((response) => response.json())
-    )
+      mergeMap((response) => response.json()),
+    ),
   ),
   tap(clearResults),
-  map((response) => response.pokemon)
+  map((response) => response.pokemon),
 );
 ```
 
@@ -139,11 +139,11 @@ const search$ = fromEvent(search, 'input').pipe(
   distinctUntilChanged(),
   switchMap((searchTerm) =>
     fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
-      mergeMap((response) => response.json())
-    )
+      mergeMap((response) => response.json()),
+    ),
   ),
   tap(clearResults),
-  map((response) => response.pokemon)
+  map((response) => response.pokemon),
 );
 ```
 
@@ -156,15 +156,15 @@ const search$ = fromEvent(search, 'input').pipe(
   distinctUntilChanged(),
   switchMap((searchTerm) =>
     fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
-      mergeMap((response) => response.json())
-    )
+      mergeMap((response) => response.json()),
+    ),
   ),
   tap(clearResults),
   mergeMap((response) => response.pokemon),
   mergeMap((pokemon) =>
     fromFetch(individual(pokemon.id)).pipe(
-      mergeMap((response) => response.json())
-    )
-  )
+      mergeMap((response) => response.json()),
+    ),
+  ),
 );
 ```

@@ -99,7 +99,7 @@ We can chain operators. What if we only wanted the even values?
 ```js
 const example = from(fibonacci()).pipe(
   take(10),
-  filter((n) => n % 2 === 0)
+  filter((n) => n % 2 === 0),
 );
 
 example.subscribe((val) => console.log(val));
@@ -126,7 +126,7 @@ We can also quickly change the behavior by swapping around the way the pipe is c
 ```js
 const example = from(fibonacci()).pipe(
   filter((n) => n % 2 === 0),
-  take(10)
+  take(10),
 );
 
 example.subscribe((val) => console.log(val));
@@ -157,8 +157,8 @@ them back into the sacred timeline.
 const example = merge(
   of(1, 2, 3).pipe(
     map((n) => of(n).pipe(delay(n * 1000))),
-    mergeAll()
-  )
+    mergeAll(),
+  ),
 );
 
 example.subscribe((val) => console.log(val));
@@ -166,7 +166,7 @@ example.subscribe((val) => console.log(val));
 
 ```js
 const example = merge(
-  of(1, 2, 3).pipe(mergeMap((n) => of(n).pipe(delay(n * 1000))))
+  of(1, 2, 3).pipe(mergeMap((n) => of(n).pipe(delay(n * 1000)))),
 );
 
 example.subscribe((val) => console.log(val));
@@ -176,7 +176,7 @@ example.subscribe((val) => console.log(val));
 
 ```js
 const example = merge(
-  of(1, 2, 3).pipe(switchMap((n) => of(n).pipe(delay(n * 1000))))
+  of(1, 2, 3).pipe(switchMap((n) => of(n).pipe(delay(n * 1000)))),
 );
 
 example.subscribe((val) => console.log(val));
@@ -186,8 +186,8 @@ example.subscribe((val) => console.log(val));
 const example = merge(
   of(1, 2, 3).pipe(
     mergeMap((n) => of(n).pipe(delay(n * 1000))),
-    finalize(() => console.log('all done'))
-  )
+    finalize(() => console.log('all done')),
+  ),
 );
 ```
 
@@ -242,7 +242,7 @@ const secondTimer$ = timer(7000);
 
 const example$ = interval(1000).pipe(
   skipUntil(firstTimer$),
-  takeUntil(secondTimer$)
+  takeUntil(secondTimer$),
 );
 
 example$.subscribe(() => console.log(Date.now() - startingTime));
@@ -255,7 +255,7 @@ example$.subscribe(() => console.log(Date.now() - startingTime));
 ```js
 const example$ = from(fibonacci()).pipe(
   skipWhile((value) => value < 100),
-  takeWhile((value) => value > 500)
+  takeWhile((value) => value > 500),
 );
 
 example$.subscribe(console.log);
@@ -264,7 +264,7 @@ example$.subscribe(console.log);
 ```js
 const under200$ = from(fibonacci()).pipe(
   takeWhile((value) => value < 200),
-  reduce((total, value) => total + value, 0)
+  reduce((total, value) => total + value, 0),
 );
 
 under200$.subscribe(console.log);
@@ -273,7 +273,7 @@ under200$.subscribe(console.log);
 
 const over100$ = from(fibonacci()).pipe(
   skipWhile((value) => value < 100),
-  take(4)
+  take(4),
 );
 
 over100$.subscribe(console.log);
@@ -285,7 +285,7 @@ over100$.subscribe(console.log);
 const over100$ = from(fibonacci()).pipe(
   skipWhile((value) => value < 100),
   take(4),
-  mapTo('HELLO!')
+  mapTo('HELLO!'),
 );
 
 over100$.subscribe(console.log);
@@ -296,7 +296,7 @@ over100$.subscribe(console.log);
 ```js
 const under200$ = from(fibonacci()).pipe(
   takeWhile((value) => value < 200),
-  reduce((total, value) => total + value, 0)
+  reduce((total, value) => total + value, 0),
 );
 
 under200$.subscribe(console.log);
@@ -312,6 +312,6 @@ const example$ = from([1, 2, 3, 4]).pipe(
   tap((value) => {
     div.innerText = value;
   }),
-  tap((value) => console.log(`Set the <div> to ${value}.`))
+  tap((value) => console.log(`Set the <div> to ${value}.`)),
 );
 ```

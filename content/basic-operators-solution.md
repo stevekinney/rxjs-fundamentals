@@ -5,7 +5,7 @@ describe('Basic Operators', () => {
   it('should take the first 5 values and map them to the word "DINOSAUR"', async () => {
     const observable$ = of(1, 2, 3, 4, 5, 6, 7).pipe(
       take(5),
-      mapTo('DINOSAUR')
+      mapTo('DINOSAUR'),
     );
 
     return expect(await getResult(observable$)).toEqual([
@@ -20,7 +20,7 @@ describe('Basic Operators', () => {
   it('should skip the first 5 values and double last two', async () => {
     const observable$ = of(1, 2, 3, 4, 5, 6, 7).pipe(
       skip(5),
-      map((n) => n * 2)
+      map((n) => n * 2),
     );
 
     return expect(await getResult(observable$)).toEqual([12, 14]);
@@ -29,7 +29,7 @@ describe('Basic Operators', () => {
   it('should emit the square of every even number in the stream', async () => {
     const observable$ = of(1, 2, 3, 4, 5, 6, 7).pipe(
       filter((x) => x % 2 === 0),
-      map((n) => n * n)
+      map((n) => n * n),
     );
 
     return expect(await getResult(observable$)).toEqual([4, 16, 36]);
@@ -38,7 +38,7 @@ describe('Basic Operators', () => {
   it('should sum of the total of all of the Fibonacci numbers under 200', async () => {
     const observable$ = from(fibonacci()).pipe(
       takeWhile((n) => n < 200),
-      reduce((total, n) => total + n, 0)
+      reduce((total, n) => total + n, 0),
     );
 
     expect(await getResult(observable$)).toEqual([376]);
@@ -49,7 +49,7 @@ describe('Basic Operators', () => {
       { isRunning: true },
       { currentSpeed: 100 },
       { currentSpeed: 200 },
-      { distance: 500 }
+      { distance: 500 },
     ).pipe(scan((state, next) => ({ ...state, ...next }), {}));
 
     expect(await getResult(observable$)).toEqual([

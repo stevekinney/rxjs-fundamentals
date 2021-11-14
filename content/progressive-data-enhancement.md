@@ -9,7 +9,7 @@ Okay, so let's start with the basics.
 ```js
 const data$ = fromEvent(search, 'click').pipe(
   map((event) => event.target.value),
-  switchMap((name) => fromFetch(endpoint))
+  switchMap((name) => fromFetch(endpoint)),
 );
 
 data$.subscribe(addResult);
@@ -24,10 +24,10 @@ const data$ = fromEvent(search, 'click').pipe(
     fromFetch(endpoint).pipe(
       mergeMap((response) => response.json()),
       mergeMap((pokemon) =>
-        endpointFor(pokemon.id).pipe(mergeMap((response) => response.json()))
-      )
-    )
-  )
+        endpointFor(pokemon.id).pipe(mergeMap((response) => response.json())),
+      ),
+    ),
+  ),
 );
 
 data$.subscribe(addResult);
@@ -61,13 +61,13 @@ const data$ = fromEvent(search, 'click').pipe(
         const pokemon$ = of(pokemon);
 
         const additionalData$ = getAdditionalData(pokemon.id).pipe(
-          map((data) => addDataToPokemon(pokemon, data))
+          map((data) => addDataToPokemon(pokemon, data)),
         );
 
         return merge(pokemon$, additionalData$);
-      })
-    )
-  )
+      }),
+    ),
+  ),
 );
 
 data$.subscribe(addResult);

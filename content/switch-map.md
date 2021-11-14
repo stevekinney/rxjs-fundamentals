@@ -53,7 +53,7 @@ const isRunning$ = merge(start$, pause$).pipe(
       return NEVER;
     }
   }),
-  tap(render)
+  tap(render),
 );
 
 isRunning$.subscribe();
@@ -72,7 +72,7 @@ const isRunning$ = merge(start$, pause$).pipe(
   startWith(false),
   tap(setStatus),
   switchMap((isRunning) => (isRunning ? characters$ : NEVER)),
-  tap(render)
+  tap(render),
 );
 ```
 
@@ -89,7 +89,7 @@ const isRunning$ = merge(start$, pause$).pipe(
   startWith(false),
   tap(setStatus),
   switchMap((isRunning) => (isRunning ? characters$ : NEVER)),
-  tap(render)
+  tap(render),
 );
 ```
 

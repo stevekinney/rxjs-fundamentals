@@ -17,7 +17,7 @@ So, what would this look like if we said throttled that button a bit?
 ```js
 const buttonClicks$ = fromEvent(button, 'click').pipe(
   throttleTime(2000),
-  delay(2000)
+  delay(2000),
 );
 ```
 
@@ -27,7 +27,7 @@ This effect is more pronounced if we remove the `delay` completely and just go a
 
 ```js
 const buttonClicks$ = fromEvent(button, 'click').pipe(
-  throttleTime(2000)
+  throttleTime(2000),
   // delay(2000)
 );
 ```
@@ -51,7 +51,7 @@ Instead on relying on a given amount of time, this one will throttle or debounce
 ```js
 const panicButtonClicks$ = fromEvent(panicButton, 'click');
 const buttonClicks$ = fromEvent(button, 'click').pipe(
-  debounce(() => panicButtonClicks$)
+  debounce(() => panicButtonClicks$),
 );
 ```
 
@@ -60,7 +60,7 @@ I can keep clicking, but nothing will happen until I click the panic button. `th
 ```js
 const panicButtonClicks$ = fromEvent(panicButton, 'click');
 const buttonClicks$ = fromEvent(button, 'click').pipe(
-  throttle(() => panicButtonClicks$)
+  throttle(() => panicButtonClicks$),
 );
 ```
 
@@ -75,7 +75,7 @@ So, it stands to reason, that we can recreate the behavior of `throttleTime` and
 
 ```js
 const buttonClicks$ = fromEvent(button, 'click').pipe(
-  throttle(() => interval(2000))
+  throttle(() => interval(2000)),
 );
 ```
 
