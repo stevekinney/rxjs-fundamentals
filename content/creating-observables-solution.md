@@ -3,6 +3,13 @@ title: Creating Observables (Solution)
 layout: layouts/lesson.njk
 ---
 
+Here are the answers from the back of the textbook in case you get stuck.
+
+Some things to notice:
+
+- Promises are asynchronous, so our Jest tests need to account for that.
+- If we just want the values that are emitted from an array, then we can simply pass a function. But, if we care about the error or whether or not the observable completed, then we need to pass an object with functions for whatever events we care about.
+
 ```js
 import { from, of } from 'rxjs';
 

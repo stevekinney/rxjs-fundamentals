@@ -1,7 +1,29 @@
 ---
-title: Starting and Stopping a Counter (Exercise)
+title: Combining Obervables with Operators
 layout: layouts/lesson.njk
 ---
+
+Some operators will subscribe to other observables. `takeUntil` and `skipUntil` are like that.
+
+```js
+const startingTime = Date.now();
+
+const firstTimer$ = timer(2000);
+const secondTimer$ = timer(7000);
+
+const example$ = interval(1000).pipe(
+  skipUntil(firstTimer$),
+  takeUntil(secondTimer$),
+);
+
+example$.subscribe(() => console.log(Date.now() - startingTime));
+
+// Logs: 2004, 3000, 4000, 5001, 6002
+```
+
+<!-- TODO: Use the example playground to create a start and stop button -->
+
+## Exercise: Improving Our Counter
 
 Alright, so we have a few new tricks up our sleeves.
 

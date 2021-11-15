@@ -21,7 +21,7 @@ Could we do some hack like store a variable outside of the scope of the subscrip
 let interval$;
 
 startButtonClicks$.subscribe(() => {
-  interval(1000).subscribe((value) => (count.value = value));
+  interval$ = interval(1000).subscribe((value) => (count.value = value));
 });
 
 stopButtonClicks$.subscribe(() => {
@@ -29,6 +29,6 @@ stopButtonClicks$.subscribe(() => {
 });
 ```
 
-It will work, but it's _not_ idiomatic.
+It will work, but it's _not_ idiomatic. Let's table this and come back to it a little later.
 
-The answer is that we need some more tools. We need the ability to work with and manipulate streams.
+The answer is that we need some more tools. We need the ability to work with and manipulate observable streams. (For those of you that cannot live with not knowing how this story ends, you might want to take a look at [`switchMap`](/lessons/switch-map).)
