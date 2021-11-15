@@ -1,5 +1,5 @@
 ---
-title: Merging Timelines — Follow Along
+title: Merging Timelines (Follow Along)
 layout: layouts/lesson.njk
 ---
 

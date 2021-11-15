@@ -1,5 +1,5 @@
 ---
-title: Creating Observables — Solution
+title: Creating Observables (Solution)
 layout: layouts/lesson.njk
 ---
 

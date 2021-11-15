@@ -1,5 +1,5 @@
 ---
-title: First and Last Name — Exercise
+title: First and Last Name (Exercise)
 layout: layouts/lesson.njk
 ---
 
@@ -8,7 +8,6 @@ Functions and operators used:
 - `merge`
 - `startWith`
 - `map`
-- `startWith`
 - `combineLatestAll`
 
 ---

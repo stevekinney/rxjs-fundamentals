@@ -1,5 +1,5 @@
 ---
-title: Creating Observables — Exercise
+title: Creating Observables (Exercise)
 layout: layouts/lesson.njk
 ---
 

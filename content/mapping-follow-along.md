@@ -1,5 +1,5 @@
 ---
-title: Adventures in Mapping — Follow Along
+title: Adventures in Mapping (Follow Along)
 layout: layouts/lesson.njk
 ---
 

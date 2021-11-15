@@ -1,4 +1,4 @@
 ---
-title: Switch Map — Solution
+title: Switch Map (Solution)
 layout: layouts/lesson.njk
 ---

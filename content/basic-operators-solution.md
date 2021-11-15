@@ -1,5 +1,5 @@
 ---
-title: Basic Observables — Solution
+title: Basic Operators (Solution)
 layout: layouts/lesson.njk
 ---
 

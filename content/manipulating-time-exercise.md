@@ -1,5 +1,5 @@
 ---
-title: Manipulating Time — Exercise
+title: Manipulating Time (Exercise)
 layout: layouts/lesson.njk
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: Switch Map — Exercise
+title: Switch Map (Exercise)
 layout: layouts/lesson.njk
 ---

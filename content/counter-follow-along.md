@@ -1,5 +1,5 @@
 ---
-title: Counter — Follow Along
+title: Counter (Follow Along)
 layout: layouts/lesson.njk
 ---
 

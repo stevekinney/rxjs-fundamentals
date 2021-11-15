@@ -1,5 +1,5 @@
 ---
-title: Markdown Renderer — Solution
+title: Markdown Renderer (Solution)
 layout: layouts/lesson.njk
 ---
 

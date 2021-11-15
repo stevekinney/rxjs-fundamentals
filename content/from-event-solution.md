@@ -1,5 +1,5 @@
 ---
-title: fromEvent — Solution
+title: fromEvent (Solution)
 layout: layouts/lesson.njk
 ---
 

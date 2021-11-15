@@ -1,9 +1,9 @@
 ---
-title: fromEvent — Exercise
+title: fromEvent (Exercise)
 layout: layouts/lesson.njk
 ---
 
-## Your mission
+## Your Mission
 
 - Use `fromEvent` to create an observable that streams click events.
 - Subscribe to that observable.

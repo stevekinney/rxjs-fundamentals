@@ -1,5 +1,5 @@
 ---
-title: Manipulating Time — Follow Along
+title: Manipulating Time (Follow Along)
 layout: layouts/lesson.njk
 ---
 

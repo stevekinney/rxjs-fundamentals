@@ -1,5 +1,5 @@
 ---
-title: Counter, Starting and Stopping — Exercise
+title: Starting and Stopping a Counter (Exercise)
 layout: layouts/lesson.njk
 ---
 

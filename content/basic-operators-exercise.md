@@ -1,5 +1,5 @@
 ---
-title: Basic Observables — Exercise
+title: Basic Operators (Exercise)
 layout: layouts/lesson.njk
 ---
 

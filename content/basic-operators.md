@@ -1,5 +1,5 @@
 ---
-title: Basic Operators — Exercise
+title: Basic Operators (Exercise)
 layout: layouts/lesson.njk
 ---
 

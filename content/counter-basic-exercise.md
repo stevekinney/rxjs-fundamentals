@@ -1,5 +1,5 @@
 ---
-title: Counter (Basic) — Exercise
+title: Basic Counter (Exercise)
 layout: layouts/lesson.njk
 ---
 
