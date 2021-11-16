@@ -22,7 +22,7 @@ export const createElement = (
 
   if (typeof value !== 'string') {
     value = JSON.stringify(value, null, 2);
-    element.innerHTML = `<pre><code>${value}</code></pre>`;
+    element.innerHTML = `<pre class="raw"><code>${value}</code></pre>`;
     return element;
   }
 

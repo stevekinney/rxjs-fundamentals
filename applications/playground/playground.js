@@ -3,10 +3,12 @@ import { mapTo, switchMap } from 'rxjs/operators';
 import { addElementToDOM, emptyElement } from '../../utilities/dom-manpulation';
 import { example$ } from './script';
 
+import './style.scss';
+
 const play = document.getElementById('play');
 const pause = document.getElementById('pause');
 const clear = document.getElementById('clear');
-const output = document.getElementById('output');
+const result = document.getElementById('result');
 
 const play$ = fromEvent(play, 'click').pipe(mapTo(true));
 const pause$ = fromEvent(pause, 'click').pipe(mapTo(false));
@@ -19,7 +21,7 @@ const playground$ = merge(play$, pause$).pipe(
 );
 
 playground$.subscribe((value) => {
-  addElementToDOM(output, value, { classList: ['playground-event'] });
+  addElementToDOM(result, value, { classList: ['playground-event'] });
 });
 
-clear$.subscribe(() => emptyElement(output));
+clear$.subscribe(() => emptyElement(result));
