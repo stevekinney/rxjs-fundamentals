@@ -1,4 +1,6 @@
-export const count = document.getElementById('count');
+import { fromEvent, interval } from 'rxjs';
+
+export const count = document.querySelector('.count');
 export const startButton = document.getElementById('start');
 export const pauseButton = document.getElementById('pause');
 
