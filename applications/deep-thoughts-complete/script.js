@@ -10,18 +10,7 @@ import {
   tap,
 } from 'rxjs/operators';
 
-import {
-  button,
-  panicButton,
-  renderMarkdown,
-  addMessageToDOM,
-  deepThoughtInput,
-  setStatus,
-} from './utilities';
-
-const buttonClicks$ = fromEvent(button, 'click');
-
-buttonClicks$.subscribe(addMessageToDOM);
+import { renderMarkdown, deepThoughtInput, setStatus } from './utilities';
 
 const textAreaChanges$ = fromEvent(deepThoughtInput, 'input').pipe(
   map((event) => event.target.value),
