@@ -21,4 +21,4 @@ import {
   setError,
 } from './utilities';
 
-const endpoint = 'https://rxjs-api.glitch.me/api/facts';
+const endpoint = 'http://localhost:3333/api/facts';

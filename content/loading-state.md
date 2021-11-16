@@ -24,15 +24,15 @@ Now, we're showing the loading field and cleaning up after ourselves when it's d
 But, we want to delay that loading indicator, right?
 
 ```js
-const showSpinner$ = of(true).pipe(
+const showLoading$ = of(true).pipe(
   delay(+showLoadingAfterField.value),
   tap(() => showLoading(true)),
 );
 
-const hideSpinner$ = of(true).pipe(tap(() => showLoading(false)));
+const hideLoading$ = of(true).pipe(tap(() => showLoading(false)));
 
 const loading$ = fromEvent(form, 'submit').pipe(
-  exhaustMap(() => concat(showSpinner$, fetchData(), hideSpinner$)),
+  exhaustMap(() => concat(showLoading$, fetchData(), hideLoading$)),
 );
 ```
 
@@ -44,8 +44,8 @@ We can improve this by racing the data against the start time for the loading in
 const loading$ = fromEvent(form, 'submit').pipe(
   exhaustMap(() => {
     const data$ = fetchData();
-    const dataOrSpinner$ = race(showSpinner$, data$);
-    return concat(dataOrSpinner$, data$, hideSpinner$);
+    const dataOrLoading$ = race(showLoading$, data$);
+    return concat(dataOrLoading$, data$, hideLoading$);
   }),
 );
 ```
@@ -58,8 +58,8 @@ There is an operator called `share` that allows us to share once instance betwee
 const loading$ = fromEvent(form, 'submit').pipe(
   exhaustMap(() => {
     const data$ = fetchData().pipe(share());
-    const dataOrSpinner$ = race(showSpinner$, data$);
-    return concat(dataOrSpinner$, data$, hideSpinner$);
+    const dataOrLoading$ = race(showLoading$, data$);
+    return concat(dataOrLoading$, data$, hideLoading$);
   }),
 );
 ```
@@ -71,20 +71,20 @@ const loading$ = fromEvent(form, 'submit').pipe(
   exhaustMap(() => {
     const data$ = fetchData().pipe(shareReplay(1));
 
-    const showSpinner$ = of(true).pipe(
+    const showLoading$ = of(true).pipe(
       delay(+showLoadingAfterField.value),
       tap(() => showLoading(true)),
     );
 
-    const hideSpinner$ = timer(+showLoadingForAtLeastField.value).pipe(first());
+    const hideLoading$ = timer(+showLoadingForAtLeastField.value).pipe(first());
 
-    const spinner$ = concat(
-      showSpinner$,
-      hideSpinner$,
+    const loading$ = concat(
+      showLoading$,
+      hideLoading$,
       data$.pipe(tap(() => showLoading(false))),
     );
 
-    return race(data$, spinner$);
+    return race(data$, loading$);
   }),
 );
 ```
