@@ -7,7 +7,7 @@ Here is one possible solution.
 
 ```js
 startButtonClicks$.subscribe(() => {
-  interval(1000).subscribe((value) => (count.value = value));
+  interval(1000).subscribe(setCount);
 });
 ```
 
@@ -21,7 +21,7 @@ Could we do some hack like store a variable outside of the scope of the subscrip
 let interval$;
 
 startButtonClicks$.subscribe(() => {
-  interval$ = interval(1000).subscribe((value) => (count.value = value));
+  interval$ = interval(1000).subscribe(setCount);
 });
 
 stopButtonClicks$.subscribe(() => {

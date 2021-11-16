@@ -10,14 +10,13 @@ const output = document.getElementById('output');
 
 const play$ = fromEvent(play, 'click').pipe(mapTo(true));
 const pause$ = fromEvent(pause, 'click').pipe(mapTo(false));
+const clear$ = fromEvent(clear, 'click');
 
 const playground$ = merge(play$, pause$).pipe(
   switchMap((isRunning) => {
     return isRunning ? example$ : NEVER;
   }),
 );
-
-const clear$ = fromEvent(clear, 'click');
 
 playground$.subscribe((value) => {
   addElementToDOM(output, value, { classList: ['playground-event'] });

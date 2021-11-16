@@ -21,9 +21,10 @@ h1 {
   font-family: 'Press Start 2P', monospace;
   background-color: $blue;
   background-image: linear-gradient(45deg, $blue, $fuschia);
-  font-size: 64px;
+  font-size: 3em;
   background-clip: text;
   line-height: 1.3em;
+  text-align: center;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   -webkit-background-clip: text;

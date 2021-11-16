@@ -1,5 +1,5 @@
-import { fromEvent, interval } from 'rxjs';
+import { fromEvent, interval, merge, NEVER } from 'rxjs';
+import { setCount, startButton, pauseButton } from './utilities';
 
-const count = document.getElementById('count');
-const startButton = document.getElementById('start');
-const stopButton = document.getElementById('stop');
+const start$ = fromEvent(startButton, 'click');
+const pause$ = fromEvent(pauseButton, 'click');

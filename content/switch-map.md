@@ -9,7 +9,7 @@ Nope. (Well, RxJS was under the hood, but I wasn't.) I was using `switchMap` to 
 
 I was doing some crazy stuff with multiple streams back then, but we're rendering one stream now. So, let's go ahead and implement a version of this together and then you'll do a similiar example on your own.
 
-## NEVER
+## `NEVER`
 
 First, we need to talk about `NEVER`.
 
