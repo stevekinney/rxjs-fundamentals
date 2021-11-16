@@ -1,65 +1,15 @@
 ---
-title: Fetching Dog Facts
+title: Fetching from an API
 layout: layouts/lesson.njk
 ---
 
-Let's start with our endpoint.
+First, let's make it work with that button, shall we? Let's create a stream out of clicks on that button, shall we?
+
+**Nota bene**: If you're struggling to get your local server up and running, the API is also hosted at <a href="https://rxjs-api.glitch.me/api/facts">https://rxjs-api.glitch.me/api/facts</a>.
 
 ```js
-const endpoint = 'https://rxjs-api.glitch.me/api/facts';
-```
+const endpoint = 'https://localhost:3333/api/facts';
 
-At first, it doesn't feel like there is a ton of difference from normal fetching and when you use RxJS. But, we'll see how some of the operators can help out when your list of requirements begins to grow a bit.
-
-But, for now—let's start with the very basics.
-
-```js
-import { fromFetch } from 'rxjs/fetch';
-import { tap } from 'rxjs/operators';
-```
-
-Fetching from an endpoint, would look something like this:
-
-```js
-const fetch$ = fromFetch(endpoint).pipe(tap(console.log));
-```
-
-Now, one important thing to notice is that you won't see anything in the console? Why? Because observables don't trigger until they're subscribed to.
-
-```js
-fetch$.subscribe();
-```
-
-Now, we'll see a `Response` object logged to the console. Just like promises, we need to work turn the `Response` object into some JSON so that we can use it.
-
-```js
-const fetch$ = fromFetch(endpoint).pipe(map((response) => response.json()));
-```
-
-Oh, but wait—this gives us the promise. It'd be nice to have the value. RxJS _can_ automatically turn promises into observables using the from operator. But, we know what happens when we return an observable from a regular ol' `map`.
-
-We need one of our fancier operators.
-
-```js
-const fetch$ = fromFetch(endpoint).pipe(
-  mergeMap((response) => response.json()),
-);
-```
-
-We can put them on the page, like so.
-
-```js
-fetch$.subscribe(({ facts }) => {
-  clearFacts();
-  facts.forEach(addFact);
-});
-```
-
-## Hooking It Up to the Button
-
-Okay, but now, let's make it work with that button, shall we? Let's create a stream out of clicks on that button, shall we?
-
-```js
 const fetch$ = fromEvent(fetchButton, 'click').pipe(
   mergeMap(() =>
     fromFetch(endpoint).pipe(mergeMap((response) => response.json())),
@@ -74,7 +24,7 @@ Great, it works, but this is nothing special.
 Let's say that there are some "imperfect" network conditions.
 
 ```js
-const endpoint = 'https://rxjs-api.glitch.me/api/facts?delay=3000&chaos=1';
+const endpoint = 'https://localhost:3333/api/facts?delay=3000&chaos=1';
 ```
 
 This adds a slight delay and a little bit of randomness to our response times. Go ahead and click on the button a few times. This is mildly annoying in our sample application, but can become a lot worse in a real-world application.
@@ -226,16 +176,24 @@ So, this is cool. We'll switch over to the latest set of results, but then we'll
 
 ## Pausing the Fetching
 
+We're seen this movie before.
+
 ```js
-const factStream$ = merge(start$, stop$).pipe(
+const fetch$ = fromEvent(fetchButton, 'click').pipe(mapTo(true));
+const stop$ = fromEvent(stopButton, 'click').pipe(mapTo(false));
+
+const factStream$ = merge(fetch$, stop$).pipe(
   startWith(false),
   switchMap((shouldFetch) => {
     return shouldFetch
       ? timer(0, 5000).pipe(
           tap(() => clearError()),
+          tap(() => clearFacts()),
           exhaustMap(fetchData),
         )
       : NEVER;
   }),
 );
+
+factStream$.subscribe(addFacts);
 ```

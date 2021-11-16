@@ -1,63 +1,12 @@
 ---
-title: Fetching Pokémon
+title: Pagination
 layout: layouts/lesson.njk
 ---
-
-Okay, let's start with the basics:
-
-```js
-import './styles.css';
-
-const form = document.getElementById('fetch-form');
-const search = document.getElementById('search');
-const submit = document.getElementById('fetch');
-const results = document.getElementById('results');
-
-form.addEventListener('submit', (event) => event.preventDefault());
-```
-
-We also have some DOM manupulation helpers.
-
-```js
-const clearResults = () => (results.innerText = '');
-const addResults = (results) => results.forEach(addResult);
-const addResult = (result) => {
-  const element = document.createElement('article');
-  element.innerText = result.name;
-  results.appendChild(element);
-};
-```
-
-Nothing special here, just a bunch of DOM selectors and whatnot.
-
-## Quick Exercise
-
-Ignore the search box for a moment. Can you wire up that "Fetch" button to get us 5 Pokémon to put on the page?
-
-Here is an endpoint for you: `https://rxjs-api.glitch.me/api/pokemon`.
-
-### Quicker Solution
-
-Start small. Just get the response logged to the console.
-
-```js
-const fetch$ = fromEvent(form, 'submit').pipe(
-  switchMap(() => {
-    return fromFetch(endpoint).pipe(mergeMap((response) => response.json()));
-  }),
-);
-
-fetch$.subscribe(console.log);
-```
-
-Cool, now it's your choice as to whether or not you want to put them on the page using `subscribe` or `tap`.
-
-### Pagination
 
 There is that next page token. Could we iterate down the pages?
 
 ```js
-const endpoint = 'https://rxjs-api.glitch.me/api/pokemon?delay=100';
+const endpoint = 'http://localhost:3333/api/pokemon?delay=100';
 
 const getData = (url = endpoint) => {
   return fromFetch(url).pipe(
@@ -81,8 +30,6 @@ const fetch$ = fromEvent(form, 'submit').pipe(
 fetch$.subscribe(console.log);
 ```
 
-**TODO**: Make utility functions for working with query params and whatnot.
-
 ## Autocomplete
 
 Let's start by listening to the search field.
@@ -95,7 +42,7 @@ const search$ = fromEvent(search, 'input').pipe(
 search$.subscribe(console.log);
 ```
 
-We have a search endpoint: `https://rxjs-api.glitch.me/api/pokemon/search/pika`;
+We have a search endpoint: `http://localhost:3333/api/pokemon/search/pika`;
 
 We can start with the simplest example:
 
