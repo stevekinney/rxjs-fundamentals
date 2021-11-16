@@ -20,7 +20,7 @@ export const createElement = (
 
   setAttributes(element, attributes);
 
-  if (typeof value !== 'string') {
+  if (typeof value !== 'string' || typeof value !== 'number') {
     value = JSON.stringify(value, null, 2);
     element.innerHTML = `<pre class="raw"><code>${value}</code></pre>`;
     return element;

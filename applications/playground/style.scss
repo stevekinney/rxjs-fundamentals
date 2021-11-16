@@ -3,6 +3,11 @@
 pre {
   padding: 0;
   margin: 0.5em;
+  text-align: left;
+}
+
+pre.raw > code {
+  width: 100%;
 }
 
 .playground {

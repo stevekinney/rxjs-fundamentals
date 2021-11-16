@@ -21,6 +21,7 @@ const playground$ = merge(play$, pause$).pipe(
 );
 
 playground$.subscribe((value) => {
+  console.log(value);
   addElementToDOM(result, value, { classList: ['playground-event'] });
 });
 
