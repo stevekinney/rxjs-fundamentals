@@ -42,7 +42,7 @@ bootstrap({ first$, second$, combined$ });
 
 **Quick tasting note**: The first and second columns are their own instances of each subscription independent of the combined observable.
 
-## merge
+## `merge`
 
 We got a taste of `merge` above. It will simply combine multiple observables. As each child observable emits, so does the merged observable.
 
@@ -54,7 +54,7 @@ const combined$ = merge(first$, second$);
 
 We can play around with the times a bit and see that combined basically mirrors each observable.
 
-## concat
+## `concat`
 
 `concat` plays through each observable it has been given in order. It will work through `first$` and then it will play through `next$`.
 
@@ -64,7 +64,7 @@ const second$ = interval(1000).pipe(map(labelWith('Second')), take(4));
 const combined$ = concat(first$, second$);
 ```
 
-## Race
+## `race`
 
 `race` takes multiple observables and just goes with whatever one emits a value first and then ignores all of the rest of the,
 
@@ -84,7 +84,7 @@ const second$ = interval(500).pipe(map(labelWith('Second')), take(4));
 const combined$ = race(first$, second$);
 ```
 
-## forkJoin
+## `forkJoin`
 
 `forkJoin` ignores all of the values until everything is done and then will get you the last value of each.
 

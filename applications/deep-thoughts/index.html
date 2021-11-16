@@ -1,0 +1,18 @@
+<extends src="base.html">
+  <block name="head"><title>Deep Thoughts</title></block>
+  <block name="content">
+    <h1>Deep Thoughts</h1>
+    <section id="deep-thoughts">
+      <div class="controls">
+        <div class="columns">
+          <div class="column">
+            <label for="deep-thought"><h3>Deep Thought</h3></label>
+            <textarea id="deep-thought" style="width: 100%"></textarea>
+          </div>
+          <div id="deep-thought-rendered" class="column"></div>
+        </div>
+        <div id="deep-thought-status"></div>
+      </div>
+    </section>
+  </block>
+</extends>

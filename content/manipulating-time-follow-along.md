@@ -3,6 +3,8 @@ title: Manipulating Time (Follow Along)
 layout: layouts/lesson.njk
 ---
 
+Let's head over to our [playground](/applications/manipulating-time) and—erm—play around for a bit, shall we?
+
 We're mostly just trying to get familiar with the `delay`, `throttleTime`, and `debounceTime` operators here. So, let's get to experimenting, shall we?
 
 We'll start by putting a simple delay on the button and seeing what happens.
@@ -81,7 +83,3 @@ const buttonClicks$ = fromEvent(button, 'click').pipe(
   throttle(() => interval(2000)),
 );
 ```
-
-## Summary
-
-This is the first time we've tied more than on observable together, but it's not going to be the last. We're coming on the precipice of unlocking the real power of working with observables.

@@ -1,5 +1,5 @@
 ---
-title: Manipulating Time (Exercise)
+title: Markdown Renderer (Exercise)
 layout: layouts/lesson.njk
 ---
 
@@ -11,5 +11,4 @@ Can you implement the following in `applications/manipulating-time`:
 
 - Listen for `input` events on the `textarea`.
 - Map the event object to the value of the `textarea`.
-- Map the raw value into `renderMarkdown` to get the resulting HTML.
 - When our author has stopped typing for a bit go ahead and render the resulting Markdown using the `renderMarkdown` helper.

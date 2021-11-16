@@ -76,6 +76,15 @@ const characters$ = of(1, 2, 3, 4).pipe(
 characters$.subscribe(render);
 ```
 
+We can now go about our business as we did before.
+
+```js
+const characters$ = of(1, 2, 3, 4).pipe(
+  mergeMap((id) => from(getCharacter(id))),
+  pluck('name'),
+);
+```
+
 ## Returning Observables
 
 Let's just play around with this just a little more.
@@ -94,7 +103,7 @@ But this does.
 
 ```js
 const example$ = of(1, 2, 3, 4).pipe(
-  mergeMap((value) => interval(value * 1000).pipe(take(4))),
+  mergeMap((value, index) => interval(index * 1000).pipe(take(4))),
 );
 
 example$.subscribe(render);

@@ -15,13 +15,8 @@ Functions and operators used:
 Let's start with something simple here.
 
 ```js
-import { fromEvent } from 'rxjs';
-
-const firstName = document.getElementById('first-name');
-const lastName = document.getElementById('last-name');
-
-fromEvent(firstName, 'keyup').subscribe(console.log);
-fromEvent(lastName, 'keyup').subscribe(console.log);
+fromEvent(firstNameInput, 'input').subscribe(console.log);
+fromEvent(lastNameInput, 'input').subscribe(console.log);
 ```
 
 This works, but its not very DRY and it actually doesn't really work nearly as well as we'd like.

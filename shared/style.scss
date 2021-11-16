@@ -42,6 +42,9 @@ button,
 textarea,
 label {
   font-family: 'Montserrat', sans-serif;
+  & > code {
+    background-color: lighten($blue, 20%);
+  }
 }
 
 pre {
