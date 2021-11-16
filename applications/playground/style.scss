@@ -6,6 +6,13 @@ pre {
   text-align: left;
 }
 
+pre.raw {
+  background-color: white;
+  color: darken($fuschia, 20%);
+  border: 1px solid $fuschia;
+  padding: 0.5em;
+}
+
 pre.raw > code {
   width: 100%;
 }
