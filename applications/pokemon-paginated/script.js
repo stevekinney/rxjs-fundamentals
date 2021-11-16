@@ -1,13 +1,35 @@
----
-title: Pagination
-layout: layouts/lesson.njk
----
+import {
+  debounceTime,
+  distinctUntilChanged,
+  fromEvent,
+  map,
+  mergeMap,
+  switchMap,
+  tap,
+  of,
+  merge,
+  from,
+  filter,
+  catchError,
+  concat,
+  take,
+  EMPTY,
+  retry,
+  pluck,
+  concatMap,
+} from 'rxjs';
 
-Here is a quick bonus recipe that I'm throwing into the mix because I literally needed to use it the other day. But, also I think it demonstrates a time when we might use `concat` and it's also our first appearance of `EMPTY`.
+import { fromFetch } from 'rxjs/fetch';
 
-So, that Pokémon API. There is that next page token. Could we iterate down the pages?
+import {
+  addResults,
+  addResult,
+  clearResults,
+  endpointFor,
+  search,
+  form,
+} from '../pokemon/utilities';
 
-```js
 const endpoint = 'http://localhost:3333/api/pokemon?delay=100';
 
 export const getData = (url = endpoint) => {
@@ -19,10 +41,13 @@ export const getData = (url = endpoint) => {
         : EMPTY;
       return concat(of(response.pokemon), next$);
     }),
+    tap(console.log),
     filter(Boolean),
-    take(4),
     tap(addResults),
-    catchError(console.error),
+    catchError((error) => {
+      console.error(error);
+      return EMPTY;
+    }),
   );
 };
 
@@ -30,5 +55,4 @@ const fetch$ = fromEvent(form, 'submit').pipe(
   switchMap(() => getData(endpoint)),
 );
 
-fetch$.subscribe(console.log);
-```
+fetch$.subscribe();

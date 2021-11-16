@@ -1,0 +1,8 @@
+@import '../../shared/colors.scss';
+
+.currently-loading {
+  background: lighten($blue, 10%);
+  border: 1px solid darken($blue, 10%);
+  margin: 1em 0;
+  padding: 1em;
+}

@@ -15,10 +15,10 @@ const app = express();
 const dogFacts = require('./dog-facts');
 const pokemon = require('./pokemon');
 
-const pokemonMetadata = pokemon.map(({ name, classfication, id }, index) => ({
+const pokemonMetadata = pokemon.map(({ name, classification, id }, index) => ({
   id,
   name,
-  classfication,
+  classification,
 }));
 
 app.use(cors());
@@ -89,9 +89,11 @@ app.get('/api/pokemon', withChaos, (request, response) => {
     ? encode(page + limit + 1)
     : undefined;
 
+  const token = nextPage ? encodeURIComponent(nextPage) : null;
+
   response.json({
     pokemon: selection,
-    nextPage: encodeURIComponent(nextPage),
+    nextPage: token,
   });
 });
 

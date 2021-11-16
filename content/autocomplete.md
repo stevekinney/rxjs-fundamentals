@@ -3,8 +3,6 @@ title: Autocomplete
 layout: layouts/lesson.njk
 ---
 
-## Autocomplete
-
 Let's start by listening to the search field.
 
 ```js
@@ -29,6 +27,7 @@ const search$ = fromEvent(search, 'input').pipe(
   ),
   tap(clearResults),
   map((response) => response.pokemon),
+  tap(addResults),
 );
 ```
 
@@ -48,6 +47,7 @@ const search$ = fromEvent(search, 'input').pipe(
   ),
   tap(clearResults),
   map((response) => response.pokemon),
+  tap(addResults),
 );
 ```
 
@@ -67,30 +67,6 @@ const search$ = fromEvent(search, 'input').pipe(
   ),
   tap(clearResults),
   map((response) => response.pokemon),
+  tap(addResults),
 );
-```
-
-### Fanning Out Requests
-
-```js
-const search$ = fromEvent(search, 'input').pipe(
-  debounceTime(300),
-  map((event) => event.target.value),
-  distinctUntilChanged(),
-  switchMap((searchTerm) =>
-    fromFetch(endpoint + searchTerm + '?delay=5000&chaos=true').pipe(
-      mergeMap((response) => response.json()),
-    ),
-  ),
-  tap(clearResults),
-  mergeMap((response) => response.pokemon),
-  mergeMap((pokemon) =>
-    fromFetch(endpointFor(pokemon.id)).pipe(
-      mergeMap((response) => response.json()),
-    ),
-  ),
-  tap(console.log),
-);
-
-search$.subscribe(addPokemon);
 ```

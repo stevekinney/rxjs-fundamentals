@@ -16,3 +16,18 @@
 article {
   color: $teal;
 }
+
+#pokemon {
+  padding: 1em;
+  // border: 1px solid $coral;
+}
+
+.data {
+  display: flex;
+  border: 1px solid $blue;
+  padding: 1em;
+  table {
+    width: 100%;
+    text-align: center;
+  }
+}
