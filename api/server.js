@@ -38,7 +38,7 @@ const withChaos = (request, response, next) => {
   let flakiness = parseInt(request.query.flakiness || 0, 10);
   let chaos = !!request.query.chaos;
 
-  if (chaos) delay = delay * Math.random() + 1000;
+  if (chaos) delay = (delay + 1) * Math.random() + 1000;
 
   if (flakiness && Date.now() % flakiness === 0) {
     response.status(500);

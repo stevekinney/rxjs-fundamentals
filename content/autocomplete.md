@@ -1,34 +1,7 @@
 ---
-title: Pagination
+title: Autocomplete
 layout: layouts/lesson.njk
 ---
-
-There is that next page token. Could we iterate down the pages?
-
-```js
-const endpoint = 'http://localhost:3333/api/pokemon?delay=100';
-
-const getData = (url = endpoint) => {
-  return fromFetch(url).pipe(
-    mergeMap((response) => response.json()),
-    mergeMap((response) => {
-      const next$ = response.nextPage
-        ? getData(endpoint + '&page=' + response.nextPage)
-        : EMPTY;
-      return concat(of(response.pokemon), next$);
-    }),
-    filter(Boolean),
-    tap(addResults),
-    catchError(console.error),
-  );
-};
-
-const fetch$ = fromEvent(form, 'submit').pipe(
-  switchMap(() => getData(endpoint)),
-);
-
-fetch$.subscribe(console.log);
-```
 
 ## Autocomplete
 
@@ -50,7 +23,7 @@ We can start with the simplest example:
 const search$ = fromEvent(search, 'input').pipe(
   map((event) => event.target.value),
   mergeMap((searchTerm) =>
-    fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
+    fromFetch(endpoint + searchTerm + '?delay=5000&chaos=true').pipe(
       mergeMap((response) => response.json()),
     ),
   ),
@@ -69,7 +42,7 @@ Yea, totally… a `switchMap` will work:
 const search$ = fromEvent(search, 'input').pipe(
   map((event) => event.target.value),
   switchMap((searchTerm) =>
-    fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
+    fromFetch(endpoint + searchTerm + '?delay=5000&chaos=true').pipe(
       mergeMap((response) => response.json()),
     ),
   ),
@@ -88,7 +61,7 @@ const search$ = fromEvent(search, 'input').pipe(
   map((event) => event.target.value),
   distinctUntilChanged(),
   switchMap((searchTerm) =>
-    fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
+    fromFetch(endpoint + searchTerm + '?delay=5000&chaos=true').pipe(
       mergeMap((response) => response.json()),
     ),
   ),
@@ -105,16 +78,19 @@ const search$ = fromEvent(search, 'input').pipe(
   map((event) => event.target.value),
   distinctUntilChanged(),
   switchMap((searchTerm) =>
-    fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
+    fromFetch(endpoint + searchTerm + '?delay=5000&chaos=true').pipe(
       mergeMap((response) => response.json()),
     ),
   ),
   tap(clearResults),
   mergeMap((response) => response.pokemon),
   mergeMap((pokemon) =>
-    fromFetch(individual(pokemon.id)).pipe(
+    fromFetch(endpointFor(pokemon.id)).pipe(
       mergeMap((response) => response.json()),
     ),
   ),
+  tap(console.log),
 );
+
+search$.subscribe(addPokemon);
 ```

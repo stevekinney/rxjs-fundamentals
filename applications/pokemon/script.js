@@ -6,35 +6,42 @@ import {
   mergeMap,
   switchMap,
   tap,
+  of,
+  merge,
+  from,
 } from 'rxjs';
 
 import { fromFetch } from 'rxjs/fetch';
 
 import {
-  addResult,
+  addPokemon,
   clearResults,
   endpoint,
   endpointFor,
   search,
 } from './utilities';
 
+const getPokemon = (name) =>
+  fromFetch(endpoint + name).pipe(mergeMap((response) => response.json()));
+
+const getAdditionalData = (id) =>
+  fromFetch(endpointFor(id)).pipe(mergeMap((response) => response.json()));
+
 const search$ = fromEvent(search, 'input').pipe(
-  debounceTime(300),
   map((event) => event.target.value),
-  distinctUntilChanged(),
-  switchMap((searchTerm) =>
-    fromFetch(endpoint + searchTerm + '?chaos=5000').pipe(
-      mergeMap((response) => response.json()),
+  switchMap((name) =>
+    getPokemon(name).pipe(
+      switchMap(({ pokemon }) => {
+        const pokemon$ = from(pokemon);
+
+        const additionalData$ = getAdditionalData(pokemon.id).pipe(
+          map((data) => addDataToPokemon(pokemon, data)),
+        );
+
+        return merge(pokemon$, additionalData$);
+      }),
     ),
   ),
-  tap(clearResults),
-  mergeMap((response) => response.pokemon),
-  mergeMap((pokemon) =>
-    fromFetch(endpointFor(pokemon.id)).pipe(
-      mergeMap((response) => response.json()),
-    ),
-  ),
-  tap(console.log),
 );
 
-search$.subscribe(addResult);
+search$.subscribe(console.log);

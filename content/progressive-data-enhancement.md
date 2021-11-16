@@ -5,35 +5,29 @@ layout: layouts/lesson.njk
 
 We've all been there. You get some of the base amount of data from on API but you have to hit _another_ API to get everything you need. This should literally be my job description.
 
-Okay, so let's start with the basics.
-
-**Note**: You should do this with the Spotify Data. The the exercise can be doing it with the either the Dog Facts or the pokemon data.
+We only get some simple data about our Pokémon. But, what if we wanted to use the initial
 
 ```js
-const data$ = fromEvent(search, 'click').pipe(
+const search$ = fromEvent(search, 'input').pipe(
+  debounceTime(300),
   map((event) => event.target.value),
-  switchMap((name) => fromFetch(endpoint)),
-);
-
-data$.subscribe(addResult);
-```
-
-Okay, so now we want to get our additional data.
-
-```js
-const data$ = fromEvent(search, 'click').pipe(
-  map((event) => event.target.value),
-  switchMap((name) =>
-    fromFetch(endpoint).pipe(
+  distinctUntilChanged(),
+  switchMap((searchTerm) =>
+    fromFetch(endpoint + searchTerm + '?delay=5000&chaos=true').pipe(
       mergeMap((response) => response.json()),
-      mergeMap((pokemon) =>
-        endpointFor(pokemon.id).pipe(mergeMap((response) => response.json())),
-      ),
     ),
   ),
+  tap(clearResults),
+  mergeMap((response) => response.pokemon),
+  mergeMap((pokemon) =>
+    fromFetch(endpointFor(pokemon.id)).pipe(
+      mergeMap((response) => response.json()),
+    ),
+  ),
+  tap(console.log),
 );
 
-data$.subscribe(addResult);
+search$.subscribe(addPokemon);
 ```
 
 Doing it this way has some problems: You're basically waiting until you get everything. And this is kind of silly because the reason that we're taking on all of this cognitive overhead is because we want to avoid problems like this.

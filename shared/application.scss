@@ -82,18 +82,6 @@ body {
   background-color: $green;
 }
 
-#panel {
-  position: absolute;
-  left: 681px;
-  top: 180px;
-  background: $blue;
-  padding: 1em;
-  border: 1px solid;
-  &.moving {
-    background: $fuschia;
-  }
-}
-
 #deep-thoughts .column {
   border-width: 0;
 }
