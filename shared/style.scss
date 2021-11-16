@@ -115,6 +115,14 @@ canvas {
   border: 4px solid $coral;
 }
 
+a > code {
+  text-decoration: underline;
+}
+
+a:hover > code {
+  background-color: lighten($blue, 20%);
+}
+
 .container {
   max-width: 800px;
   margin: auto;
@@ -129,7 +137,7 @@ canvas {
 .columns {
   display: flex;
   height: 100%;
-  gap: 12px;
+  gap: 2em;
 }
 
 .column {

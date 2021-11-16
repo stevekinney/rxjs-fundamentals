@@ -78,6 +78,15 @@ body {
   background-color: $green;
 }
 
+.playground-event {
+  background-color: $coral;
+  color: white;
+  border: 1px solid darken($coral, 10%);
+  text-align: center;
+  width: 400px;
+  margin-bottom: 1em;
+}
+
 #panel {
   position: absolute;
   left: 681px;

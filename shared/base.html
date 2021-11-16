@@ -13,8 +13,8 @@
     </main>
     <script type="module" src="script.js"></script>
     <script>
-      // const ws = new WebSocket('ws://' + window.location.host);
-      // ws.onmessage = () => window.location.reload();
+      const ws = new WebSocket('ws://' + window.location.host);
+      ws.onmessage = () => window.location.reload();
     </script>
   </body>
 </html>

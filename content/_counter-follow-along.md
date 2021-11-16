@@ -57,7 +57,7 @@ const counter$ = interval(1000).pipe(
 );
 ```
 
-OKay, so this works for a single use timer. But we basically only start it once and we can only pause it once.
+Okay, so this works for a single use timer. But we basically only start it once and we can only pause it once.
 
 For an extra fun bonus, if you pause the counter before you start it, you'll ever turn on because you already told it to no longer listen to values emitted from the interval.
 
