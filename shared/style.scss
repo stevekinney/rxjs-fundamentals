@@ -160,3 +160,19 @@ a:hover > code {
     font-size: 0.8em;
   }
 }
+
+
+.nav-videos {
+  float: right;
+}
+
+.nav-videos a {
+  padding: 3px 8px;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
