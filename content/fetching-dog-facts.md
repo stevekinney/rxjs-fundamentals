@@ -8,7 +8,7 @@ First, let's make it work with that button, shall we? Let's create a stream out 
 **Nota bene**: If you're struggling to get your local server up and running, the API is also hosted at <a href="https://rxjs-api.glitch.me/api/facts">https://rxjs-api.glitch.me/api/facts</a>.
 
 ```js
-const endpoint = 'https://localhost:3333/api/facts';
+const endpoint = 'http://localhost:3333/api/facts';
 
 const fetch$ = fromEvent(fetchButton, 'click').pipe(
   mergeMap(() =>
@@ -24,7 +24,7 @@ Great, it works, but this is nothing special.
 Let's say that there are some "imperfect" network conditions.
 
 ```js
-const endpoint = 'https://localhost:3333/api/facts?delay=3000&chaos=1';
+const endpoint = 'http://localhost:3333/api/facts?delay=3000&chaos=1';
 ```
 
 This adds a slight delay and a little bit of randomness to our response times. Go ahead and click on the button a few times. This is mildly annoying in our sample application, but can become a lot worse in a real-world application.
