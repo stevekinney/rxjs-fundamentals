@@ -150,8 +150,9 @@ We can also combine it with `take` if we wanted to use a certain number of value
 
 ```js
 const fibonacci$ = range(0, Infinity).pipe(
-  scan((total, value) => total + value, 0),
-  take(4),
+  scan(([curr, next]) => [next, curr + next], [0, 1]),
+  map(([curr]) => curr),
+  take(5),
 );
 
 fibonacci$.subscribe(console.log);
