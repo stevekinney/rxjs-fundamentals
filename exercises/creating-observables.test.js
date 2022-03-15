@@ -61,7 +61,7 @@ describe('Exercise: Creating Observables', () => {
      * emitted from it.
      *
      * Your mission: collect the values as their emitted, but then
-     * only assert your expecation once the observable has completed.
+     * only assert your expectation once the observable has completed.
      */
     it.skip('should create an observable from a promise', (done) => {
       const promise = Promise.resolve(1);
