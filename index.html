@@ -204,7 +204,9 @@
       if (window.location.protocol === 'https:') {
         const notification = document.getElementById('production-notification');
         if (notification) {
-          notification.removeClass('hidden');
+          notification
+            .classList
+            .remove('hidden');
         }
       }
     </script>
