@@ -1,16 +1,18 @@
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
       href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@500;600;700&family=Press+Start+2P&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/shared/style.scss" />
-    <link rel="stylesheet" href="/shared/application.scss" />
-    <link rel="icon" href="/shared/favicon.svg" type="image/svg+xml" />
-    <block name="head"><title>RxJS Fundamentals Example</title></block>
+/>
+    <link rel="stylesheet" href="/shared/style.scss"/>
+    <link rel="stylesheet" href="/shared/application.scss"/>
+    <link rel="icon" href="/shared/favicon.svg" type="image/svg+xml"/>
+    <block name="head">
+      <title>RxJS Fundamentals Example</title>
+    </block>
   </head>
 
   <body>
@@ -21,7 +23,14 @@
     <script>
       if (window.location.protocol !== 'https:') {
         const ws = new WebSocket('ws://' + window.location.host);
-        ws.onmessage = () => window.location.reload();
+        ws.onmessage = () => window
+          .location
+          .reload();
+      } else {
+        const notification = document.getElementById('production-notification');
+        if (notification) {
+          notification.removeClass('hidden');
+        }
       }
     </script>
   </body>
