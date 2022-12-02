@@ -179,3 +179,10 @@ a:hover > code {
 .hidden {
   display: none;
 }
+
+#production-notification {
+  padding: 5px;
+  border: 1px solid $fuschia;
+  background: lighten($fuschia, 10%);
+  margin: 1em 0;
+}

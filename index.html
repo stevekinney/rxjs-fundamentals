@@ -134,7 +134,7 @@
         </div>
         <div class="applications">
           <h2>Applications</h2>
-          <p id="production-notification" class="hidden">These are intended to be run locally. Clone the repository and learn more about getting started <a href="https://github.com/stevekinney/rxjs-fundamentals#readme">here</a>.</p>
+          <p id="production-notification" class="hidden">These are intended to be run locally. <a href="https://github.com/stevekinney/rxjs-fundamentals">Clone the repository</a> and learn more about getting started <a href="https://github.com/stevekinney/rxjs-fundamentals#readme">here</a>.</p>
           <ol>
             <li>
               <a href="/applications/playground/index.html">
@@ -200,5 +200,13 @@
         </div>
       </section>
     </main>
+    <script>
+      if (window.location.protocol === 'https:') {
+        const notification = document.getElementById('production-notification');
+        if (notification) {
+          notification.removeClass('hidden');
+        }
+      }
+    </script>
   </body>
 </html>
